@@ -105,6 +105,12 @@ textarea#styled {
 .portfolio-btn:hover {
 	background-color: transparent;
 }
+.profile-components .col-md-8 {
+	padding-left: 0px;
+}
+.profile-components .col-md-4 {
+	padding-right: 0px;
+}
 
 /* CSS code for star ratings grabbed from
 https://css-tricks.com/star-ratings/ */
