@@ -5,3 +5,5 @@ server/node_modules
 # Ignores your built applications
 build/js/app.js
 client/build/js/app.js
+# Ignore sample profile pic
+build/img/profile_pic.jpg

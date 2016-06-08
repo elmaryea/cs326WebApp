@@ -1,19 +1,38 @@
 .body {
+	background-image: url('../img/background.jpg');
+	background-size: 100% 406px;
 	background-color: rgb(240, 240, 240);
+	background-repeat: no-repeat;
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.body > * {
+.row {
+	max-width: 1176px;
+}
+/*.body > * {
 	margin-left: 33px;
 	margin-right: 33px;
-}
+}*/
 .panel-body .about {
     padding: 5px;
     margin: auto;
 }
-
+.username {
+	font-size: 16px;
+}
 .media-top{
   padding-top: 20px;
 }
-
+.verified-list {
+	list-style: none;
+	padding-left: 0px;
+}
+.verified-list li {
+	display: inline;
+	margin-left: 14px;
+}
+.verified-list li i {
+	color: rgb(93, 194, 106);
+}
 h5.about {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -38,28 +57,68 @@ h6.about {
   padding-top: 10px;
 }
 .offset-row {
-	margin-top: 175px;
-	margin-left: 33px;
-	margin-right: 33px;
+	margin-top: 155px;
 	border: 1px;
 	border-radius: 4px;
 	border-style: hidden;
 	background-color: white;
 	min-height: 480px;
+	box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 4px 0px;
 }
 .profile-stats {
 	border-width: 0px 0px 0px 1px;
-	border-color: black;
+	border-color: rgb(222, 222, 222);
 	border-style: solid;
+	height: inherit;
+	padding: 30px 30px 30px 30px;
+}
+.profile-stats .btn-group {
+	width: 100%;
+	color: rgb(31, 40, 54);
+	margin-top: 0px;
+}
+.profile-stats .btn-group .button {
+	width: 82%;
+	background: linear-gradient(to bottom,#17a1e6 0,#0088cf 100%);
+	border-color: rgb(0, 136, 207);
+	border-radius: 4px 0px 0px 4px;
+	color: rgb(247, 247, 247);
+	font-size: 18px;
+	padding: 13px 22px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.profile-stats .btn-group .dropdown-toggle {
+	width: 18%;
+	background: linear-gradient(to bottom,#17a1e6 0,#0088cf 100%);
+	border-color: rgb(0, 136, 207);
+	border-radius: 0px 4px 4px 0px;
+	height: 100%;
+	padding: 12px 0px;
+}
+.portfolio-row {
+	padding-top: 40px;
+}
+.left-col {
+	padding-left: 20px;
+	padding-right: 12px;
+}
+.offset-row .col-md-6 {
+	padding: 40px 30px;
+}
+.offset-row .left-col div {
+	margin-top: 18px;
 }
 .navbar {
 	margin-bottom: 0px;
 	border-radius: 0px;
 	border: none;
+	height: 64px;
 }
 .img-thumbnail {
 	border-radius: 3px;
-	margin-top: -15px;
+	margin-top: -20px;
+	padding: 10px 10px 10px 10px;
 }
 /* CSS code for stylized comment box grabbed from
 https://css-tricks.com/creating-a-nice-textarea/ */
@@ -72,28 +131,78 @@ textarea#styled {
 	background-repeat: no-repeat;
 }
 
+.name {
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	line-height: 26px;
+}
+.headline {
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
 .rating {
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+.rating-num {
 	background-color: rgb(247, 125, 14);
 	color: white;
 	border-radius: 2px;
-	padding: 1px 3px 1px 3px;
+	padding: 2px 3px;
+	font-size: 13px;
+	margin-right: 3px;
+}
+.rate {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.earnings {
+	font-size: 13px;
+}
+.earnings i {
+	color: rgb(93, 194, 106);
+}
+.earnings-label {
+	margin-right: 7px;
+	margin-left: 3px;
+}
+.num-reviews {
+	margin-left: 19px;
+	font-size: 13px
+}
+.rate span {
+	font-size: 26px;
+	font-weight: bold;
 }
 .fa-star {
 	color: rgb(247, 125, 14);
 }
 .stats {
 	list-style-type: none;
+	margin-top: 30px;
+	border-top-width: 1px;
+	padding-top: 30px;
+	border-color: rgb(222, 222, 222);
+	border-top-style: solid;
+	padding-left: 0px;
+}
+.stats li {
+	margin-bottom: 10px;
 }
 .stats .item-stats-name {
-	display: inline-block;
+	padding-left: 20px;
+	line-height: 19px;
 	width: 80%;
-	padding-left: 20%;
-	vertical-align: middle;
 }
 .stats .item-stats-value {
+	font-size: 20px;
+	line-height: 28px;
+	color: rgb(93, 194, 106);
+	width: 20%;
 	text-align: right;
 	display: inline-block;
-	vertical-align: middle;
 }
 .profile-list {
 	list-style: none;
