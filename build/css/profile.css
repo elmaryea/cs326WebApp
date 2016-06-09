@@ -5,6 +5,12 @@
 	background-repeat: no-repeat;
 	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+ul {
+	list-style: none;
+}
+.navbar-default {
+	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .row {
 	max-width: 1176px;
 }
@@ -23,7 +29,6 @@
   padding-top: 20px;
 }
 .verified-list {
-	list-style: none;
 	padding-left: 0px;
 }
 .verified-list li {
@@ -187,7 +192,6 @@ textarea#styled {
 	color: #DEDEDE;
 }
 .stats {
-	list-style-type: none;
 	margin-top: 30px;
 	border-top-width: 1px;
 	padding-top: 30px;
@@ -210,10 +214,6 @@ textarea#styled {
 	width: 20%;
 	text-align: right;
 	display: inline-block;
-}
-
-.profile-list {
-	list-style: none;
 }
 .portfolio-btn {
 	max-width: 1176px;
@@ -278,7 +278,6 @@ textarea#styled {
 	margin-bottom: 0px;
 }
 .review {
-	list-style: none;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: rgb(221, 221, 221);
@@ -315,7 +314,6 @@ textarea#styled {
 	padding-right: 8px;
 }
 .review-skills {
-	list-style: none;
 	padding-left: 0px;
 	padding-top: 10px;
 }
@@ -332,7 +330,6 @@ textarea#styled {
 	padding: 0px;
 }
 .profile-components .col-md-4 .line-list {
-	list-style: none;
 	padding: 0px 20px 20px 20px;
 	margin-bottom: 0px;
 }
@@ -380,7 +377,6 @@ textarea#styled {
 	text-decoration: none;
 }
 .portfolio-list {
-	list-style: none;
 	padding-left: 0px;
 	margin-bottom: 0px;
 }
