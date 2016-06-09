@@ -30,9 +30,6 @@
 	display: inline;
 	margin-left: 14px;
 }
-.verified-list li i {
-	color: rgb(93, 194, 106);
-}
 h5.about {
     margin-top: 2px;
     margin-bottom: 2px;
@@ -64,12 +61,19 @@ h6.about {
 	background-color: white;
 	min-height: 480px;
 	box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 4px 0px;
+	/* The following is a hack so that the height of profile-stats
+		 fills the parent. In chrome/firefox if an element has the
+	   min-height property and its child has height: 100% it won't
+	   fill the parent. To resolve this add height: some value less
+	   than min height.
+	*/
+	height: 1px;
 }
 .profile-stats {
 	border-width: 0px 0px 0px 1px;
 	border-color: rgb(222, 222, 222);
 	border-style: solid;
-	height: inherit;
+	height: 100%;
 	padding: 30px 30px 30px 30px;
 }
 .profile-stats .btn-group {
@@ -176,8 +180,11 @@ textarea#styled {
 	font-size: 26px;
 	font-weight: bold;
 }
-.fa-star {
+.star-full {
 	color: rgb(247, 125, 14);
+}
+.star-empty {
+	color: #DEDEDE;
 }
 .stats {
 	list-style-type: none;
@@ -226,10 +233,31 @@ textarea#styled {
 	padding-right: 0px;
 	padding-left: 12px;
 }
-.reviews .panel-heading {
+.profile-components .panel-heading {
 	padding: 20px;
 	font-size: 18px;
 	font-weight: bold;
+}
+.profile-components .title {
+	padding-right: 40px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.profile-components .place {
+	margin: 0px 10px 10px 0px;
+	font-weight: bold;
+}
+.profile-components .description {
+	margin-top: 10px;
+}
+.profile-components .info {
+	padding: 0px 0px 30px 0px;
+	margin: 20px 20px 0px 20px;
+}
+.panel {
+	box-shadow: rgba(0, 0, 0, 0.0784314) 0px 0px 4px 0px, rgba(0, 0, 0, 0.117647) 0px 2px 4px 0px;
+	border: none;
+	margin-bottom: 24px;
 }
 .reviews .panel-heading .pull-right {
 	font-size: 14px;
@@ -238,9 +266,12 @@ textarea#styled {
 	padding: 15px 20px;
 	color: inherit !important;
 }
+.reviews .panel-body {
+	padding: 0px;
+}
 .review-list {
-	/*padding: 20px;*/
-	padding: 0px 20px 20px 20px;
+	padding: 20px;
+	margin-bottom: 0px;
 }
 .review {
 	list-style: none;
@@ -249,6 +280,13 @@ textarea#styled {
 	border-bottom-color: rgb(221, 221, 221);
 	padding-bottom: 32px;
 	padding-top: 32px;
+}
+.first-review {
+	padding-top: 0px;
+}
+.last-review {
+	padding-bottom: 0px;
+	border-bottom: none;
 }
 .review .col-md-2 {
 	padding-right: 10px;
@@ -286,6 +324,58 @@ textarea#styled {
 .review-skills li a:hover {
 	color: rgb(51, 122, 183);
 }
+.profile-components .col-md-4 .panel-body {
+	padding: 0px;
+}
+.profile-components .col-md-4 .line-list {
+	list-style: none;
+	padding: 0px 20px 20px 20px;
+	margin-bottom: 0px;
+}
+.profile-components .col-md-4 .line-list .list-middle {
+	padding: 10px 0px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(222, 222, 222);
+	border-bottom-width: 1px;
+}
+.profile-components .col-md-4 .line-list .list-last {
+	padding-top: 10px;
+}
+.profile-components .col-md-4 .panel-footer {
+	padding: 15px 20px;
+}
+.verification-list i {
+	margin-right: 5px;
+}
+.verified {
+	color: rgb(93, 194, 106);
+}
+.not-verified {
+	color: #78757D;
+}
+.similar-list {
+	padding: 20px 20px 10px 20px;
+	margin-bottom: 0px;
+}
+.similar-list li {
+	margin: 5px 5px 5px 0px;
+	border-style: none;
+	padding: 0px; 
+}
+.similar-list li a {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(190, 192, 194);
+	border-radius: 4px;
+	padding: 4px 12px;
+	color: rgb(77, 82, 91);
+	font-size: 12px;
+}
+.similar-list li a:hover {
+	background-color: rgb(240, 240, 240);
+	text-decoration: none;
+}
+
 
 /* CSS code for star ratings grabbed from
 https://css-tricks.com/star-ratings/ */
