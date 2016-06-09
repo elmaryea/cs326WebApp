@@ -216,8 +216,12 @@ textarea#styled {
 	list-style: none;
 }
 .portfolio-btn {
-	width: 100%;
+	max-width: 1176px;
 	color: rgb(77, 82, 91);
+	font-size: 15px;
+	background-image: linear-gradient(rgb(255, 255, 255) 0px, rgb(240, 240, 240) 100%);
+	border-radius: 3px;
+	border-color: rgb(190, 192, 194);
 }
 .portfolio-btn:hover {
 	background-color: transparent;
@@ -374,6 +378,27 @@ textarea#styled {
 .similar-list li a:hover {
 	background-color: rgb(240, 240, 240);
 	text-decoration: none;
+}
+.portfolio-list {
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.portfolio-list li {
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-bottom: 24px;
+	width: 25%;
+	display: inline-block;
+}
+.portfolio-list .portfolio-hover {
+	border-width: 4px;
+	border-style: solid;
+	border-color: white;
+	box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 4px 0px;
+}
+.portfolio-row {
+	max-width: 1200px;
 }
 
 

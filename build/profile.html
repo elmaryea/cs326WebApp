@@ -16,44 +16,43 @@
   </head>
   <body>
     <!--firstly, navigation bar-->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span></a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="edit_con.html">Create Contract</a></li>
-            </ul>
-            <form class="navbar-form navbar-right">
-              <input type="text" class="form-control" placeholder="Search..."
-              onkeydown = "if (event.keyCode == 13){
-                event.preventDefault();
-                document.getElementById('search').click();
-              }">
-              <a href="search.html" class="hide" id="search"></a>
-            </form>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Welcome SuperBig Corp.! <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Profile</a></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Settings</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Log Out</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="edit_con.html">Create Contract</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search..."
+            onkeydown = "if (event.keyCode == 13){
+              event.preventDefault();
+              document.getElementById('search').click();
+            }">
+            <a href="search.html" class="hide" id="search"></a>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Welcome SuperBig Corp.! <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Profile</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Settings</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Log Out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </nav>
-    <!--</div>-->
     <!--Page Content-->
     <div class="container-fluid body">
       <div class="row offset-row center-block">
@@ -180,12 +179,49 @@
         </div>
       </div> <!-- End profile row -->
       <div class="row portfolio-row center-block">
-        <ul class="profile-list">
+        <ul class="portfolio-list">
           <li>
-          
+            <div class="portfolio-hover">
+              <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24990046/d34df0.jpg">
+            </div>
+          </li><!--
+       --><li>
+            <div class="portfolio-hover">
+              <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24989938/c998c8.jpg">
+            </div>
+          </li><!--
+       --><li>
+            <div class="portfolio-hover">
+              <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24989271/7f7e98.jpg">
+            </div>
+          </li><!--
+       --><li>
+            <div class="portfolio-hover">
+              <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24989450/029246.jpg">
+            </div>
+          </li><!--
+          --><li>
+            <div class="portfolio-hover">
+              <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24989385/c958fd.jpg">
+            </div>
+          </li><!--
+       --><li>
+            <div class="portfolio-hover">
+              <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24329776/85ccaa.jpg">
+            </div>
+          </li><!--
+       --><li>
+            <div class="portfolio-hover">
+              <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24417233/2ab1c0.jpg">
+            </div>
+          </li><!--
+       --><li>
+            <div class="portfolio-hover">
+              <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24320461/418c73.jpg">
+            </div>
           </li>
         </ul>
-        <div class="btn btn-default portfolio-btn">
+        <div class="btn btn-default portfolio-btn center-block">
           <strong>+ show more</strong>
         </div>
       </div><!-- End profile row -->
