@@ -1,0 +1,59 @@
+{
+  "profile-row": {
+    "profile-summary": {
+      "profile-username": {},
+      "profile-verification-list": {}
+    },
+    "profile-information": {
+      "profile-name": {},
+      "profile-headline": {},
+      "profile-statement": {}
+    },
+    "profile-statistics": {
+      "profile-statistics-rate": {},
+      "profile-statistics-rating": {
+        "rating": {},
+        "profile-num-reviews": {}
+      },
+      "profile-statistics-earnings": {},
+      "ul": {
+        "stat-name": {},
+        "stat-value": {}
+      }
+    }
+  },
+  "portfolio-row": {},
+  "components-row": {
+    "component-left-col": {
+      "reviews-component": {
+        "review": {
+          "review-title": {},
+          "review-price": {}, 
+          "review-description": {},
+          "review-skills": {},
+          "rating": {}
+        }
+      },
+      "experience-component": {
+        "component-item-title": {},
+        "component-item-place": {},
+        "component-item-date": {},
+        "component-item-description": {}
+      },
+      "education-component": {
+        "component-item-title": {},
+        "component-item-place": {},
+        "component-item-date": {}
+      }
+    },
+    "component-right-col": {
+      "verification-component": {
+        "line-list": {}
+      },
+      "skills-component": {
+        "line-list": {}
+      },
+      "similar-component": {}
+    }
+  }
+}

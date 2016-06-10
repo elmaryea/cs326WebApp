@@ -13,6 +13,7 @@
     <link href="css/profile.css" rel="stylesheet">
     <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/flags/css/flag-icon.min.css" rel="stylesheet">
+    <link href="css/colors.css" rel="stylesheet">
   </head>
   <body>
     <!--firstly, navigation bar-->
@@ -29,17 +30,21 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                 Hire Freelancers <span class="caret"></span>
               </a>
-              <ul class="dropdown-menu">
-                <li>FIND A FREELANCER</li>
-                <li><a href="#">Start a Project</a></li>
-                <li><a href="#">Start a Contest</a></li>
-                <li><a href="#">Post a Local Job</a></li>
-                <li><a href="#">Get a Recruiter</a></li>
-                <li>DISCOVER</li>
-                <li><a href="#">Showcase</a></li>
-                <li><a href="#">Browse Directory</a></li>
-                <li><a href="#">Community</a></li>
-              </ul>
+              <div class="dropdown-menu">
+                <h6>FIND A FREELANCER</h6>
+                <ul>
+                  <li><a href="#">Start a Project</a></li>
+                  <li><a href="#">Start a Contest</a></li>
+                  <li><a href="#">Post a Local Job</a></li>
+                  <li><a href="#">Get a Recruiter</a></li>
+                </ul>
+                <h6>DISCOVER</h6>
+                <ul>
+                  <li><a href="#">Showcase</a></li>
+                  <li><a href="#">Browse Directory</a></li>
+                  <li><a href="#">Community</a></li>
+                </ul>
+              </div>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -170,56 +175,40 @@
             </li>
           </ul>
         </div>
-        <!--<div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="edit_con.html">Create Contract</a></li>
-          </ul>
-          <form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search..."
-            onkeydown = "if (event.keyCode == 13){
-              event.preventDefault();
-              document.getElementById('search').click();
-            }">
-            <a href="search.html" class="hide" id="search"></a>
-          </form>
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Welcome SuperBig Corp.! <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Profile</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Settings</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Log Out</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!--/.nav-collapse -->
       </nav>
+      
+      
+      
+      
+      
+      
+      
+      
+      
     <!--Page Content-->
     <div class="container-fluid body">
-      <div class="row offset-row center-block">
-        <div class="col-md-3 col-xs-3 text-center left-col">
-          <img class="center-block img-responsive img-thumbnail" src="img/profile_pic.jpg">
-          <div class="username">
+      <div class="row center-block profile-row">
+        <div class="col-md-3 col-xs-3 text-center profile-summary">
+          <img class="center-block img-responsive img-thumbnail profile-pic" src="img/profile_pic.jpg">
+          <div class="profile-username">
             @ericumass
           </div>
           <div>
-            <ul class="verified-list">
+            <ul class="profile-verification-list">
               <li>
-                <i class="fa fa-usd fa-lg not-verified"></i>
+                <i class="fa fa-usd fa-lg unverified-gray"></i>
               </li>
               <li>
-                <i class="fa fa-envelope fa-lg verified"></i>
+                <i class="fa fa-envelope fa-lg verified-green"></i>
               </li>
               <li>
-                <i class="fa fa-user fa-lg verified"></i>
+                <i class="fa fa-user fa-lg verified-green"></i>
               </li>
               <li>
-                <i class="fa fa-phone fa-lg verified"></i>
+                <i class="fa fa-phone fa-lg verified-green"></i>
               </li>
               <li>
-                <i class="fa fa-credit-card fa-lg verified"></i>
+                <i class="fa fa-credit-card fa-lg verified-green"></i>
               </li>
             </ul>
           </div>
@@ -234,14 +223,14 @@
             0 Recommendations
           </div>
         </div>
-        <div class="col-md-6 col-xs-6">
-          <div class="name">
+        <div class="col-md-6 col-xs-6 profile-information">
+          <div class="profile-name">
             Eric Maryea
           </div>
-          <div class="headline">
+          <div class="profile-headline">
             Expert Back-end and Front-end Developer
           </div>
-          <div class="summary">
+          <div class="profile-statement">
             I am a PRO Web Developer and Web Designer and I have been in the IT field for the past 2 years.
             I have lots of expertise in
             PHP
@@ -267,7 +256,7 @@
             JQuery
           </div>
         </div>
-        <div class="col-md-3 col-sx-3 profile-stats">
+        <div class="col-md-3 col-sx-3 profile-statistics">
           <div class="btn-group">
             <button type ="button" class="btn btn-large btn-info button">
               Hire Me
@@ -282,95 +271,95 @@
               <li><a href="#">Report violation</a></li>
             </ul>
           </div>
-          <div class="rate">
+          <div class="profile-statistics-rate">
             <span>$ 12</span> USD/hr
           </div>
-          <div class="rating">
-            <span class="rating-num">5.0</span> 
-            <i class="fa fa-star star-full"></i>
-            <i class="fa fa-star star-full"></i>
-            <i class="fa fa-star star-full"></i>
-            <i class="fa fa-star star-full"></i>
-            <i class="fa fa-star star-full"></i>
-            <span class="num-reviews">
+          <div class="profile-statistics-rating">
+            <span class="rating">5.0</span> 
+            <i class="fa fa-star star-orange"></i>
+            <i class="fa fa-star star-orange"></i>
+            <i class="fa fa-star star-orange"></i>
+            <i class="fa fa-star star-orange"></i>
+            <i class="fa fa-star star-orange"></i>
+            <span class="profile-num-reviews">
               2 reviews
             </span>
           </div>
-          <div class="earnings">
-            <span class="earnings-label">1.5</span>
-            <i class="fa fa-usd"></i>
+          <div class="profile-statistics-earnings">
+            <span>1.5</span>
+            <i class="fa fa-usd verified-green"></i>
             <!--ratings bars-->
           </div>
-          <ul class="stats">
+          <ul>
             <li>
-              <span class="item-stats-value">100%</span>
-              <span class="item-stats-name">Jobs Completed</span>
+              <span class="stat-value verified-green">100%</span>
+              <span class="stat-name">Jobs Completed</span>
             </li>
             <li>
-              <span class="item-stats-value">100%</span>
-              <span class="item-stats-name">On Budget</span>
+              <span class="stat-value verified-green">100%</span>
+              <span class="stat-name">On Budget</span>
             </li>
             <li>
-              <span class="item-stats-value">100%</span>
-              <span class="item-stats-name">On Time</span>
+              <span class="stat-value verified-green">100%</span>
+              <span class="stat-name">On Time</span>
             </li>
             <li>
-              <span class="item-stats-value">14%</span>
-              <span class="item-stats-name">Repeat Hire Rate</span>
+              <span class="stat-value verified-green">N/A</span>
+              <span class="stat-name">Repeat Hire Rate</span>
             </li>
           </ul>
         </div>
       </div> <!-- End profile row -->
-      <div class="row portfolio-row center-block">
-        <ul class="portfolio-list">
+      <div class="row center-block portfolio-row">
+        <ul>
           <li>
-            <div class="portfolio-hover">
+            <div>
               <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24990046/d34df0.jpg">
             </div>
           </li><!--
        --><li>
-            <div class="portfolio-hover">
+            <div>
               <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24989938/c998c8.jpg">
             </div>
           </li><!--
        --><li>
-            <div class="portfolio-hover">
+            <div>
               <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24989271/7f7e98.jpg">
             </div>
           </li><!--
        --><li>
-            <div class="portfolio-hover">
+            <div>
               <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24989450/029246.jpg">
             </div>
           </li><!--
           --><li>
-            <div class="portfolio-hover">
+            <div>
               <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24989385/c958fd.jpg">
             </div>
           </li><!--
        --><li>
-            <div class="portfolio-hover">
+            <div>
               <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24329776/85ccaa.jpg">
             </div>
           </li><!--
        --><li>
-            <div class="portfolio-hover">
+            <div>
               <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24417233/2ab1c0.jpg">
             </div>
           </li><!--
        --><li>
-            <div class="portfolio-hover">
+            <div>
               <img class="img-responsive" src="https://cdn3.f-cdn.com//files/download/24320461/418c73.jpg">
             </div>
           </li>
         </ul>
-        <div class="btn btn-default portfolio-btn center-block">
+        <div class="btn btn-default center-block">
           <strong>+ show more</strong>
         </div>
       </div><!-- End profile row -->
-      <div class="row profile-components center-block">
-        <div class="col-md-8 col-xs-8">
-          <div class="panel panel-default reviews">
+      <div class="row center-block components-row">
+        <div class="col-md-8 col-xs-8 component-left-col">
+          <div class="panel panel-default reviews-component">
             <div class="panel-heading">
               Recent Reviews
               <div class="pull-right">
@@ -378,27 +367,27 @@
               </div>
             </div>
             <div class="panel-body">
-              <ul class="review-list">
-                <li class="review first-review">
+              <ul>
+                <li class="review">
                   <div class="row">
                     <div class="col-md-2 col-xs-2">
                       <img class="img-responsive img-rounded" src="https://cdn3.f-cdn.com/ppic/20408420/logo/15925501/profile_logo_15925501.jpg">
                     </div>
                     <div class="col-md-10 col-xs-10">
-                      <a href="#" class="review-title">Build a Website</a>
-                      <div class="review-rating">
-                        <span class="rating-num">5.0</span> 
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-full"></i>
+                      <a class="review-title" href="#">Build a Website</a>
+                      <div>
+                        <span class="rating">5.0</span> 
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-orange"></i>
                         <span class="review-price">$1330.4 AUD</span>
                       </div>
                       <p class="review-description">
                         “Eric is very good at understanding the requirements. In general we do come-up with more updates and changes, once we start the development. He is patient enough to understand the importance of them and accepting. Immediately acting on the requests raised is highly appreciated. The amount that I spent for the quality output is the best competitive price. Thank you Nitin and his team for wonderful service, support in right time. ”
                       </p>
-                      <span class="review-information">
+                      <span>
                         <a href="#">- kirangali5</a>
                         <span class="flag-icon flag-icon-au"></span> 2 weeks ago.
                       </span>
@@ -428,20 +417,20 @@
                       <img class="img-responsive img-rounded" src="https://cdn5.f-cdn.com/ppic/6364285/logo/3643365/profile_logo_3643365.jpg">
                     </div>
                     <div class="col-md-10 col-xs-10" class="review-title">
-                      <a href="#">Wordpress: Add a link to a featured image</a>
-                      <div class="review-rating">
-                        <span class="rating-num">5.0</span> 
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-full"></i>
-                        <span class="review-price">$15.0 USD</span>
+                      <a class="review-title" href="#">Wordpress: Add a link to a featured image</a>
+                      <div>
+                        <span class="rating">5.0</span> 
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-orange"></i>
+                        <span>$15.0 USD</span>
                       </div>
                       <p class="review-description">
                         "Delivered the agreed on time."  
                       </p>
-                      <span class="review-information">
+                      <span>
                         <a href="#">- jeanbar</a>
                         <span class="flag-icon flag-icon-br"></span> 2 weeks ago.
                       </span>
@@ -453,26 +442,26 @@
                     </div>
                   </div>
                 </li>
-                <li class="review last-review">
+                <li class="review">
                   <div class="row">
                     <div class="col-md-2 col-xs-2">
                       <img class="img-responsive img-rounded" src="https://cdn5.f-cdn.com/ppic/12809746/logo/11598214/profile_logo_11598214.jpg">
                     </div>
-                    <div class="col-md-10 col-xs-10" class="review-title">
-                      <a href="#">Make BCBA wordpress website responsive</a>
-                      <div class="review-rating">
-                        <span class="rating-num">2.0</span> 
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-full"></i>
-                        <i class="fa fa-star star-empty"></i>
-                        <i class="fa fa-star star-empty"></i>
-                        <i class="fa fa-star star-empty"></i>
-                        <span class="review-price">$96.0 USD</span>
+                    <div class="col-md-10 col-xs-10">
+                      <a class="review-title" href="#">Make BCBA wordpress website responsive</a>
+                    <div>
+                        <span class="rating">2.0</span> 
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-orange"></i>
+                        <i class="fa fa-star star-gray"></i>
+                        <i class="fa fa-star star-gray"></i>
+                        <i class="fa fa-star star-gray"></i>
+                        <span>$96.0 USD</span>
                       </div>
                       <p class="review-description">
                         "Thanks but no thanks, after more than 4 weeks of dragging a simple project, I get a shitty site with tons of problems and issues, I give them a second chance to fix the issues and then after 2 more weeks they tell me it's ready but most of problems still exists. I did pay them in full but I will need to hire another freelancer to finish the work. "  
                       </p>
-                      <span class="review-information">
+                      <span>
                         <a href="#">- vrej01</a>
                         <span class="flag-icon flag-icon-us"></span> 3 weeks ago.
                       </span>
@@ -499,138 +488,138 @@
               View More Reviews
             </div>
           </div>
-          <div class="panel panel-default experience">
+          <div class="panel panel-default experience-component">
             <div class="panel-heading">
               Experience
             </div>
-            <div class="panel-body info">
-              <div class="title">
+            <div class="panel-body">
+              <div class="component-item-title">
                 Web Developer
               </div>
-              <span class="place">Arti Boria</span>
-              <span>Mar 2015</span>
-              <div class="description">
+              <span class="component-item-place">Arti Boria</span>
+              <span class="component-item-date">Mar 2015</span>
+              <div class="component-item-description">
                 I have 8 years of experience in web development.
               </div>
             </div>
           </div>
-          <div class="panel panel-default education">
+          <div class="panel panel-default education-component">
             <div class="panel-heading">
               Education
             </div>
-            <div class="panel-body info">
-              <div class="title">
+            <div class="panel-body">
+              <div class="component-item-title">
                 MBA
               </div>
-              <span class="place">Rani Durgavati Vishwavidyalaya, India</span>
-              <span>2010 - 2011 (1 year)</span>
+              <span class="component-item-place">Rani Durgavati Vishwavidyalaya, India</span>
+              <span class="component-item-date">2010 - 2011 (1 year)</span>
             </div>
           </div>
         </div> <!-- End left column -->
-        <div class="col-md-4 col-xs-4">
-          <div class="panel panel-default verifications">
+        <div class="col-md-4 col-xs-4 component-right-col">
+          <div class="panel panel-default verification-component">
             <div class="panel-heading">
               Verifications
             </div>
             <div class="panel-body">
-              <ul class="verification-list line-list">
-                <li class="list-middle">
+              <ul class="line-list">
+                <li>
                   <span>
-                    <i class="fa fa-facebook fa-lg verified"></i>
+                    <i class="fa fa-facebook fa-lg verified-green"></i>
                     Facebook Connected
-                    <i class="fa fa-check fa-lg verified pull-right"></i>
+                    <i class="fa fa-check fa-lg pull-right verified-green"></i>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
-                    <i class="fa fa-thumbs-up fa-lg not-verified"></i>
+                    <i class="fa fa-thumbs-up fa-lg unverified-gray"></i>
                     Preferred Freelancer
-                    <i class="fa fa-minus fa-lg not-verified pull-right"></i>
+                    <i class="fa fa-minus fa-lg pull-right unverified-gray"></i>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
-                    <i class="fa fa-usd fa-lg not-verified"></i>
+                    <i class="fa fa-usd fa-lg unverified-gray"></i>
                     Payment Verified
-                    <i class="fa fa-minus fa-lg not-verified pull-right"></i>
+                    <i class="fa fa-minus fa-lg pull-right unverified-gray"></i>
                   </span> 
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
-                    <i class="fa fa-phone fa-lg verified"></i>
+                    <i class="fa fa-phone fa-lg verified-green"></i>
                     Phone Verified
-                    <i class="fa fa-check fa-lg verified pull-right"></i>
+                    <i class="fa fa-check fa-lg pull-right verified-green"></i>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
-                    <i class="fa fa-user fa-lg verified"></i>
+                    <i class="fa fa-user fa-lg verified-green"></i>
                     Identity Verified
-                    <i class="fa fa-check fa-lg verified pull-right"></i>
+                    <i class="fa fa-check fa-lg pull-right verified-green"></i>
                   </span>
                 </li>
-                <li class="list-last">
+                <li>
                   <span>
-                    <i class="fa fa-envelope fa-lg verified"></i>
+                    <i class="fa fa-envelope fa-lg verified-green"></i>
                     Email Verified
-                    <i class="fa fa-check fa-lg verified pull-right"></i>
+                    <i class="fa fa-check fa-lg pull-right verified-green"></i>
                   </span>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="panel panel-default skills">
+          <div class="panel panel-default skills-component">
             <div class="panel-heading">
               My Top Skills
             </div>
             <div class="panel-body">
-              <ul class="skills line-list">
-                <li class="list-middle">
+              <ul class="line-list">
+                <li>
                   <span>
                     HTML<span class="pull-right">13</span>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
                     PHP<span class="pull-right">11</span>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
                     Wordpress<span class="pull-right">10</span>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
                     Shopping Carts<span class="pull-right">4</span>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
                     eCommerce<span class="pull-right">4</span>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
                     Graphic Design<span class="pull-right">3</span>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
                     HTML5<span class="pull-right">1</span>
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
                     SEO
                   </span>
                 </li>
-                <li class="list-middle">
+                <li>
                   <span>
                     Joomla
                   </span>
                 </li>
-                <li class="list-last">
+                <li>
                   <span>
                     Photoshop
                   </span>
@@ -641,12 +630,12 @@
               Show more
             </div>
           </div>
-          <div class="panel panel-default similar">
+          <div class="panel panel-default similar-component">
             <div class="panel-heading">
               Browse Similar Freelancers
             </div>
-            <div class="panel-body list-body">
-              <ul class="similar-list">
+            <div class="panel-body">
+              <ul>
                 <li class="btn btn-default">
                   <a href="#">Web Developers in India</a>
                 </li>

@@ -1,72 +1,135 @@
-.body {
-	background-image: url('../img/background.jpg');
-	background-size: 100% 406px;
-	background-color: rgb(240, 240, 240);
-	background-repeat: no-repeat;
-	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+body {
+  background-color: rgb(240, 240, 240);
+  background-image: url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 406px;
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 ul {
-	list-style: none;
+  list-style: none;
 }
-.navbar-default {
-	font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+.component-item-description {
+  margin-top: 10px;
 }
-.row {
-	max-width: 1176px;
+.component-item-place {
+  font-weight: bold;
+  margin: 0px 10px 10px 0px;
 }
-/*.body > * {
-	margin-left: 33px;
-	margin-right: 33px;
-}*/
-.panel-body .about {
-    padding: 5px;
-    margin: auto;
+.component-item-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-right: 40px;
 }
-.username {
-	font-size: 16px;
+.component-left-col {
+  padding-left: 0px;
+  padding-right: 12px;
 }
-.media-top{
-  padding-top: 20px;
+.component-right-col {
+  padding-left: 12px;
+  padding-right: 0px;
 }
-.verified-list {
-	padding-left: 0px;
+.component-right-col .panel-body {
+  padding: 0px;
 }
-.verified-list li {
-	display: inline;
-	margin-left: 14px;
+.components-row .panel-heading {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
 }
-h5.about {
-    margin-top: 2px;
-    margin-bottom: 2px;
+.components-row .panel-footer {
+  padding: 15px 20px;
 }
-h6.about {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    font-size: 15px;
+.components-row .panel-heading .pull-right {
+  font-size: 14px;
 }
-.panel-heading .about {
-  margin: auto;
+.education-component .panel-body, .experience-component .panel-body {
+  margin: 20px 20px 0px 20px;
+  padding: 0px 0px 30px 0px;
 }
-.panel-default button {
-  margin-bottom: 5px;
-  margin-top: 5px;
+.line-list {
+  margin-bottom: 0px;
+  padding: 0px 20px 20px 20px;
 }
-.panel-default h4 {
-  margin-top: 0px;
-  padding-bottom: 4px;
+.line-list li {
+  border-bottom-color: rgb(222, 222, 222);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding: 10px 0px;
 }
-.phone {
+.line-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
   padding-top: 10px;
 }
-.offset-row {
-	margin-top: 155px;
-	border: 1px;
-	border-radius: 4px;
-	border-style: hidden;
-	background-color: white;
-	min-height: 480px;
-	box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 4px 0px;
-	/* The following is a hack so that the height of profile-stats
+.panel {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.0784314) 0px 0px 4px 0px, rgba(0, 0, 0, 0.117647) 0px 2px 4px 0px;
+	margin-bottom: 24px;
+}
+.portfolio-row {
+  max-width: 1200px !important;
+}
+.portfolio-row .btn {
+  background-image: linear-gradient(rgb(255, 255, 255) 0px, rgb(240, 240, 240) 100%);
+  border-color: rgb(190, 192, 194);
+  border-radius: 3px;
+  border-width: 1px;
+  color: rgb(77, 82, 91);
+  font-size: 15px;
+  max-width: 1176px;
+}
+.portfolio-row .btn:hover {
+  background-color: transparent;
+}
+.portfolio-row div {
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 4px;
+  box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 4px 0px;
+}
+.portfolio-row li {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 0px 12px 24px 12px;
+  width: 25%;
+}
+.portfolio-row ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.profile-information {
+  padding: 40px 30px;
+}
+.profile-headline {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.profile-pic {
+  border-radius: 3px;
+	margin-top: -20px;
+	padding: 10px 10px 10px 10px;
+}
+.profile-name {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.profile-num-reviews {
+  font-size: 13px;
+  margin-left: 19px;
+}
+.profile-row {
+  background-color: rgb(255, 255, 255);
+  border: 1px;
+  border-radius: 4px;
+  border-style: hidden;
+  box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 4px 0px;
+  margin-top: 155px;
+  min-height: 480px;
+  padding-top: 0px !important;
+  /* The following is a hack so that the height of profile-stats
 		 fills the parent. In chrome/firefox if an element has the
 	   min-height property and its child has height: 100% it won't
 	   fill the parent. To resolve this add height: some value less
@@ -74,345 +137,189 @@ h6.about {
 	*/
 	height: 1px;
 }
-.profile-stats {
-	border-width: 0px 0px 0px 1px;
-	border-color: rgb(222, 222, 222);
-	border-style: solid;
-	height: 100%;
-	padding: 30px 30px 30px 30px;
+.profile-statistics {
+  border-color: rgb(222, 222, 222);
+  border-style: solid;
+  border-width: 0px 0px 0px 1px;
+  height: 100%;
+  padding: 30px;
 }
-.profile-stats .btn-group {
-	width: 100%;
-	color: rgb(31, 40, 54);
-	margin-top: 0px;
+.profile-statistics .btn-group {
+  color: rgb(31, 40, 54);
+  margin-top: 0px;
+  width: 100%;
 }
-.profile-stats .btn-group .button {
-	width: 82%;
+.profile-statistics .button { 
 	background: linear-gradient(to bottom,#17a1e6 0,#0088cf 100%);
 	border-color: rgb(0, 136, 207);
 	border-radius: 4px 0px 0px 4px;
 	color: rgb(247, 247, 247);
 	font-size: 18px;
+  font-weight: bold;
+  line-height: 18px;
 	padding: 13px 22px;
-	line-height: 18px;
-	font-weight: bold;
+  width: 82%;
 }
-.profile-stats .btn-group .dropdown-toggle {
-	width: 18%;
+.profile-statistics div {
+  margin-top: 30px;
+}
+.profile-statistics ul {
+  border-color: rgb(222, 222, 222);
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-top: 30px;
+  padding-left: 0px;
+  padding-top: 30px;
+}
+.profile-statistics ul li {
+  margin-bottom: 10px;
+}
+.profile-statistics ul .stat-name {
+  line-height: 19px;
+  padding-left: 20px;
+  width: 80%;
+}
+.profile-statistics ul .stat-value {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: right;
+  width: 20%;
+}
+.profile-statistics .dropdown-toggle {
 	background: linear-gradient(to bottom,#17a1e6 0,#0088cf 100%);
 	border-color: rgb(0, 136, 207);
 	border-radius: 0px 4px 4px 0px;
 	height: 100%;
 	padding: 12px 0px;
+  width: 18%;
 }
-.portfolio-row {
-	padding-top: 40px;
+.profile-statistics-earnings {
+  font-size: 13px;
+  margin-top: 0px !important;
 }
-.left-col {
-	padding-left: 20px;
-	padding-right: 12px;
+.profile-statistics-earnings span {
+  margin-left: 3px;
+  margin-right: 7px;
 }
-.offset-row .col-md-6 {
-	padding: 40px 30px;
+.profile-statistics-rate {
+  margin-bottom: 20px;
 }
-.offset-row .left-col div {
-	margin-top: 18px;
+.profile-statistics-rate span {
+  font-size: 26px;
+  font-weight: bold;
 }
-.navbar {
-	margin-bottom: 0px;
-	border-radius: 0px;
-	border: none;
-	height: 64px;
+.profile-statistics-rating {
+  margin-bottom: 5px;
+  margin-top: 20px !important;
 }
-.img-thumbnail {
-	border-radius: 3px;
-	margin-top: -20px;
-	padding: 10px 10px 10px 10px;
+.profile-summary {
+  padding-left: 20px;
+  padding-right: 12px;
 }
-/* CSS code for stylized comment box grabbed from
-https://css-tricks.com/creating-a-nice-textarea/ */
-textarea#styled {
-	border: 3px solid #cccccc;
-	padding: 5px;
-	font-family: Tahoma, sans-serif;
-	background-image: url(bg.gif);
-	background-position: bottom right;
-	background-repeat: no-repeat;
+.profile-summary div {
+  padding-top: 18px;
 }
-
-.name {
-	font-size: 26px;
-	font-weight: bold;
-	margin-bottom: 15px;
-	line-height: 26px;
+.profile-username {
+  font-size: 16px;
 }
-.headline {
-	font-size: 18px;
-	line-height: 20px;
-	margin-bottom: 15px;
+.profile-verification-list {
+  padding-left: 0px;
+}
+.profile-verification-list li {
+  display: inline;
+  margin-left: 14px;
 }
 .rating {
-	margin-bottom: 5px;
-	margin-top: 20px;
-}
-.rating-num {
-	background-color: rgb(247, 125, 14);
-	color: white;
-	border-radius: 2px;
-	padding: 2px 3px;
-	font-size: 13px;
-	margin-right: 3px;
-}
-.rate {
-	margin-top: 30px;
-	margin-bottom: 20px;
-}
-.earnings {
-	font-size: 13px;
-}
-.earnings i {
-	color: rgb(93, 194, 106);
-}
-.earnings-label {
-	margin-right: 7px;
-	margin-left: 3px;
-}
-.num-reviews {
-	margin-left: 19px;
-	font-size: 13px
-}
-.rate span {
-	font-size: 26px;
-	font-weight: bold;
-}
-.star-full {
-	color: rgb(247, 125, 14);
-}
-.star-empty {
-	color: #DEDEDE;
-}
-.stats {
-	margin-top: 30px;
-	border-top-width: 1px;
-	padding-top: 30px;
-	border-color: rgb(222, 222, 222);
-	border-top-style: solid;
-	padding-left: 0px;
-}
-.stats li {
-	margin-bottom: 10px;
-}
-.stats .item-stats-name {
-	padding-left: 20px;
-	line-height: 19px;
-	width: 80%;
-}
-.stats .item-stats-value {
-	font-size: 20px;
-	line-height: 28px;
-	color: rgb(93, 194, 106);
-	width: 20%;
-	text-align: right;
-	display: inline-block;
-}
-.portfolio-btn {
-	max-width: 1176px;
-	color: rgb(77, 82, 91);
-	font-size: 15px;
-	background-image: linear-gradient(rgb(255, 255, 255) 0px, rgb(240, 240, 240) 100%);
-	border-radius: 3px;
-	border-color: rgb(190, 192, 194);
-}
-.portfolio-btn:hover {
-	background-color: transparent;
-}
-.profile-components {
-	padding-top: 40px;
-}
-.profile-components .col-md-8 {
-	padding-left: 0px;
-	padding-right: 12px;
-}
-.profile-components .col-md-4 {
-	padding-right: 0px;
-	padding-left: 12px;
-}
-.profile-components .panel-heading {
-	padding: 20px;
-	font-size: 18px;
-	font-weight: bold;
-}
-.profile-components .title {
-	padding-right: 40px;
-	margin-bottom: 10px;
-	font-size: 18px;
-}
-.profile-components .place {
-	margin: 0px 10px 10px 0px;
-	font-weight: bold;
-}
-.profile-components .description {
-	margin-top: 10px;
-}
-.profile-components .info {
-	padding: 0px 0px 30px 0px;
-	margin: 20px 20px 0px 20px;
-}
-.panel {
-	box-shadow: rgba(0, 0, 0, 0.0784314) 0px 0px 4px 0px, rgba(0, 0, 0, 0.117647) 0px 2px 4px 0px;
-	border: none;
-	margin-bottom: 24px;
-}
-.reviews .panel-heading .pull-right {
-	font-size: 14px;
-}
-.reviews .panel-footer {
-	padding: 15px 20px;
-	color: inherit !important;
-}
-.reviews .panel-body {
-	padding: 0px;
-}
-.review-list {
-	padding: 20px;
-	margin-bottom: 0px;
+  background-color: rgb(247, 125, 14);
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  margin-right: 3px;
+  padding: 2px 3px;
 }
 .review {
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: rgb(221, 221, 221);
-	padding-bottom: 32px;
-	padding-top: 32px;
+  border-bottom-color: rgb(221, 221, 221);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
-.first-review {
-	padding-top: 0px;
+.review:first-child {
+  padding-top: 0px;
 }
-.last-review {
-	padding-bottom: 0px;
-	border-bottom: none;
+.review:last-child {
+  border-bottom: none;
+  padding-bottom: 0px;
 }
 .review .col-md-2 {
-	padding-right: 10px;
+  padding-right: 10px
 }
 .review .col-md-10 {
-	padding-left: 10px;
+  padding-left: 10px;
 }
-.review-title {
-	font-size: 18px;
-	margin-bottom: 4px;
+.review .flag-icon {
+  padding: 3px 8px 0px 8px;
 }
-.review-price {
-	margin: 0px 0px 6px 5px;
-	padding-left: 17px;
+.review .row {
+  padding-top: 0px;
 }
 .review-description {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
-.review-information .flag-icon {
-	padding-top: 3px;
-	padding-left: 8px;
-	padding-right: 8px;
+.review-price {
+  margin: 0px 0px 6px 5px;
+  padding-left: 17px;
 }
 .review-skills {
-	padding-left: 0px;
-	padding-top: 10px;
+  padding: 10px 0px 0px 0px !important;
+}
+.review-skills a {
+  color: inherit;
+}
+.review-skills a:hover {
+  color: rgb(51, 122, 183);
 }
 .review-skills li {
-	display: inline-block;
+  display: inline-block;
 }
-.review-skills li a {
-	color: inherit;
+.review-title {
+  font-size: 18px;
+  margin-bottom: 18px;
 }
-.review-skills li a:hover {
-	color: rgb(51, 122, 183);
+.reviews-component .panel-body {
+  padding: 0px;
 }
-.profile-components .col-md-4 .panel-body {
-	padding: 0px;
+.reviews-component ul {
+  margin-bottom: 0px;
+  padding: 20px;
 }
-.profile-components .col-md-4 .line-list {
-	padding: 0px 20px 20px 20px;
-	margin-bottom: 0px;
+.row {
+  max-width: 1176px;
+  padding-top: 40px;
 }
-.profile-components .col-md-4 .line-list .list-middle {
-	padding: 10px 0px;
-	border-bottom-style: solid;
-	border-bottom-color: rgb(222, 222, 222);
-	border-bottom-width: 1px;
-}
-.profile-components .col-md-4 .line-list .list-last {
-	padding-top: 10px;
-}
-.profile-components .col-md-4 .panel-footer {
-	padding: 15px 20px;
-}
-.verification-list i {
-	margin-right: 5px;
-}
-.verified {
-	color: rgb(93, 194, 106);
-}
-.not-verified {
-	color: #78757D;
-}
-.similar-list {
-	padding: 20px 20px 10px 20px;
-	margin-bottom: 0px;
-}
-.similar-list li {
-	margin: 5px 5px 5px 0px;
-	border-style: none;
-	padding: 0px; 
-}
-.similar-list li a {
-	border-style: solid;
-	border-width: 1px;
+.similar-component a {
 	border-color: rgb(190, 192, 194);
 	border-radius: 4px;
-	padding: 4px 12px;
+  border-style: solid;
+	border-width: 1px;
 	color: rgb(77, 82, 91);
 	font-size: 12px;
+  padding: 4px 12px;
 }
-.similar-list li a:hover {
-	background-color: rgb(240, 240, 240);
-	text-decoration: none;
+.similar-component a:hover {
+  background-color: rgb(240, 240, 240);
+  text-decoration: none;
 }
-.portfolio-list {
-	padding-left: 0px;
-	margin-bottom: 0px;
+.similar-component li {
+  border-style: none;
+  margin: 5px 5px 5px 0px;
+  padding: 0px;
 }
-.portfolio-list li {
-	padding-left: 12px;
-	padding-right: 12px;
-	margin-bottom: 24px;
-	width: 25%;
-	display: inline-block;
+.similar-component ul {
+  margin-bottom: 0px;
+  padding: 20px 20px 10px 20px;
 }
-.portfolio-list .portfolio-hover {
-	border-width: 4px;
-	border-style: solid;
-	border-color: white;
-	box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 4px 0px;
+.verification-component i {
+  margin-right: 5px;
 }
-.portfolio-row {
-	max-width: 1200px;
-}
-.navbar-brand {
-	margin-left: 0px;
-}
-
-/* CSS code for star ratings grabbed from
-https://css-tricks.com/star-ratings/ */
-/*.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-}
-.rating > span {
-  display: inline-block;
-  position: relative;
-  width: 1.1em;
-}
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
-}*/
