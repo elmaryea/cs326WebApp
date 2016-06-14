@@ -1,3 +1,9 @@
+a {
+  color: rgb(0, 136, 207);
+}
+a:hover {
+  color: rgb(23, 161, 230);
+}
 .star-gray {
   color: rgb(222, 222, 222);
 }
