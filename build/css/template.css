@@ -30,6 +30,7 @@ body {
 }
 
 .app-links ul {
+  list-style: none;
   padding: 0px;
 }
 
