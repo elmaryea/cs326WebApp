@@ -104,7 +104,9 @@ body {
   color: rgb(0, 0, 0);
   font-size: 13px;
 }
-
+.body {
+  margin-top: 64px;
+}
 .bottom-heading {
   margin-bottom: 10px !important;
 }
