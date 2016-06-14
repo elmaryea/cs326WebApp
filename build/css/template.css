@@ -1,3 +1,6 @@
+body {
+  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .app-links {
   background-color: rgb(22, 30, 44);
   color: rgb(227, 247, 247);
@@ -195,8 +198,8 @@
   border-radius: 0px;
   font-size: 15px;
   height: 64px;
+  margin-bottom: 0px;
 }
-
 .navbar form {
   margin-bottom: 0px;
   margin-top: 0px;
@@ -204,18 +207,20 @@
   padding-right: 0px;
   padding-top: 15px;
 }
-
 .navbar form button {
   border-bottom-left-radius: 3px;
   border-right: 0px;
   border-top-left-radius: 3px;
-  padding: 5px 4px 6px 4px;
+  padding: 5px 4px 5px 4px;
 }
-
+.navbar form button:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(204, 204, 204);
+  color: rgb(0, 136, 207);
+}
 .navbar form button i {
   line-height: 20px;
 }
-
 .navbar form input {
   border-bottom-right-radius: 3px;
   border-left: 0px;
@@ -225,20 +230,23 @@
   padding: 0px;
 }
 
+
+.form-control:focus {
+  border-color: rgb(23, 161, 230);
+  box-shadow: none;
+}
+
 .navbar h6 a, .navbar li a {
   color: rgb(31, 40, 54) !important;
 }
-
 .navbar .container-fluid {
   max-width: 1176px;
   padding: 0px;
 }
-
 .navbar-brand {
   padding-bottom: 22px;
   padding-top: 22px;
 }
-
 .navbar-collapse .dropdown {
   padding-bottom: 22px;
   padding-top: 22px;
