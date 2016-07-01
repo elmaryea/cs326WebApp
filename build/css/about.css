@@ -1,0 +1,152 @@
+.banner-section {
+  background-color: lightblue;
+  color: rgb(255, 255, 255);
+  height: 460px;
+}
+.banner-section-content {
+  display: table-cell;
+  height: 460px;
+  vertical-align: middle;
+}
+.banner-section-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 62.4px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  max-width: 70%;
+}
+.banner-section-content p {
+  font-size: 24px;
+  line-height: 38.4px;
+  margin-bottom: 24px;
+  max-width: 70%;
+}
+.banner-section-inner {
+  display: table;
+  max-width: 1176px;
+  min-width: 960px;
+}
+.body {
+  padding: 0px;
+}
+.info-address {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 25%;
+}
+.info-body {
+  margin: 80px 200px 100px 200px;
+}
+.info-body h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 41.6px;
+  margin-bottom: 22px;
+  margin-top: 0px;
+}
+.info-body p {
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-bottom: 24px;
+}
+.info-details {
+  color: rgb(31, 40, 54);
+  margin-left: -12px;
+  margin-right: -12px;
+}
+.info-details h5 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25.2px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+.info-details p {
+  font-size: 13px;
+  line-height: 20.8px;
+  margin-bottom: 24px;
+}
+.info-provenance {
+  padding-left: 12px;
+  padding-right: 80px;
+  width: 75%;
+}
+.more-info-section {
+  max-width: 1176px;
+  min-width: 960px;
+}
+.more-info-section li {
+  color: rgb(31, 40, 54);
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 33.33333333%;
+}
+.more-info-section li h3 {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 36.4px;
+  margin-bottom: 20px;
+  margin-top 0px;
+}
+.more-info-section li img {
+  margin-bottom: 40px;
+}
+.more-info-section li p {
+  line-height: 22.4px;
+  margin-bottom: 24px;
+}
+.more-info-section ul {
+  border-bottom: 1px solid rgb(222, 222, 222);
+  border-top: 1px solid rgb(222, 222, 222);
+  margin: 80px -10px;
+  padding-bottom: 80px;
+  padding-left: 0px;
+  padding-top: 80px;
+}
+.more-info-section .btn {
+  background-color: transparent;
+  border-color: rgb(117, 120, 125);
+  border-radius: 3px;
+  color: rgb(77, 82, 91);
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 18px;
+  padding: 8px 18px;
+}
+.more-info-section .btn:hover {
+  color: rgb(31, 40, 54);
+}
+.overview-info {
+  display: table-cell;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  width: 50%;
+}
+.overview-info h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 41.6px;
+  margin-top: 0px !important;
+  margin-bottom: 22px;
+}
+.overview-info p {
+  line-height: 22.4px;
+  margin-bottom: 24px;
+}
+.overview-inner {
+  display: table;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.overview-inner figure {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+.overview-section {
+  max-width: 1200px;
+  min-width: 960px;
+}

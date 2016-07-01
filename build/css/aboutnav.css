@@ -1,0 +1,53 @@
+.about-nav {
+  background-color: rgb(22, 30, 44);
+  color: rgb(255, 255, 255);
+  height: 52px;
+  margin-top: 64px;
+}
+.about-nav a, .about-nav a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.about-nav h5 {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 16px;
+  margin-right: 50px;
+  margin-top: 18px;
+}
+.about-nav li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+.about-nav li:hover {
+  background-color: rgb(54, 63, 77);
+}
+.about-nav li a{
+  color: rgb(222, 222, 222);
+  line-height: 18px;
+}
+.about-nav ul {
+  display: inline-block;
+  list-style: none;
+  height: 100%;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.about-nav-inner {
+  max-width: 1176px;
+  min-width: 960px;
+}
+.body {
+  margin-top: 116px;
+}
+.current-page a {
+  color: rgb(247, 247, 247) !important;
+}
+.project-btn {
+  background-image: linear-gradient(rgb(252, 140, 20) 0px, rgb(247, 125, 14) 100%);
+  border-color: rgb(247, 125, 14);
+  border-radius: 3px;
+  border-width: 1px;
+  margin-top: 8px;
+  padding: 6px 13px;
+}

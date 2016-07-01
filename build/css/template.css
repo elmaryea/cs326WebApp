@@ -1,6 +1,9 @@
 body {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+ul {
+  list-style: none;
+}
 .app-links {
   background-color: rgb(22, 30, 44);
   color: rgb(227, 247, 247);
@@ -198,6 +201,7 @@ body {
 }
 .navbar {
   background-color: rgb(255, 255, 255);
+  border-bottom-width: 0px;
   border-radius: 0px;
   font-size: 15px;
   height: 64px;
@@ -239,7 +243,7 @@ body {
   box-shadow: none;
 }
 
-.navbar h6 a, .navbar li a {
+.navbar-top h6 a, .navbar-top li a {
   color: rgb(31, 40, 54) !important;
 }
 .navbar .container-fluid {
