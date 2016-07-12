@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 var startupName = "Bytewave";
 var initialData = {
   "about_info": [
@@ -525,7 +528,7 @@ var initialData = {
     }
   ],
   "reviews": [
-    
+
   ],
   "projects": [
     {
@@ -533,20 +536,20 @@ var initialData = {
       "title": "Build a Website",
       "owner": 3,
       "bids": [
-        
+
       ],
       "status": "completed",
       "description": "I want a 10 year experience .net developer. Because i have very Big project on .Net technology. More details for apply on this project.:- mshanebi",
       "hours": "unspecified",
       "skills": [1, 2, 3, 4, 5],
-      
+
     },
     {
       "_id": 2,
       "title": "Move HTML and add menu to main page in a new .net MVC project",
       "owner": 3,
       "bids": [
-        
+
       ],
       "status": "completed",
       "description": "Want to move layout from a webpage and add a drowdown menu to a mvc project",
@@ -559,7 +562,7 @@ var initialData = {
       "title": "project for infosoftgoway - adjust layout for asp.net mvc",
       "owner": 3,
       "bids": [
-        
+
       ],
       "status": "completed",
       "description": "Move layout-elements from a website to a default mvc project",
@@ -570,7 +573,7 @@ var initialData = {
       "title": "Develop source code for an app (iOS and Android-compatible) that can display tile overlays downladed from wms servers on top of native maps",
       "owner": 3,
       "bids": [
-        
+
       ],
       "status": "incomplete",
       "description": "In addition to the standard zoom/scroll/search functionality that comes with native maps the app needs a drop-down menu that allows the user to turn on and off layers and the ability to decide wich order the layers are plotted. Source code should be delivered in .lua format.",
@@ -581,7 +584,7 @@ var initialData = {
       "title": "Single Wordpress page to display data from Pipedrive via API",
       "owner": 3,
       "bids": [
-        
+
       ],
       "status": "in progress",
       "description": "Create a single page that will display the data from the Pipedrive company statistics feature via the Pipedrive API",
@@ -594,7 +597,7 @@ var initialData = {
       "title": "Private project for infosoftgoway",
       "owner": 3,
       "bids": [
-        
+
       ],
       "description": "See Attachment. See AttachmentSee AttachmentSee AttachmentSee AttachmentSee Attachment",
       "hours": "unspecified",
@@ -606,7 +609,7 @@ var initialData = {
       "title": "Build A WordPress Website - TURKISH Freelancers Only (ILY)",
       "owner": 3,
       "bids": [
-        
+
       ],
       "description": "PLEASE DO NOT BID BEFORE YOU READ THE PROJECT FILE\n\nWe are looking for a Turkish speaking freelancer who can create a Wordpress Website from scratch. This Project involves in adding the content, finding suitable images and editing all the content images. \n\nPlease see the instructions below :\n\n1. Install the theme. You can either use one of the themes from http://www.elegantthemes.com/ or if you like you can use your own theme that is suitable for the website ( with no cost)\n2. Add the content. The content needs to be added to the website according to the document We will provide. The website will be max 7-10 page in total.\n3. Find suitable images for the content and edit the images ( Images must to be edited)\n4. Logo needs to be created by the developer. \nThank you in advance. \nAbout the emp",
       "skills": [8, 25, 23, 22, 13]
@@ -616,7 +619,7 @@ var initialData = {
       "title": "Wordpress multisite API",
       "owner": 3,
       "bids": [
-        
+
       ],
       "description": "I need to create a wordpress multisite via API or custom php file without login to the wordpress network admin\n\nInput (url parameter):\n- Site name: (ex web01)\n- TemplateID or Template Name\n- Username\n- Password\nOutput\ncrerate programmatically a new blog (Wordpress network site) with all input's parameters",
       "hours": "unspecified",
@@ -645,8 +648,8 @@ var initialData = {
     {"_id": 18, "tag": "JSP"},
     {"_id": 19, "tag": "Javascript"},
     {"_id": 20, "tag": "XML"},
-    {"_id": 21, "tag": "SEO"}, 
-    {"_id": 22, "tag": "Wordpress"}, 
+    {"_id": 21, "tag": "SEO"},
+    {"_id": 22, "tag": "Wordpress"},
     {"_id": 23, "tag": "Graphic Design"},
     {"_id": 24, "tag": "Codeignitor"},
     {"_id": 25, "tag": "Website Design"}

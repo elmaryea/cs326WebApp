@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { IndexRoute, Router, Route, hashHistory, Link } from 'react-router';
+import {IndexRoute, Router, Route, hashHistory} from 'react-router';
 
-import AboutPage from './components/about/aboutpage';
-import DMCAPage from './components/dmcapage';
+import AboutPage from './components/aboutpage';
+import DMCAPage from './components/about/dmcapage';
 import ManagementPage from './components/about/managementpage';
 import PrivacyPage from './components/about/privacypage';
 import ProfilePage from './components/profilepage';

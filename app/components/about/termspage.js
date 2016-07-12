@@ -9,7 +9,7 @@ export default class TermsPage extends React.Component {
     super(props);
     this.state = props;
   }
-  
+
   render() {
     return (
       <div>
@@ -138,6 +138,7 @@ export default class TermsPage extends React.Component {
       </h2>
       <p>
         While using the Freelancer Website, you will not:
+      </p>
         <ol type="i">
           <li>
             post content or items in inappropriate categories or areas on our websites and services;
@@ -367,7 +368,7 @@ export default class TermsPage extends React.Component {
         You authorise us, directly or through third parties, to make any inquiries we consider necessary to validate your identity. You must, at our request: (1) provide further information to us, which may include your date of birth and other information that will allow us to reasonably identify you; (2) take steps to confirm ownership of your email address or financial instruments; or (3) verify your information against third party databases or through other sources.
       </p>
       <p>
-        You must also, at our request, provide copies of identification documents (such as your drivers' licence). We may also ask you to provide photographic identification holding a sign with a code that we provide as an additional identity verification step.
+        You must also, at our request, provide copies of identification documents (such as your drivers licence). We may also ask you to provide photographic identification holding a sign with a code that we provide as an additional identity verification step.
       </p>
       <p>
         We reserve the right to close, suspend, or limit access to your Account, the Website and/or Freelancer Services in the event we are unable to obtain or verify to our satisfaction the information which we request under this section.
@@ -824,7 +825,7 @@ export default class TermsPage extends React.Component {
         37. Indemnity
       </h2>
       <p>
-        
+
 You will indemnify us (and our officers, directors, agents, subsidiaries, joint venturers and employees) against any claim or demand, including legal fees and costs, made against us by any third party due to or arising out of your breach of this Agreement, or your infringement of any law or the rights of a third party in the course of using the Freelancer Website and Freelancer Services.
       </p>
       <p>

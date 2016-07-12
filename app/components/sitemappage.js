@@ -5,10 +5,12 @@ export default class SiteMapPage extends React.Component {
     super(props);
     this.state = props;
   }
-  
+
   render() {
     return (
-    
+      <div>
+        
+      </div>
     )
   }
 }

@@ -1,15 +1,15 @@
 import React from 'react';
 
-import AboutNavbar from './aboutnavbar';
-import DefaultFooter from '../defaultfooter';
-import DefaultNavbar from '../defaultnavbar';
+import AboutNavbar from './about/aboutnavbar';
+import DefaultFooter from './defaultfooter';
+import DefaultNavbar from './defaultnavbar';
 
 export default class AboutPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = props;
   }
-  
+
   render () {
     return (
       <div>
@@ -32,7 +32,7 @@ export default class AboutPage extends React.Component {
             <div class="overview-section center-block">
               <div class="overview-inner">
                 <figure>
-                  <img class="img-responsive center-block" src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-company-overview.jpg?v=faf2a57472668fdf43ff4bfe6e339848&%3Bm=6">
+                  <img class="img-responsive center-block" src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-company-overview.jpg?v=faf2a57472668fdf43ff4bfe6e339848&%3Bm=6" />
                 </figure>
                 <div class="overview-info">
                   <h2>
@@ -61,16 +61,16 @@ export default class AboutPage extends React.Component {
               </div>
               <figure>
                 <a href="#">
-                  <img src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-map-placeholder.jpg?v=ae482ab6bcc76c5e5f1ed51f2c6db8a3&%3Bm=6">
+                  <img src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-map-placeholder.jpg?v=ae482ab6bcc76c5e5f1ed51f2c6db8a3&%3Bm=6" />
                 </a>
-                <iframe src="https://www.youtube.com/embed/aK4nWT6gTbA?loop=1&rel=0&autohide=1&showinfo=0">
+                <iframe src="https://www.youtube.com/embed/aK4nWT6gTbA?loop=1&rel=0&autohide=1&showinfo=0" >
 
                 </iframe>
               </figure>
               <ul class="text-center">
                 <li>
                   <a href="/about/press">
-                    <img class="img-responsive" src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-press.jpg?v=4f11bcfcc211491aacfdcc682b60a0ed&%3Bm=6">
+                    <img class="img-responsive" src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-press.jpg?v=4f11bcfcc211491aacfdcc682b60a0ed&%3Bm=6" />
                   </a>
                   <h3>
                     Press
@@ -81,10 +81,10 @@ export default class AboutPage extends React.Component {
                   <a href="/about/press" class="btn btn-default">
                     View Press
                   </a>
-                </li><!--
-             --><li>
+                </li>
+                <li>
                   <a href="/about/careers">
-                    <img class="img-responsive" src="https://cdn6.f-cdn.com/static/css/images/about-us/overview-career.jpg?v=f202b7473c711ae7461cf607a55d627f&%3Bm=6">
+                    <img class="img-responsive" src="https://cdn6.f-cdn.com/static/css/images/about-us/overview-career.jpg?v=f202b7473c711ae7461cf607a55d627f&%3Bm=6" />
                   </a>
                   <h3>
                     Career Opportunities
@@ -95,10 +95,10 @@ export default class AboutPage extends React.Component {
                   <a href="/about/careers" class="btn btn-default">
                     Join our team
                   </a>
-                </li><!--
-             --><li>
+                </li>
+                <li>
                   <a href="/img/freelancer-media-kit.zip">
-                    <img class="img-responsive" src="https://cdn6.f-cdn.com/static/css/images/about-us/overview-media.jpg?v=da522df96ac7110291ff3fdfd0330987&%3Bm=6">
+                    <img class="img-responsive" src="https://cdn6.f-cdn.com/static/css/images/about-us/overview-media.jpg?v=da522df96ac7110291ff3fdfd0330987&%3Bm=6" />
                   </a>
                   <h3>
                      Media Kit
@@ -119,8 +119,8 @@ export default class AboutPage extends React.Component {
                   <p>
                     Freelancer.com has acquired several outsourcing marketplaces including GetAFreelancer.com and EUFreelance.com (founded by Magnus Tibell in 2004, Sweden), LimeExchange (a former business of Lime Labs LLC, USA), Scriptlance.com (founded by Rene Trescases in 2001, Canada, one of the early pioneers in freelancing), Freelancer.de Booking Center (Germany), Freelancer.co.uk (United Kingdom), Webmaster-talk.com (USA), a forum for webmasters, Rent-A-Coder and vWorker (founded by Ian Ippolito, USA, another early innovator in the freelance marketplace space).
                   </p>
-                </div><!--
-             --><div class="info-address">
+                </div>
+                <div class="info-address">
                   <h5>
                     Freelancer Limited
                   </h5>

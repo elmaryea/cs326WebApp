@@ -5,10 +5,12 @@ export default class ProfilePage extends React.Component {
     super(props);
     this.state = props;
   }
-  
+
   render () {
     return (
-    
+      <div>
+        
+      </div>
     )
   }
 }
