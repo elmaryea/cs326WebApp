@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import {IndexRoute, Router, Route, hashHistory} from 'react-router';
 
 import AboutPage from './components/aboutpage';
+import DefaultFooter from './components/defaultfooter';
+import DefaultNavbar from './components/defaultnavbar';
 import DMCAPage from './components/about/dmcapage';
 import ManagementPage from './components/about/managementpage';
 import PrivacyPage from './components/about/privacypage';
@@ -13,7 +15,11 @@ import TermsPage from './components/about/termspage';
 class App extends React.Component {
   render() {
     <div>
-      {this.props.children}
+      <DefaultNavbar />
+      <div>
+        {this.props.children}
+      </div>
+      <DefaultFooter />
     </div>
   }
 }

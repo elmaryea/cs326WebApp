@@ -1,8 +1,6 @@
 import React from 'react';
 
 import AboutNavbar from './aboutnavbar';
-import DefaultFooter from '../defaultfooter';
-import DefaultNavbar from '../defaultnavbar';
 
 export default class ManagementPage extends React.Component {
   constructor(props) {
@@ -12,7 +10,6 @@ export default class ManagementPage extends React.Component {
   render () {
     return (
       <div>
-        <DefaultNavbar />
         <AboutNavbar />
         <div className="container-fluid body">
           <div className="content-header text-center">
@@ -302,7 +299,6 @@ export default class ManagementPage extends React.Component {
             </ul>
           </div>
         </div>
-        <DefaultFooter />
       </div>
     )
   }

@@ -1,8 +1,6 @@
 import React from 'react';
 
 import AboutNavbar from './aboutnavbar';
-import DefaultFooter from '../defaultfooter';
-import DefaultNavbar from '../defaultnavbar';
 
 export default class DMCAPage extends React.Component {
   constructor(props) {
@@ -12,7 +10,6 @@ export default class DMCAPage extends React.Component {
   render() {
     return (
       <div>
-        <DefaultNavbar />
         <AboutNavbar />
         <div className="container-fluid body">
           <h1>
@@ -86,7 +83,6 @@ export default class DMCAPage extends React.Component {
             Please note that under Section 512(f) of the Copyright Act, any person who knowingly materially misrepresents that material or activity was removed or disabled by mistake or misidentification may be subject to liability. Please also be advised that we enforce a policy that provides for the termination in appropriate circumstances of subscribers who are repeat infringers.
           </p>
         </div>
-        <DefaultFooter />
       </div>
     )
   }
