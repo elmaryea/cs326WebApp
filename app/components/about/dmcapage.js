@@ -14,7 +14,7 @@ export default class DMCAPage extends React.Component {
       <div>
         <DefaultNavbar />
         <AboutNavbar />
-        <div class="container-fluid body">
+        <div className="container-fluid body">
           <h1>
             COPYRIGHT INFRINGEMENT POLICY
           </h1>
@@ -89,5 +89,5 @@ export default class DMCAPage extends React.Component {
         <DefaultFooter />
       </div>
     )
-  } 
+  }
 }

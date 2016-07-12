@@ -5,7 +5,7 @@ export default class DefaultNavbar extends React.Component {
     super(props);
     this.state = props;
   }
-  
+
   render() {
     return (
       <div>
@@ -107,7 +107,7 @@ export default class DefaultNavbar extends React.Component {
               /* Right Navbar Segment */
               <ul className="nav navbar-nav navbar-right">
                 <li className="dropdown">
-                  <a href="#" className="dropdown-toggle right-dropdown" data-toggle="dropdown">USD $0 <sup>00</sup> <span class="caret"></span></a>
+                  <a href="#" className="dropdown-toggle right-dropdown" data-toggle="dropdown">USD $0 <sup>00</sup> <span className="caret"></span></a>
                   <div className="dropdown-menu small-dropdown">
                     <div className="text-center">
                       <img className="img-responsive center-block" src="https://cdn5.f-cdn.com/build/img/UserFinancial/credit-card.svg?v=e30adf2fc131575a8535263acacbd467&%3Bm=6" />

@@ -14,8 +14,8 @@ export default class ManagementPage extends React.Component {
       <div>
         <DefaultNavbar />
         <AboutNavbar />
-        <div class="container-fluid body">
-          <div class="content-header text-center">
+        <div className="container-fluid body">
+          <div className="content-header text-center">
             <h1>
               Meet the team behind Freelancer!
             </h1>
@@ -23,8 +23,8 @@ export default class ManagementPage extends React.Component {
               Freelancer's Board & Management
             </p>
           </div>
-          <div class="row center-block">
-            <div class="section-header text-center">
+          <div className="row center-block">
+            <div className="section-header text-center">
               <span>DIRECTORS</span>
             </div>
             <ul>
@@ -35,11 +35,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   MATT BARRIE
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Chief Executive Officer & Chairman
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   BE (Hons I) BSc (Hons I) GDipAppFin MAppFin MSEE (Stanford) GAICD SEP FIEAust
                 </span>
                 <p>
@@ -54,11 +54,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   DARREN WILLIAMS
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Non Executive Director
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   BSc (Hons I) PhD (Computer Science) MAICD
                 </span>
                 <p>
@@ -73,11 +73,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   SIMON CLAUSEN
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Non Executive Director
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
 
                 </span>
                 <p>
@@ -86,7 +86,7 @@ export default class ManagementPage extends React.Component {
                 <a href="#simon">Read more about Simon</a>
               </li>
             </ul>
-            <div class="section-header text-center">
+            <div className="section-header text-center">
               <span>SENIOR MANAGEMENT</span>
             </div>
             <ul>
@@ -97,11 +97,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   NEIL KATZ
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Chief Financial Officer
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   B Com (Hons) ACA
                 </span>
                 <p>
@@ -116,11 +116,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   CHRISTOPHER KOCH
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Deputy Chief Financial Officer
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   M.Fin (INSEAD) LLB (Hons I) B.Ec F. Fin GAICD
                 </span>
                 <p>
@@ -135,11 +135,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   WILLIAM HALIM
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Senior Vice President of Growth
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   B Eng (Mechatronics) (Hons I) / B Computer Science / EPGC (Stanford)
                 </span>
                 <p>
@@ -154,11 +154,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   PETER PHILLIPS
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Vice President, Engineering
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   BSc (Hons I) PhD (Computer Science)
                 </span>
                 <p>
@@ -173,11 +173,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   GREG ROBINSON
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Vice President, Compliance
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   ACI, SA Fin
                 </span>
                 <p>
@@ -192,11 +192,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   MATT O'KANE
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Vice President, Technical Operations
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   BSc BIT (Hons1) MBA (AGSM)
                 </span>
                 <p>
@@ -211,11 +211,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   ADAM BYRNES
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Senior Director, International
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   BE (Electrical) (Hons I) / BSc (Adv) (Physics)
                 </span>
                 <p>
@@ -230,11 +230,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   JOE GRISTON
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Director, People & Talent
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   BSc (Computer Science)
                 </span>
                 <p>
@@ -249,11 +249,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   SEBASTIÁN SISELES
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Director, International
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   JD (University of Buenos Aires) / MBA (University of Pittsburgh) / Marketing Diploma (FAECC, Argentina)
                 </span>
                 <p>
@@ -268,11 +268,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   EVAN TAN
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Regional Director - South East Asia
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   BA Mass Communications
                 </span>
                 <p>
@@ -287,11 +287,11 @@ export default class ManagementPage extends React.Component {
                 <h3>
                   HELMA KUSUMA
                 </h3>
-                <span class="company-role">
+                <span className="company-role">
                   Country Manager - Indonesia
                 </span>
                 <br />
-                <span class="accomplishments">
+                <span className="accomplishments">
                   BA - Public Relations (University of Indonesia)
                 </span>
                 <p>

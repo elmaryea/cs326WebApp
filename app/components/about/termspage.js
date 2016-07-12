@@ -15,7 +15,7 @@ export default class TermsPage extends React.Component {
       <div>
         <DefaultNavbar />
         <AboutNavbar />
-        <div class="container-fluid body">
+        <div className="container-fluid body">
       <h1>
         User Agreement
       </h1>

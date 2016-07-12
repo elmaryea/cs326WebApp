@@ -15,26 +15,26 @@ export default class AboutPage extends React.Component {
       <div>
         <DefaultNavbar />
         <AboutNavbar />
-        <div class="container-fluid body">
-          <div class="overview-page">
-            <div class="banner-section">
-              <div class="banner-section-inner center-block">
-                <div class="banner-section-content text-center">
-                  <h1 class="center-block">
+        <div className="container-fluid body">
+          <div className="overview-page">
+            <div className="banner-section">
+              <div className="banner-section-inner center-block">
+                <div className="banner-section-content text-center">
+                  <h1 className="center-block">
                     World's largest freelancing and crowdsourcing marketplace.
                   </h1>
-                  <p class="center-block">
+                  <p className="center-block">
                     We connect over 19,538,346 employers and freelancers globally from over 247 countries, regions, and territories.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="overview-section center-block">
-              <div class="overview-inner">
+            <div className="overview-section center-block">
+              <div className="overview-inner">
                 <figure>
-                  <img class="img-responsive center-block" src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-company-overview.jpg?v=faf2a57472668fdf43ff4bfe6e339848&%3Bm=6" />
+                  <img className="img-responsive center-block" src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-company-overview.jpg?v=faf2a57472668fdf43ff4bfe6e339848&%3Bm=6" />
                 </figure>
-                <div class="overview-info">
+                <div className="overview-info">
                   <h2>
                     Company Overview
                   </h2>
@@ -47,11 +47,11 @@ export default class AboutPage extends React.Component {
                 </div>
               </div>
             </div>
-            <div class="location-section">
+            <div className="location-section">
 
             </div>
-            <div class="more-info-section center-block">
-              <div class="info-body">
+            <div className="more-info-section center-block">
+              <div className="info-body">
                 <h2>
                   Our Online Economy
                 </h2>
@@ -67,10 +67,10 @@ export default class AboutPage extends React.Component {
 
                 </iframe>
               </figure>
-              <ul class="text-center">
+              <ul className="text-center">
                 <li>
                   <a href="/about/press">
-                    <img class="img-responsive" src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-press.jpg?v=4f11bcfcc211491aacfdcc682b60a0ed&%3Bm=6" />
+                    <img className="img-responsive" src="https://cdn3.f-cdn.com/static/css/images/about-us/overview-press.jpg?v=4f11bcfcc211491aacfdcc682b60a0ed&%3Bm=6" />
                   </a>
                   <h3>
                     Press
@@ -78,13 +78,13 @@ export default class AboutPage extends React.Component {
                   <p>
                     Find out our press releases under this section
                   </p>
-                  <a href="/about/press" class="btn btn-default">
+                  <a href="/about/press" className="btn btn-default">
                     View Press
                   </a>
                 </li>
                 <li>
                   <a href="/about/careers">
-                    <img class="img-responsive" src="https://cdn6.f-cdn.com/static/css/images/about-us/overview-career.jpg?v=f202b7473c711ae7461cf607a55d627f&%3Bm=6" />
+                    <img className="img-responsive" src="https://cdn6.f-cdn.com/static/css/images/about-us/overview-career.jpg?v=f202b7473c711ae7461cf607a55d627f&%3Bm=6" />
                   </a>
                   <h3>
                     Career Opportunities
@@ -92,13 +92,13 @@ export default class AboutPage extends React.Component {
                   <p>
                     Find out our press releases under this section
                   </p>
-                  <a href="/about/careers" class="btn btn-default">
+                  <a href="/about/careers" className="btn btn-default">
                     Join our team
                   </a>
                 </li>
                 <li>
                   <a href="/img/freelancer-media-kit.zip">
-                    <img class="img-responsive" src="https://cdn6.f-cdn.com/static/css/images/about-us/overview-media.jpg?v=da522df96ac7110291ff3fdfd0330987&%3Bm=6" />
+                    <img className="img-responsive" src="https://cdn6.f-cdn.com/static/css/images/about-us/overview-media.jpg?v=da522df96ac7110291ff3fdfd0330987&%3Bm=6" />
                   </a>
                   <h3>
                      Media Kit
@@ -106,13 +106,13 @@ export default class AboutPage extends React.Component {
                   <p>
                     Download our brand media kit in vector files
                   </p>
-                  <a href="/img/freelancer-media-kit.zip" class="btn btn-default">
+                  <a href="/img/freelancer-media-kit.zip" className="btn btn-default">
                     View our media kit
                   </a>
                 </li>
               </ul>
-              <div class="info-details">
-                <div class="info-provenance">
+              <div className="info-details">
+                <div className="info-provenance">
                   <h5>
                     Provenance
                   </h5>
@@ -120,7 +120,7 @@ export default class AboutPage extends React.Component {
                     Freelancer.com has acquired several outsourcing marketplaces including GetAFreelancer.com and EUFreelance.com (founded by Magnus Tibell in 2004, Sweden), LimeExchange (a former business of Lime Labs LLC, USA), Scriptlance.com (founded by Rene Trescases in 2001, Canada, one of the early pioneers in freelancing), Freelancer.de Booking Center (Germany), Freelancer.co.uk (United Kingdom), Webmaster-talk.com (USA), a forum for webmasters, Rent-A-Coder and vWorker (founded by Ian Ippolito, USA, another early innovator in the freelance marketplace space).
                   </p>
                 </div>
-                <div class="info-address">
+                <div className="info-address">
                   <h5>
                     Freelancer Limited
                   </h5>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import DefaultFooter from './defaultfooter';
-import DefaultHNavbarfrom './defaultnavbar';
+import DefaultNavbar from './defaultnavbar';
 
 export default class DMCAPage extends React.Component {
   contructor(props) {
@@ -12,7 +12,9 @@ export default class DMCAPage extends React.Component {
   render () {
     return (
       <div>
-        
+        <DefaultNavbar />
+
+        <DefaultFooter />
       </div>
     )
   }

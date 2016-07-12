@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+/*import React from 'react';
+import ReactDOM from 'react-dom';*/
 
 var startupName = "Bytewave";
 var initialData = {
@@ -541,8 +541,7 @@ var initialData = {
       "status": "completed",
       "description": "I want a 10 year experience .net developer. Because i have very Big project on .Net technology. More details for apply on this project.:- mshanebi",
       "hours": "unspecified",
-      "skills": [1, 2, 3, 4, 5],
-
+      "skills": [1, 2, 3, 4, 5]
     },
     {
       "_id": 2,
@@ -671,7 +670,7 @@ export function readDocument(collection, id) {
     throw new Error("Object collection ${collection} does not exist in the database!");
   }
   var obj = collectionObj[id];
-  if (obj === undefinded) {
+  if (!obj) {
     throw new Error("Object $(id) does not exists in object collection ${collection} in the database!");
   }
   return JSONClone(data[collection][id]);
@@ -689,9 +688,9 @@ export function addDocument(collectionName, newDocument) {
   while (collection.nextId) {
     nextId++;
   }
-  newDoc._id = nextId;
-  writeDocument(collectionName, newDoc);
-  return newDoc;
+  newDocument._id = nextId;
+  writeDocument(collectionName, newDocument);
+  return newDocument;
 }
 
 export function resetDatabase() {
