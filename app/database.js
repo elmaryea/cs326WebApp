@@ -281,6 +281,375 @@ var initialData = {
         ]
       }
     ]
+  ],
+  "users": [
+    {
+      "_id": 1,
+      "img": "",
+      "username": "infosoftgoway",
+      "join_date": 1448297194,
+      "headline": "Software Development (Highest Standard Quality)",
+      "statement": " Dear Customer : - We are a team of 20+ Most Creative People and proud to be Preferred DEVELOPER & DESIGNER. We offer wide range of web solutions and IT services that are bespoke in nature, can best fit our clients' business needs and provide them cost benefits. Our mission is to deliver solutions that satisfy our customers and help us create long lasting business relationships. Wordpress, Volusion, Bigcommerce, 3cart, iPhone, Android expert, wei have worked on 5000+ PHP, .Net, Volusion stores as well as Mobile Apps that includes but not limited to design, Integration, data entry, API, SQL Report and Custom programming.",
+      "hourly_rate": 7,
+      "rating": 5.0,
+      "earnings": 3.0,
+      "stats": {
+        "completed": 92,
+        "on_budget": 98,
+        "on_time": 198,
+        "repeat_hire": 8
+      },
+      "verified": {
+        "facebook": 0,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 0,
+        "email": 1,
+        "profile": 1
+      },
+      "recommendations": 0,
+      "projects": [],
+      "reviews": [],
+      "skills": [3, 7, 13, 8, 2, 22, 14, 15, 16, 17, 18, 19, 20, 21],
+      "porfolio": [
+        {
+          "title": "BTC Markets",
+          "about": "BTC Markets is a Bitcoin exchange company based in Melbourne, Australia. We are excited about the potential of Bitcoin and it's future role in the financial industry At BTC Markets, we believe Bitcoin is a major innovation and paradigm shift in financial industry and we are excited to deliver innovative solutions and technologies that aim to meet the challenges of such a rapid transformation.",
+          "tags": [8, 23, 22, 7]
+        },
+        {
+          "title": "Whitepayments",
+          "about": "Paymentron is a name we thought was cool enough to describe our boutique fintech and consultancy firm. Our aim is to offer not just technology but also practical advise to merchants, psp's, and banks that want to acquire a piece of the global e-commerce market. We have spent 10 years in the payments industry, and welcome a challenge. Talk to us today to see how we can help you with your payment processing needs.",
+          "tags": [8, 23, 22, 6, 7]
+        },
+        {
+          "title": "Xwatches",
+          "about": "Xwatches is online shopping website. there are only watches for purches online.",
+          "tags": [8, 22, 6, 24, 7]
+        },
+        {
+          "title": "uwamly",
+          "about": "This website provide Free and Paid Video for Watch.",
+          "tags": [8, 22, 6, 24, 7]
+        },
+        {
+          "title": "Tijarahmaps",
+          "about": "classified for website cars.",
+          "tags": [8]
+        },
+        {
+          "title": "African pride fm",
+          "about": "African pride fm is a radio website u an listen the music from here Africans Pride FM, �Your #1 Hit music station� is a Dublin based music station with a global reach. Our aim is to provide a special interest radio service which stimulates, informs and entertains listeners of African descents. Our strong blend of talk and music based programming reflects a broad base of African�s concerns, interests and opinions.",
+          "tags": [8, 22, 6, 7]
+        },
+        {
+          "title": "GeoFeeling",
+          "about": "GeoFeeling geolocates feelings of bloggers on the map, making use of Website: MChart's Maps and WeFeelFine which has been harvesting human emotions from a large number of weblogs: LiveJournal, MSN Spaces, MySpace, Blogger, Technorati, Feedster and Google.",
+          "tags": [8, 22, 7]
+        },
+        {
+          "title": "SafeShoppe",
+          "about": "safe shoppe is a online shopping website for toys Safe Shoppe prides itself on providing top quality remote control hobby toys. We have a fantastic selection of the latest remote drones, control cars, planes, helicopters, and more.",
+          "tags": [8, 22, 7]
+        }
+      ]
+    },
+    {
+      "_id": 2,
+      "img": "",
+      "username": "mshane367",
+      "join_date": 1466700394,
+      "stats": {
+        "completed": "N/A",
+        "on_budget": "N/A",
+        "on_time": "N/A",
+        "repeat_hire": "N/A"
+      },
+      "verified": {
+        "facebook": 0,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 0,
+        "identity": 0,
+        "email": 1,
+        "profile": 0
+      },
+      "recommendations": 0,
+      "projects": [],
+      "reviews": []
+    },
+    {
+      "_id": 3,
+      "img": "",
+      "username": "mkasperonlineno",
+      "join_date": 1445618794,
+      "stats": {
+        "completed": "N/A",
+        "on_budget": "N/A",
+        "on_time": "N/A",
+        "repeat_hire": "N/A"
+      },
+      "verified": {
+        "facebook": 1,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 0,
+        "email": 1,
+        "profile": 0
+      },
+      "recommendations": 0,
+      "projects": [],
+      "reviews": []
+    },
+    {
+      "_id": 4,
+      "img": "",
+      "username": "kjetilin",
+      "join_date": 1461429994,
+      "stats": {
+        "completed": "N/A",
+        "on_budget": "N/A",
+        "on_time": "N/A",
+        "repeat_hire": "N/A"
+      },
+      "verified": {
+        "facebook": 0,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 0,
+        "email": 1,
+        "profile": 0
+      },
+      "recommendations": 0,
+      "projects": [],
+      "reviews": []
+    },
+    {
+      "_id": 5,
+      "img": "",
+      "username": "atermissolutions",
+      "join_date": 1453567594,
+      "stats": {
+        "completed": "N/A",
+        "on_budget": "N/A",
+        "on_time": "N/A",
+        "repeat_hire": "N/A"
+      },
+      "verified": {
+        "facebook": 0,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 0,
+        "email": 1,
+        "profile": 0
+      },
+      "recommendations": 0,
+      "projects": [],
+      "reviews": []
+    },
+    {
+      "_id": 6,
+      "img": "",
+      "username": "soulstones",
+      "join_date": 1437669994,
+      "stats": {
+        "completed": "N/A",
+        "on_budget": "N/A",
+        "on_time": "N/A",
+        "repeat_hire": "N/A"
+      },
+      "verified": {
+        "facebook": 0,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 0,
+        "email": 1,
+        "profile": 1
+      },
+      "recommendations": 0,
+      "projects": [],
+      "reviews": []
+    },
+    {
+      "_id": 7,
+      "img": "",
+      "Username": "talkiemedia",
+      "join_date": 1427129194,
+      "stats": {
+        "completed": "N/A",
+        "on_budget": "N/A",
+        "on_time": "N/A",
+        "repeat_hire": "N/A"
+      },
+      "verified": {
+        "facebook": 0,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 0,
+        "email": 1,
+        "profile": 0
+      },
+      "recommendations": 0,
+      "projects": [],
+      "reviews": []
+    },
+    {
+      "_id": 8,
+      "img": "",
+      "Username": "hotbeehoney",
+      "join_date": 1269362794,
+      "stats": {
+        "completed": "N/A",
+        "on_budget": "N/A",
+        "on_time": "N/A",
+        "repeat_hire": "N/A"
+      },
+      "verified": {
+        "facebook": 1,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 1,
+        "email": 1,
+        "profile": 1
+      },
+      "recommendations": 0,
+      "projects": [],
+      "reviews": []
+    }
+  ],
+  "reviews": [
+    
+  ],
+  "projects": [
+    {
+      "_id": 1,
+      "title": "Build a Website",
+      "owner": 3,
+      "bids": [
+        
+      ],
+      "status": "completed",
+      "description": "I want a 10 year experience .net developer. Because i have very Big project on .Net technology. More details for apply on this project.:- mshanebi",
+      "hours": "unspecified",
+      "skills": [1, 2, 3, 4, 5],
+      
+    },
+    {
+      "_id": 2,
+      "title": "Move HTML and add menu to main page in a new .net MVC project",
+      "owner": 3,
+      "bids": [
+        
+      ],
+      "status": "completed",
+      "description": "Want to move layout from a webpage and add a drowdown menu to a mvc project",
+      "duration": "< 1 week",
+      "hours": "unspecified",
+      "skills": [1, 6, 7, 3]
+    },
+    {
+      "_id": 3,
+      "title": "project for infosoftgoway - adjust layout for asp.net mvc",
+      "owner": 3,
+      "bids": [
+        
+      ],
+      "status": "completed",
+      "description": "Move layout-elements from a website to a default mvc project",
+      "skills": [7, 3]
+    },
+    {
+      "_id": 4,
+      "title": "Develop source code for an app (iOS and Android-compatible) that can display tile overlays downladed from wms servers on top of native maps",
+      "owner": 3,
+      "bids": [
+        
+      ],
+      "status": "incomplete",
+      "description": "In addition to the standard zoom/scroll/search functionality that comes with native maps the app needs a drop-down menu that allows the user to turn on and off layers and the ability to decide wich order the layers are plotted. Source code should be delivered in .lua format.",
+      "skills": [8, 9, 10, 11, 12]
+    },
+    {
+      "_id": 5,
+      "title": "Single Wordpress page to display data from Pipedrive via API",
+      "owner": 3,
+      "bids": [
+        
+      ],
+      "status": "in progress",
+      "description": "Create a single page that will display the data from the Pipedrive company statistics feature via the Pipedrive API",
+      "hours": "unspecified",
+      "duration": "< 1 week",
+      "skills": [8, 22, 6, 13]
+    },
+    {
+      "_id": 6,
+      "title": "Private project for infosoftgoway",
+      "owner": 3,
+      "bids": [
+        
+      ],
+      "description": "See Attachment. See AttachmentSee AttachmentSee AttachmentSee AttachmentSee Attachment",
+      "hours": "unspecified",
+      "duration": "< 1 week",
+      "skills": [14]
+    },
+    {
+      "_id": 7,
+      "title": "Build A WordPress Website - TURKISH Freelancers Only (ILY)",
+      "owner": 3,
+      "bids": [
+        
+      ],
+      "description": "PLEASE DO NOT BID BEFORE YOU READ THE PROJECT FILE\n\nWe are looking for a Turkish speaking freelancer who can create a Wordpress Website from scratch. This Project involves in adding the content, finding suitable images and editing all the content images. \n\nPlease see the instructions below :\n\n1. Install the theme. You can either use one of the themes from http://www.elegantthemes.com/ or if you like you can use your own theme that is suitable for the website ( with no cost)\n2. Add the content. The content needs to be added to the website according to the document We will provide. The website will be max 7-10 page in total.\n3. Find suitable images for the content and edit the images ( Images must to be edited)\n4. Logo needs to be created by the developer. \nThank you in advance. \nAbout the emp",
+      "skills": [8, 25, 23, 22, 13]
+    },
+    {
+      "_id": 8,
+      "title": "Wordpress multisite API",
+      "owner": 3,
+      "bids": [
+        
+      ],
+      "description": "I need to create a wordpress multisite via API or custom php file without login to the wordpress network admin\n\nInput (url parameter):\n- Site name: (ex web01)\n- TemplateID or Template Name\n- Username\n- Password\nOutput\ncrerate programmatically a new blog (Wordpress network site) with all input's parameters",
+      "hours": "unspecified",
+      "duration": "< 1 week",
+      "skills": [8, 22, 9]
+    }
+  ],
+  "tags": [
+    {"_id": 1, "tag": ".NET"},
+    {"_id": 2, "tag": "MySQL"},
+    {"_id": 3, "tag": "MVC"},
+    {"_id": 4, "tag": "Angular.js"},
+    {"_id": 5, "tag": "WooCommerce"},
+    {"_id": 6, "tag": "CSS"},
+    {"_id": 7, "tag": "HTML5"},
+    {"_id": 8, "tag": "PHP"},
+    {"_id": 9, "tag": "Software Architecture"},
+    {"_id": 10, "tag": "Anything Goes"},
+    {"_id": 11, "tag": "Geospacial"},
+    {"_id": 12, "tag": "Lua"},
+    {"_id": 13, "tag": "HTML"},
+    {"_id": 14, "tag": "Drupal"},
+    {"_id": 15, "tag": "C# Programming"},
+    {"_id": 16, "tag": "C Programming"},
+    {"_id": 17, "tag": "Java"},
+    {"_id": 18, "tag": "JSP"},
+    {"_id": 19, "tag": "Javascript"},
+    {"_id": 20, "tag": "XML"},
+    {"_id": 21, "tag": "SEO"}, 
+    {"_id": 22, "tag": "Wordpress"}, 
+    {"_id": 23, "tag": "Graphic Design"},
+    {"_id": 24, "tag": "Codeignitor"},
+    {"_id": 25, "tag": "Website Design"}
   ]
 };
 
