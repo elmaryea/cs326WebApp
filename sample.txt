@@ -17,29 +17,3 @@ https://www.freelancer.com/projects/php/Single-Wordpress-page-display-data/
 https://www.freelancer.com/projects/Drupal/Private-project-for-infosoftgoway/
 https://www.freelancer.com/projects/Graphic-Design/Build-WordPress-Website-TURKISH/
 https://www.freelancer.com/projects/php/Wordpress-multisite-API/
-
-
-{"_id": 1, "tag": ".NET"},
-    {"_id": 2, "tag": "MySQL"},
-    {"_id": 3, "tag": "MVC"},
-    {"_id": 4, "tag": "Angular.js"},
-    {"_id": 5, "tag": "WooCommerce"},
-    {"_id": 6, "tag": "CSS"},
-    {"_id": 7, "tag": "HTML5"},
-    {"_id": 8, "tag": "PHP"},
-    {"_id": 9, "tag": "Software Architecture"},
-    {"_id": 10, "tag": "Anything Goes"},
-    {"_id": 11, "tag": "Geospacial"},
-    {"_id": 12, "tag": "Lua"},
-    {"_id": 13, "tag": "HTML"},
-    {"_id": 14, "tag": "Drupal"},
-    {"_id": 15, "tag": "C# Programming"},
-    {"_id": 16, "tag": "C Programming"},
-    {"_id": 17, "tag": "Java"},
-    {"_id": 18, "tag": "JSP"},
-    {"_id": 19, "tag": "Javascript"},
-    {"_id": 20, "tag": "XML"},
-    {"_id": 21, "tag": "SEO"}, 
-    {"_id": 22, "tag": "Wordpress"}, 
-    {"_id": 23, "tag": "Graphic Design"},
-    {"_id": 24, "tag": "Codeignitor"}
