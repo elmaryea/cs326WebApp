@@ -1,8 +1,8 @@
 import React from 'react';
 
-import AboutNavbar from './about/aboutnavbar';
-import DefaultFooter from './defaultfooter';
-import DefaultNavbar from './defaultnavbar';
+import AboutNavbar from '../components/aboutnavbar';
+import DefaultFooter from '../components/defaultfooter';
+import DefaultNavbar from '../components/defaultnavbar';
 
 export default class AboutPage extends React.Component {
   constructor(props) {
@@ -12,7 +12,7 @@ export default class AboutPage extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className="about">
         <DefaultNavbar />
         <AboutNavbar />
         <div className="body">

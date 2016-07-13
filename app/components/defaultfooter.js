@@ -1,5 +1,15 @@
 import React from 'react';
-import {Link} from 'react-router';
+import ReactDOM from 'react-dom';
+import {Router, Route, hashHistory} from 'react-router';
+import App from '../app';
+
+import AboutPage from '../pages/aboutpage';
+import DMCAPage from '../pages/about/dmcapage';
+import ManagementPage from '../pages/about/managementpage';
+import PrivacyPage from '../pages/about/privacypage';
+import ProfilePage from '../pages/profilepage';
+import SiteMapPage from '../pages/sitemappage';
+import TermsPage from '../pages/about/termspage';
 
 export default class DefaultFooter extends React.Component {
   constructor(props) {
@@ -107,9 +117,9 @@ export default class DefaultFooter extends React.Component {
             <div className="row legal center-block">
               <div className="col-md-8 col-xs-8">
                 <ul>
-                  <li><a href="/about/privacy">Privacy Policy</a></li>
-                  <li><a href="/about/terms">Terms and Conditions</a></li>
-                  <li><a href="/dmca">Copyright Infringement Policy</a></li>
+                  <li><Link to="/about/privacy">Privacy Policy</Link></li>
+                  <li><Link to="/about/terms">Terms and Conditions</Link></li>
+                  <li><Link to="/dmca">Copyright Infringement Policy</Link></li>
                   <li><a href="/info/codeofconduct">Code of Conduct</a></li>
                 </ul>
                 <p>
@@ -128,3 +138,16 @@ export default class DefaultFooter extends React.Component {
     )
   }
 }
+
+ReactDOM.render((
+  <Router history={hashHistory}>
+    <Route path="/" content={App}>
+      <Route path="/about" component={AboutPage} />
+      <Route path="/about/dmca" component={DMCAPage} />
+      <Route path="/about/team" component={ManagementPage} />
+      <Route path="/about/privacy" component={PrivacyPage} />
+      <Route path="/about/terms" component={TermsPage} />
+      <Route path="/sitemap" component={SiteMapPage} />
+    </Route>
+  </Router>
+),document.getElementById('contentContainer'));

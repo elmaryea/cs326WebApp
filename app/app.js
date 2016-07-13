@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {IndexRoute, Router, Route, hashHistory} from 'react-router';
 
-import AboutPage from './components/aboutpage';
-import DMCAPage from './components/about/dmcapage';
-import ManagementPage from './components/about/managementpage';
-import PrivacyPage from './components/about/privacypage';
-import ProfilePage from './components/profilepage';
-import SiteMapPage from './components/sitemappage';
-import TermsPage from './components/about/termspage';
+import AboutPage from './pages/aboutpage';
+import DMCAPage from './pages/about/dmcapage';
+import ManagementPage from './pages/about/managementpage';
+import PrivacyPage from './pages/about/privacypage';
+import ProfilePage from './pages/profilepage';
+import SiteMapPage from './pages/sitemappage';
+import TermsPage from './pages/about/termspage';
 
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <div>

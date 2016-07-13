@@ -1,7 +1,7 @@
 import React from 'react';
 
-import DefaultFooter from './defaultfooter';
-import DefaultNavbar from './defaultnavbar';
+import DefaultFooter from '../components/defaultfooter';
+import DefaultNavbar from '../components/defaultnavbar';
 
 export default class SiteMapPage extends React.Component {
   constructor(props) {

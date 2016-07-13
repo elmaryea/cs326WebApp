@@ -1,8 +1,8 @@
 import React from 'react';
 
-import AboutNavbar from './aboutnavbar';
-import DefaultFooter from '../defaultfooter';
-import DefaultNavbar from '../defaultnavbar';
+import AboutNavbar from '../../components/aboutnavbar';
+import DefaultFooter from '../../components/defaultfooter';
+import DefaultNavbar from '../../components/defaultnavbar';
 
 export default class DMCAPage extends React.Component {
   constructor(props) {
