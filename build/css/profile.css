@@ -4,9 +4,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 406px;
 }
-ul {
-  list-style: none;
-}
 .component-item-description {
   margin-top: 10px;
 }
@@ -148,7 +145,7 @@ ul {
   margin-top: 0px;
   width: 100%;
 }
-.profile-statistics .button { 
+.profile-statistics .button {
 	background: linear-gradient(to bottom,#17a1e6 0,#0088cf 100%);
 	border-color: rgb(0, 136, 207);
 	border-radius: 4px 0px 0px 4px;

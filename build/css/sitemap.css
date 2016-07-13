@@ -1,17 +1,17 @@
-h1 {
+.sitemap h1 {
   font-size: 34px;
   font-weight: bold;
   line-height: 44.2px;
   margin-bottom: 24px;
   margin-top: 50px;
 }
-h2 {
+.sitemap h2 {
   font-size: 24px;
   font-weight: bold;
   line-height: 36px;
   margin-bottom: 0px;
 }
-ul {
+.sitemap ul {
   list-style: none;
   margin-bottom: 24px;
   padding-left: 0px;

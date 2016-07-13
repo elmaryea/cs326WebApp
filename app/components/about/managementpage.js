@@ -11,7 +11,7 @@ export default class ManagementPage extends React.Component {
     return (
       <div>
         <AboutNavbar />
-        <div className="container-fluid body">
+        <div className="body">
           <div className="content-header text-center">
             <h1>
               Meet the team behind Freelancer!

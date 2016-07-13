@@ -9,9 +9,9 @@ export default class DMCAPage extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="dmca">
         <AboutNavbar />
-        <div className="container-fluid body">
+        <div className="body">
           <h1>
             COPYRIGHT INFRINGEMENT POLICY
           </h1>

@@ -8,8 +8,8 @@ export default class SiteMapPage extends React.Component {
 
   render() {
     return (
-      <div>
-        
+      <div className="sitemap">
+
       </div>
     )
   }

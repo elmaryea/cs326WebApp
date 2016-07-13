@@ -10,9 +10,9 @@ export default class TermsPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="terms">
         <AboutNavbar />
-        <div className="container-fluid body">
+        <div className="body">
             <h1>
               User Agreement
             </h1>

@@ -12,7 +12,7 @@ export default class AboutPage extends React.Component {
     return (
       <div>
         <AboutNavbar />
-        <div className="container-fluid body">
+        <div className="body">
           <div className="overview-page">
             <div className="banner-section">
               <div className="banner-section-inner center-block">

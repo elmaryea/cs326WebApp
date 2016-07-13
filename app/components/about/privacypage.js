@@ -10,7 +10,7 @@ export default class PrivacyPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="privacy">
         <AboutNavbar />
 
       </div>
