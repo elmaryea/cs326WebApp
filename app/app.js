@@ -27,7 +27,7 @@ ReactDOM.render((
     <Route path="/" content={App}>
       <IndexRoute component={ProfilePage} />
       <Route path="/about" component={AboutPage} />
-      <Route path="/about/dmca" component={DMCAPage} />
+      <Route path="/dmca" component={DMCAPage} />
       <Route path="/about/team" component={ManagementPage} />
       <Route path="/about/privacy" component={PrivacyPage} />
       <Route path="/about/terms" component={TermsPage} />

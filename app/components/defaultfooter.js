@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, hashHistory} from 'react-router';
-import App from '../app';
+import {Router, Route, hashHistory, Link} from 'react-router';
 
 import AboutPage from '../pages/aboutpage';
 import DMCAPage from '../pages/about/dmcapage';
@@ -138,16 +137,3 @@ export default class DefaultFooter extends React.Component {
     )
   }
 }
-
-ReactDOM.render((
-  <Router history={hashHistory}>
-    <Route path="/" content={App}>
-      <Route path="/about" component={AboutPage} />
-      <Route path="/about/dmca" component={DMCAPage} />
-      <Route path="/about/team" component={ManagementPage} />
-      <Route path="/about/privacy" component={PrivacyPage} />
-      <Route path="/about/terms" component={TermsPage} />
-      <Route path="/sitemap" component={SiteMapPage} />
-    </Route>
-  </Router>
-),document.getElementById('contentContainer'));
