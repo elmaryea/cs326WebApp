@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router';
 
 export default class DefaultFooter extends React.Component {
   constructor(props) {
@@ -31,7 +32,7 @@ export default class DefaultFooter extends React.Component {
                 <ul>
                   <li><a href="/jobs/1/">Projects</a></li>
                   <li><a href="/contest/">Contests</a></li>
-                  <li><a href="/sitemap/">Sitemap</a></li>
+                  <li><Link to="/sitemap">Sitemap</Link></li>
                   <li><a href="/local?fromLinks=1">Freelancer Local</a></li>
                   <li><a href="/services/">Services</a></li>
                   <li><a href="https://www.escrow.com/">Escrow</a></li>
@@ -44,7 +45,7 @@ export default class DefaultFooter extends React.Component {
                   ABOUT
                 </h3>
                 <ul>
-                  <li><a href="/about/overview/">About us</a></li>
+                  <li><Link to="/about">About us</Link></li>
                   <li><a href="/info/how-it-works/">How it Works</a></li>
                   <li><a href="/about/team">Team</a></li>
                   <li><a href="/mobile">Mobile App</a></li>

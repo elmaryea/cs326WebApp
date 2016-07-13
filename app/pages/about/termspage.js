@@ -1,6 +1,8 @@
 import React from 'react';
 
 import AboutNavbar from './aboutnavbar';
+import DefaultFooter from '../defaultfooter';
+import DefualtNavbar from '../defaultnavbar';
 
 export default class TermsPage extends React.Component {
   constructor(props) {
@@ -11,6 +13,7 @@ export default class TermsPage extends React.Component {
   render() {
     return (
       <div className="terms">
+        <DefaultNavbar />
         <AboutNavbar />
         <div className="body">
             <h1>
@@ -997,6 +1000,7 @@ export default class TermsPage extends React.Component {
               If you have any questions about this User Agreement or if you wish to report breaches of this User Agreement, please contact us by using our <a href="/users/helpdesk">customer support website</a> or emailing us at <a href="mailto:support@freelancer.com">support@freelancer.com</a>.
             </p>
           </div>
+        <DefaultFooter />
       </div>
     )
   }

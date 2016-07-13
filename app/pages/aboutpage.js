@@ -1,6 +1,8 @@
 import React from 'react';
 
 import AboutNavbar from './about/aboutnavbar';
+import DefaultFooter from './defaultfooter';
+import DefaultNavbar from './defaultnavbar';
 
 export default class AboutPage extends React.Component {
   constructor(props) {
@@ -11,6 +13,7 @@ export default class AboutPage extends React.Component {
   render () {
     return (
       <div>
+        <DefaultNavbar />
         <AboutNavbar />
         <div className="body">
           <div className="overview-page">
@@ -135,6 +138,7 @@ export default class AboutPage extends React.Component {
             </div>
           </div>
         </div>
+        <DefaultFooter />
       </div>
     )
   }
