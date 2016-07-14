@@ -1001,6 +1001,108 @@ var initialData = {
           ]
         }
       ]
+    },
+    {
+      "_id": 13,
+      "img": "build/img/user13/profile.jpg",
+      "username": "mrkrunaldoshi",
+      "join_date": 1240412903,
+      "city": "Ahmedabad",
+      "country": "India",
+      "recommendations": 0,
+      "title": "Novel iSolutions",
+      "headline": "Quality with NO Compromise",
+      "statement": " Novel iSolutions is an India based outsourcing company that focuses mainly on process-driven, high quality, cost effective and timely delivery of solutions across different industries. Our expertise includes , C #, MVC, AJAX, JQuery, XML, SQL, ASP, PHP, MySQL and more.\n\nAt Novel iSolutions, we are dedicated towards building simple, effective, affordable and manageable solutions. We have brought years of experience in development to provide a COST EFFECTIVE with HIGH QUALITY solution for our client's requirement.\n\nOur ultimate GOAL is to deliver solutions that satisfy our clients and help us create long lasting professional relationships with them.\n\nDomain Expertise:\nFinancial\nHealthcare\nAdvertisement API (Google, Facebook, AdCenter)\nMarket Research\nE-Commerce\nContentManagement System (CMS)\n\nMicrosoft Technologies:\nC#,, 1.1/ 2.0 / 3.0 / 3.5, Visual Studio .Net 2003 / 2005 / 2008, ASP, Crystal Reports, MVC 1.0 /2.0 / 3.0 / 4.0, MS SQL Server 2000 / 2005 / 2008\n\nOpen Source\nPHP 5, PHP 4, MySQL 4.x/5.x.\n\nUser Interface / Graphic Design:\nAdobe Photoshop, Image Ready, Flash, HTML, XHTML, Dreamweaver.\n\nInternet Marketing:\nSearch Engine Optimization, Social Media Marketing.\n\nWeb Server:\nIIS, Apache.\n\nThird Party APIs:\nGoogle Maps, Facebook, PayPal.\n\nMiscellaneous:\nAJAX, XML, JavaScript, jQuery.",
+      "hourly_rate": 14,
+      "rating": 4.9,
+      "earnings": 6.0,
+      "stats": {
+        "completed": 94,
+        "on_budget": 100,
+        "on_time": 100,
+        "repeat_hire": 29
+      },
+      "verified": {
+        "facebook": 1,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "email": 1,
+        "identity": 0,
+        "deposity": 1
+      },
+      "skills": [8, 2, 19, 40, 20, 1, 6, 9, 13, 44],
+      "portfolio": [
+        {
+          "_id": 1,
+          "title": "Indian Scriptured - Ancient Vedic Wisdom on your Desktop",
+          "about": "www.indianscriptures.com is a unique portal, launched for the first time in the history of internet, having all the scriptures under one umbrella. The site is developed and maintained by Novel iSolutions along with CMS (Content Management System).\n\nWebsite includes following features:\nPeople can view, print, export content from different Indian scriptures, epics and books like Bhagwad Geeta, Vedas, Upanishad etc... Nearly 18000+ page content are available currently and more are being added to it continously.\nPeople can get detailed information with photos for different GODs, Festivals, Rituals, Sacred Places, Religious Gurus and many other topics.\nAlso people can gain knowledge on History, Astrology, Vedic Knowledge, Indian Traditions etc..\nDiscussion Forums, Search, Multimedia Gallery, Daily Good Thoughts, Research Papers on Indian Scriptured are also available on the site.\n\nCMS includes all the features enabling admin team to upload data and manage full website from here.",
+          "tags": [26, 44, 15, 38, 45],
+          "images": [
+            "build/img/user13/project1/project1.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 14,
+      "img": "build/img/user14/profile.jpg",
+      "username": "designysoft",
+      "join_date": 1398179303,
+      "country": "India",
+      "recommendations": 7,
+      "title": "disignysoft",
+      "headline": "Team Of Web and Mobile Application Development",
+      "statement": "YSoft Solution is leading Software Development Company Based in India.\n\nWe have expertise in Mobile Application Development using Android and iOS, Web Portal Development, Social Networking Site Development, e-Learning Portal Development, e-Commerce Development, Custom Software Development, Web Application Development and Maintenance.\n\nWe have team of experts who have good experience in Android, iOS. We have also completed many web application in , Asp.net. We have good expertise in mobile applications development and our customers have also appreciated our work.\n\nPlease feel free to contact us if you have any work related with web and mobile application development.",
+      "hourly_rate": 22,
+      "rating": 5.0,
+      "earning": 5.8,
+      "stats": {
+        "completed": 92,
+        "on_budget": 100,
+        "on_time": 100,
+        "repeat_hire": 28
+      },
+      "verified": {
+        "facebook": 1,
+        "preferred": 1,
+        "payment": 1,
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "profile": 1,
+        "deposity": 1
+      },
+      "skills": [43, 48, 7, 49, 38, 9, 8, 44, 2, 50],
+      "portfolio": [
+        {
+          "_id": 1,
+          "title": "Nebula Plumber Association Management",
+          "about": "Re Design of admin panel and add more future and implement location of plumber and scheduled for assign task.  The Master Plumbers Association of South Australia Inc will promote and develop the on-going protection of community health and safety through the provision of quality plumbing services both state and federal, and representation throughout South Australia. There are basically two modules. One is client module and second one is admin module. Admin is responsible to create company and manage them. In company module user is created according to his/her level. Companies manage its various types of its policy, inventory, plant equipment, invoice, time sheet, job card and HR module.",
+          "tags": [26, 44, 38, 43, 50],
+          "images": [
+            "build/img/user14/project1/project1.jpg",
+            "build/img/user14/project1/project2.jpg",
+            "build/img/user14/project1/project3.jpg",
+            "build/img/user14/project1/project4.jpg",
+            "build/img/user14/project1/project5.jpg",
+            "build/img/user14/project1/project6.jpg"
+          ]
+        },
+        {
+          "_id": 2,
+          "title": "Nebula Hair Dresser",
+          "about": "Site Admin:-\n\nManage Salon:- By using this module Admin manage salon. Admin can insert, update and delete salon.\n\nSetting:- Various types of setting is given to manage website. This setting is available to all salon and if salon want then they can modify the setting as per their requirement.\n\nLogin Log, Error Log:- It will store error generated by system to help us improve.\n\nHelp desk:- Manage queries from salon.\n\nNews:- Using this module admin manage news for salon.\n\nSalon Admin.\nManage Salon:- Customer Record, Question Note, Services,  Job Title.\n\nScheduler:- It will store and display appointment request by customer with customer name and service. (We will use Google calendar as scheduler)\n\nHelp desk:- Manage queries from customer.",
+          "tags": [19, 41, 44, 6, 51],
+          "images": [
+            "build/img/user14/project2/project1.jpg",
+            "build/img/user14/project2/project2.jpg",
+            "build/img/user14/project2/project3.jpg",
+            "build/img/user14/project2/project4.jpg",
+            "build/img/user14/project2/project5.jpg"
+          ]
+        }
+      ]
     }
   ],
   "reviews": [
@@ -1019,6 +1121,22 @@ var initialData = {
         {
           "user": 10,
           "amount": 5
+        },
+        {
+          "user": 11,
+          "amount": 8
+        },
+        {
+          "user": 12,
+          "amount": 5
+        },
+        {
+          "user": 13,
+          "amount": 15
+        },
+        {
+          "user": 14,
+          "amount": 8
         }
       ],
       "status": "completed",
@@ -1156,7 +1274,11 @@ var initialData = {
     {"_id": 44, "tag": "SQL"},
     {"_id": 45, "tag": "MVC"},
     {"_id": 46, "tag": "Windows Desktop"},
-    {"_id": 47, "tag": "WPF"}
+    {"_id": 47, "tag": "WPF"},
+    {"_id": 48, "tag": "Android"},
+    {"_id": 49, "tag": "iPhone"},
+    {"_id": 50, "tag": "VB.NET"},
+    {"_id": 51, "tag": "Bootstrap"}
   ]
 };
 
