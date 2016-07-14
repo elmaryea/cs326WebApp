@@ -1102,6 +1102,69 @@ var initialData = {
             "build/img/user14/project2/project4.jpg",
             "build/img/user14/project2/project5.jpg"
           ]
+        },
+        {
+          "_id": 3,
+          "title": "Risdon Pharmacy",
+          "about": "Risdon pharmacy is community pharmacy based in Risdon on Balmoral Road in Port Pirie, providing pharmacy services to communities livingin Port Pirie, Napperby, Nelshaby, Port Germein, Weeroona Island, Warnertown and Coonamia.\n\nOur pharmacy strives to provide premium service to ensure that our customers are in better health and happier from dealing with us. We offer friendly professional service, your privacy and confidentiality kept at all times.\n\nWe support the professional pharmacy services advocated by both the Pharmacy Guild of Australia and the Pharmaceutical Society of Australia.",
+          "tags": [25, 52, 7, 43],
+          "images": [
+            "build/img/user14/project3/project1.jpg",
+            "build/img/user14/project3/project2.jpg",
+            "build/img/user14/project3/project3.jpg",
+            "build/img/user14/project3/project4.jpg"
+          ]
+        },
+        {
+          "_id": 4,
+          "title": "City Pano Guide - Bahamas (Android Application)",
+          "about": "Navigates users through the City of Nassau, Bahamas. Provides all information needed while in the City of Nassau from location of stores, event and activities.\\n",
+          "tags": [8, 52, 49, 48, 53],
+          "images": [
+            "build/img/user14/project4/project1.jpg",
+            "build/img/user14/project4/project2.jpg",
+            "build/img/user14/project4/project3.jpg"
+          ]
+        },
+        {
+          "_id": 5,
+          "title": "Online Shopping Website (eCommerce)",
+          "about": "We have expertise in Online Shopping Cart. We have developed web application for online selling lighting products. User can choose their items and purchase it. Important of this eCommerce web portal compare to others are its features. Using our web portal company employee can create Quotation for various users on phone and can send quote in email. Also this portal contains online payment using various payment gateways. \\\\n\\\\nAlso the look and feel of this website is very nice. User can easily move from one product to another very easily. We are also providing admin panel through which user can easily understand the profit of particual quotation.\\\\n\\\\nThis is a very good eCommerce application we have developed. \\\\n\\\\nThanks for reviewing our portfolio.",
+          "tags": [25, 15, 9, 43, 54],
+          "images": [
+            "build/img/user14/project5/project1.jpg",
+            "build/img/user14/project5/project2.jpg",
+            "build/img/user14/project5/project3.jpg",
+            "build/img/user14/project5/project4.jpg",
+            "build/img/user14/project5/project5.jpg",
+            "build/img/user14/project5/project6.jpg",
+            "build/img/user14/project5/project7.jpg"
+          ]
+        },
+        {
+          "_id": 6,
+          "title": "Training management",
+          "about": "Training management software we are looking for an enterprise Training automation. \\nThis training management is to ensure that the employee should adhere to organization and job specific Training Needs.\nWhenever an employee joins in an organization he should undergone thru Induction, Organization specific and job specific Trainings.  Induction and Organization specific training one time in the employee tenure. Job specific Trainings will be periodic in nature.\\nAn employee may undergo Refresher training Once/twice in a year depending on the Role.\\n",
+          "tags": [19, 1, 43, 54, 50],
+          "images": [
+            "build/img/user14/project6/project1.jpg",
+            "build/img/user14/project6/project2.jpg",
+            "build/img/user14/project6/project3.jpg",
+            "build/img/user14/project6/project4.jpg",
+            "build/img/user14/project6/project5.jpg",
+            "build/img/user14/project6/project6.jpg"
+          ]
+        },
+        {
+          "_id": 7,
+          "title": "OUTLY ( Android Application )",
+          "about": "Outly the App is your guide app to the party life throughout the night. Discover what is happening around you and where to go in real time, so you don\\\\\\\'t miss out a lot.\\\\nFeatures:\\\\n- A minute-by-minute update on parties within your area\\\\n- Find parties around you and every city you go to\\\\n- Cut though all the info to the stuff you need to know\\\\n- Know more about artist so you don\\\\\\\'t end up in a party you don\\\\\\\'t like\\\\n- Redeem freebies and offers almost at every venue\\\\n- No drinking and driving, Call Uber",
+          "tags": [8, 52, 49, 48, 2],
+          "images": [
+            "build/img/user14/project6/project1.jpg",
+            "build/img/user14/project6/project2.jpg",
+            "build/img/user14/project6/project3.jpg"
+          ]
         }
       ]
     }
@@ -1279,7 +1342,10 @@ var initialData = {
     {"_id": 48, "tag": "Android"},
     {"_id": 49, "tag": "iPhone"},
     {"_id": 50, "tag": "VB.NET"},
-    {"_id": 51, "tag": "Bootstrap"}
+    {"_id": 51, "tag": "Bootstrap"},
+    {"_id": 52, "tag": "Mobile Phone"},
+    {"_id": 53, "tag": "SQLite"},
+    {"_id": 54, "tag": "Microsoft SQL Server"}
   ]
 };
 
