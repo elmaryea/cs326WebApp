@@ -866,6 +866,114 @@ var initialData = {
           "images": [
             "build/img/user10/project8/project1.jpg"
           ]
+        },
+        {
+          "_id": 9,
+          "title": "A Biohazard services website",
+          "about": "Biohazard services for JCS copr (USA).",
+          "tags": [1, 25, 26, 15, 38],
+          "images": [
+            "build/img/user10/project9/project1.jpg"
+          ]
+        },
+        {
+          "_id": 10,
+          "title": "A sports insurance website",
+          "about": "Sports insurance (With automatic pdf quote generation and a CMS) website for a client in australia",
+          "tags": [19, 1, 25, 26, 15],
+          "images": [
+            "build/img/user10/project10/project1.jpg"
+          ]
+        },
+        {
+          "_id": 11,
+          "title": "An airport lost and found website",
+          "about": "A lost and found marketplace fr items lost on apirports. Built for a client in India",
+          "tags": [19, 1, 25, 26, 15],
+          "images": [
+            "build/img/user10/project11/project1.jpg"
+          ]
+        },
+        {
+          "_id": 12,
+          "title": "An MLM/E-commerce website",
+          "about": "A commission based MLM & online shopping website designed for one of our clients mased in India.",
+          "tags": [40, 1, 25, 15, 13],
+          "images": [
+            "build/img/user10/project12/project1.jpg"
+          ]
+        },
+        {
+          "_id": 13,
+          "title": "A body building website",
+          "about": "A body building website for one of our clients based in India",
+          "tags": [1, 25, 26, 15, 13],
+          "images": [
+            "build/img/user10/project13/project1.jpg"
+          ]
+        },
+        {
+          "_id": 14,
+          "title": "A web based very simple yet powerful ledger application",
+          "about": "A web based very simple yet powerful ledger application to handle your clients and expenses and profits",
+          "tags": [26, 1, 25, 15, 13],
+          "images": [
+            "build/img/user10/project14/project1.jpg"
+          ]
+        },
+        {
+          "_id": 15,
+          "title": "Penny auction website",
+          "about": "A penny auction website being designed for one of our clients (Mrs Pranav) based in India",
+          "tags": [1, 25, 26, 15, 13],
+          "images": [
+            "build/img/user10/project15/project1.jpg"
+          ]
+        },
+        {
+          "_id": 16,
+          "title": "A Jewellery website",
+          "about": "A Jewellery website for one of our clients in UK (Blue peacock diamonds)",
+          "tags": [1, 25, 44, 15, 13],
+          "images": [
+            "build/img/user10/project16/project1.jpg"
+          ]
+        },
+        {
+          "_id": 17,
+          "title": "A dating website",
+          "about": "A dating website designed for one of our clients (Mrs Kristine) based in UK",
+          "tags": [1, 25, 26, 15, 13],
+          "images": [
+            "build/img/user10/project17/project1.jpg"
+          ]
+        },
+        {
+          "_id": 18,
+          "title": "Mac Miller (Music download website)",
+          "about": "Mac Millers Music download website for one of our clients in USA - Rockstar Enterprises",
+          "tags": [40, 1, 23, 15, 13],
+          "images": [
+            "build/img/user10/project18/project1.jpg"
+          ]
+        },
+        {
+          "_id": 19,
+          "title": "An outdoor advertising website",
+          "about": "Posterlabs Media Pvt. Ltd. has come up with a solution to organize advertisement by providing a single online platform i.e. www.posterlabs.com which enables you to view all information and book/bid OOH Media, Print media and local cable TV ad spot",
+          "tags": [1, 23, 40, 15, 13],
+          "images": [
+            "build/img/user10/project19/project1.jpg"
+          ]
+        },
+        {
+          "_id": 20,
+          "title": "Eleave Management System (HRMS)",
+          "about": "A web based e-leave managment system which also integrates with an existing application named UBS from sage software corp. designed for one of our clients (Mrs Goh) based in Singapore",
+          "tags": [40, 1, 26, 15, 13],
+          "images": [
+            "build/img/user10/project20/project1.jpg"
+          ]
         }
       ]
     },
