@@ -1167,6 +1167,353 @@ var initialData = {
           ]
         }
       ]
+    },
+    {
+      "_id": 15,
+      "img": "build/img/user15/profile.jpg",
+      "username": "softhunters",
+      "join_date": 1307790916,
+      "city": "jaipur",
+      "country": "India",
+      "title": "Ashish Malik",
+      "headline": "having Masters degree with 6+ Years of exp. and certified by Microsoft for the same.",
+      "statement": "We, are a Team of 25 Professionals with the ability to develop with highest quality with lowerst price. We are serving for all over the world in, php, android, java and designing.  The service offered by Softhunters is not limited just by web design, web promotion and web development.\n\nOur web design company offers other services such as offshore outsourcing,website outsourcing india, database design and maintenance, B2B & B2C ecommerce services, software development, search engine optimization and search engine registration, web hosting, domain name registration and many more with the best quality",
+      "hourly_rate": 15,
+      "rating": 4.7,
+      "earnings": 4.9,
+      "recommendations": 2,
+      "stats": {
+        "completed": 62,
+        "on_budget": 98,
+        "on_time": 100,
+        "repeat_hire": 7
+      },
+      "verified": {
+        "facebook": 1,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 1,
+        "email": 1,
+        "profile": 1,
+        "deposit": 1
+      },
+      "skills": [13, 1, 25, 15, 43, 23, 8, 40, 19, 34],
+      "portfolio": [
+        {
+          "_id": 1,
+          "title": "Job Board with Social Networking",
+          "about": "Its a job portal with social network and with so many other unique features. Its developed in ASP.NET with MVC4 and C# and Front end with Bootstrap.",
+          "tags": [1, 23, 15, 43, 54],
+          "images": [
+            "build/img/user15/project1/project1.jpg"
+          ]
+        },
+        {
+          "_id": 2,
+          "title": "Portfolio for showing your Arts",
+          "about": "A Portfolio website where and artist can create his portfolio and show his paintings, photographs, sculptures etc. Its developed in ASP.NET with C#.",
+          "tags": [23, 43],
+          "images": [
+            "build/img/user15/project2/project1.jpg"
+          ]
+        },
+        {
+          "_id": 3,
+          "title": "Travel website in HTML",
+          "about": "Its a travel website developed and designed in HTML. the URL of the website is :-\nhttp://cocoonholidayspl.com",
+          "tags": [6],
+          "images": [
+            "build/img/user15/project3/project1.jpg"
+          ]
+        },
+        {
+          "_id": 4,
+          "title": "Its a chocolate cafe website with Parallax theme.",
+          "about": "Its a chocolate cafe website with parallax theme. \\n\\nIt is based on Wordpress.\\n\\nThe URL of website is :-www.nibscafe.com",
+          "tags": [22],
+          "images": [
+            "build/img/user15/project4/project1.jpg"
+          ]
+        },
+        {
+          "_id": 5,
+          "title": "A Parallax theme with HTML5.",
+          "about": "Its a Parallax theme with HTML5. \\n\\n",
+          "tags": [22],
+          "images": [
+            "build/img/user15/project5/project1.jpg"
+          ]
+        },
+        {
+          "_id": 6,
+          "title": "A Travel Website based on Wordpress",
+          "about": "A Travel Webste based on Wordpress The URL is :- www.hmoaindia.com",
+          "tags": [22],
+          "images": [
+            "build/img/user15/project6/project1.jpg"
+          ]
+        },
+        {
+          "_id": 7,
+          "title": "Its a Travel Website developed in Wordpress.",
+          "about": "Its a Travel Website developed in Wordpress.\nThe URL :- http://weekendtrips.com.in/\\n\\n",
+          "tags": [22],
+          "images": [
+            "build/img/user15/project7/project1.jpg"
+          ]
+        },
+        {
+          "_id": 8,
+          "title": "Wordpress Portfolio website",
+          "about": "\\nIts a custom requirement for wordpress website .\\n\\n",
+          "tags": [22],
+          "images": [
+            "build/img/user15/project8/project1.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "_id": 16,
+      "img": "build/img/user16/profile.jpg",
+      "username": "tudiptechnology",
+      "join_date": 1294744516,
+      "city": "Campbell",
+      "country": "United States",
+      "title": "Tudip Technologies",
+      "headline": "Integrity Innovation Serenity",
+      "statement": " Tudip Technologies is a value driven Software Services company. We deliver excellence in terms of dedicated and business-centric web solutions incorporated with innovation and expertise as the tools to achieve business goals. Our high quality, cost effective, reliable and scalable services have helped us in building an enduring relationship with our clients and customers.\n\nWe differentiate ourselves from other competitors by being a strategic forward thinking consulting group, defining complete business solutions, processes, technology, metrics and revenue. We pride ourselves in defining practical solutions that deliver value for our clients.\n\nWe transform organizations to win in the flat world. We offer flexible, customized, personalized and cost-effective outsourcing solutions and ensure the utmost confidentiality of sensitive business data and on-time and on-budget delivery. Our engagement models are flexible enough to meet the needs of both small and large business clients.",
+      "hourly_rate": 12,
+      "rating": 4.6,
+      "earnings": 5.9,
+      "recommendations": 3,
+      "stats": {
+        "completed": 67,
+        "on_budget": 100,
+        "on_time": 96,
+        "repeat_hire": 8
+      },
+      "verified": {
+        "facebook": 1,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 0,
+        "profile": 1,
+        "email": 1
+      },
+      "skills": [8, 1, 9, 25, 37, 19, 52, 49, 55, 7],
+      "portfolio": [
+        {
+          "_id": 1,
+          "title": "Hacienda del Mar",
+          "about": "www.haciendabnb.com\n\nHacienda del Mar offers a quiet and private respite with easy access to the pristine beaches of the mainland side of the Sea of Cortez, only minutes away from the restaurants, shopping and nightlife of Puerto Peñasco, Mexico's newest emerging vacation destination. From the many porches are magnificent panoramic views of both the northern Sonoran desert and the sea.",
+          "tags": [19, 56, 6],
+          "images": [
+            "build/img/user16/project1/project1.jpg"
+          ]
+        },
+        {
+          "_id": 2,
+          "title": "MobileTec",
+          "about": "https//itunes.apple.com/us/app/inmotion-mobile/id871074135?ls=1&mt=8\n\nMobileTec International, Inc. is a proven leader in providing Public Safety Solutions for police departments, sheriff’s offices, communications centers, fire departments, and correctional facilities across the U.S. and in Latin America.  MobileTec offers Information Management Systems (Computer Aided Dispatch, GEO, Records Management System and Jail Management System), Data Routing (Switch) and In Field Systems (MOBILE, ReportWriter, and GEO). This completely customizable and dynamic software solution was designed to meet the different customer needs of any size law enforcement, EMS, fire, or corrections agency.",
+          "tags": [49],
+          "images": [
+            "build/img/user16/project2/project1.jpg"
+          ]
+        },
+        {
+          "_id": 3,
+          "title": "Covacsis",
+          "about": "www.covacsis.com\nReal Time Plant Analytics Framework\n\nThe Intelligent Plant Framework™ from Covacsis Technologies is a state-of-the-art platform that provides a \n360° visibility of the manufacturing floor in real time.",
+          "tags": [57],
+          "images": [
+            "build/img/user16/project3/project1.jpg"
+          ]
+        },
+        {
+          "_id": 4,
+          "title": "JIGHI",
+          "about": "http://www.jighi.com/\n\nJIGHI provides expertise at the intersection of business and technology. It supports​ customers to improve competitiveness and create new sources of economic value.",
+          "tags": [17, 19, 58],
+          "images": [
+            "build/img/user16/project4/project1.jpg"
+          ]
+        },
+        {
+          "_id": 5,
+          "title": "myCrm",
+          "about": "http://mycrm.rmlglobal.com/rmlcrm/view/crm/login.jsp\n\nmyCrm is a customer relationship management web app which is basically used to resolved all the customer queries of myRML android application and as well as it is used to generate all kind of analytics reports for user statistics and their acquisition.",
+          "tags": [17, 19, 58],
+          "images": [
+            "build/img/user16/project5/project1.jpg"
+          ]
+        },
+        {
+          "_id": 6,
+          "title": "LiveByTransit",
+          "about": "http://www.livebytransit.com/\n\nLiveByTransit allows you to search for properties (both for-sale and for-rent) throughout Chicagoland within your defined radius of train stations, including both CTA and Metra Trains. We also allow you to search in specific neighborhoods, and within the attendance boundaries of specific CPS neighborhood schools.",
+          "tags": [56],
+          "images": [
+            "build/img/user16/project6/project1.jpg"
+          ]
+        },
+        {
+          "_id": 7,
+          "title": "PostMeistr",
+          "about": "https://itunes.apple.com/us/app/postmeistr/id1027921149?ls=1&mt-8\n\nPostMeistr is a social media productivity app for the iPhone. Through its intuitive set of features, it allows you to stay focused on your meetup or life event AND share what you will with your friends and followers quickly. It takes care of the reach for you, so you can focus on the content.",
+          "tags": [49],
+          "images": [
+            "build/img/user16/project7/project1.jpg"
+          ]
+        },
+        {
+          "_id": 8,
+          "title": "SchoolSparrow",
+          "about": "https://schoolsparrow.com/\n\nChicago School + Home Search.\nSee the entire landscape of performing CPS K-8 school's that have homes for-sale (or rent) right now within your budget. This integrated data includes school performance, school boundaries and current real estate information...all together in one place for the first time.",
+          "tags": [56],
+          "images": [
+            "build/img/user16/project8/project1.jpg"
+          ]
+        },
+        {
+          "_id": 9,
+          "title": "Qwiklabs",
+          "about": "https://www.qwiklabs.com/\n\nReal training, real-time, real environments. Get hands-on practice working with cloud technologies and software. Train on-demand and learn at your own pace.",
+          "tags": [56],
+          "images": [
+            "build/img/user16/project9/project1.jpg"
+          ]
+        },
+        {
+          "_id": 10,
+          "title": "NORTA",
+          "about": "http://www.nortal.com/\n\nThe Regional Transit Authority gets people moving around New Orleans. Our transit services bring hard-working commuters to their jobs, students to their schools, and fun-seekers to entertainment, shopping areas, and restaurants. We provide mobility to residents of the city as well as to large numbers of tourists, taking them to and from their hotels to historical neighborhoods and countless attractions. In fact, many visitors (and locals) ride the RTA’s iconic streetcars simply for the fun of it. In this way, the RTA is a destination in itself. Our streetcars and buses are both a symbol of the city and an essential part of it.",
+          "tags": [1, 59, 50],
+          "images": [
+            "build/img/user16/project10/project1.jpg"
+          ]
+        },
+        {
+          "_id": 11,
+          "title": "OneGreenDiary",
+          "about": "https://play.google.com/store/apps/details?id=com.onegreediary.ogd\nOneGreenDiary is a simple and intuitive Point of Sale or you may call it a Billing system that seamlessly takes business to consumer's smartphone. OneGreenDiary creates a mobile marketplace for you to promote your business, run offers and loyalty programs.   Merchants can now identify their loyal customers, understand their buying, spending patterns and offer them attractive incentives so they keep coming back!",
+          "tags": [52, 48],
+          "images": [
+            "build/img/user16/project11/project1.jpg"
+          ]
+        },
+        {
+          "_id": 12,
+          "title": "Room Assistant",
+          "about": "www.roomassistant.com\nRoomAssistant is an app that will help you enjoy your stay. After downloading it, you'll have access to all your hotel's products and services, straight from your mobile. Anywhere, anytime. No more calls or queues at the front desk.",
+          "tags": [8],
+          "images": [
+            "build/img/user16/project12/project1.jpg"
+          ]
+        },
+        {
+          "_id": 13,
+          "title": "Volleymetrics",
+          "about": "www.vollymetrics.com\nSmarter Data for Volleyball",
+          "tags": [17],
+          "images": [
+            "build/img/user16/project13/project1.jpg"
+          ]
+        },
+        {
+          "_id": 14,
+          "title": "Fluid Robotics",
+          "about": "www.app.fluidrobotics.com",
+          "tags": [56],
+          "images": [
+            "build/img/user16/project14/project1.jpg"
+          ]
+        },
+        {
+          "_id": 15,
+          "title": "Sheqtrack",
+          "about": "www.sheqtrack.com\nA young and fast growing provider of safety solutions for the petrochemical industry. It is our mission to increase safety awareness at our customers facilities.\n\nBy constant research, development and integration of technological innovations we are able to continue to increase safety for our customers and their workforce.",
+          "tags": [1],
+          "images": [
+            "build/img/user16/project15/project1.jpg"
+          ]
+        },
+        {
+          "_id": 16,
+          "title": "Dar",
+          "about": "Fashionable Renewed classics for Home.\n\nwww.darliving.com",
+          "tags": [29],
+          "images": [
+            "build/img/user16/project16/project1.jpg"
+          ]
+        },
+        {
+          "_id": 17,
+          "title": "Zenefic",
+          "about": "Zenefic is one stop solution for your business to schedule appointments for your clients, send Phone Call or Text (SMS) reminders to them and receive their confirmations.\n\nwww.zenefic.com",
+          "tags": [8],
+          "images": [
+            "build/img/user16/project17/project1.jpg"
+          ]
+        },
+        {
+          "_id": 18,
+          "title": "AdviseStream",
+          "about": "AdviseStream delivers a consistent advising solution for Academics, Pre-Health, Fellowhips, Careers.\nwww.advisestream.com",
+          "tags": [8],
+          "images": [
+            "build/img/user16/project18/project1.jpg"
+          ]
+        },
+        {
+          "_id": 19,
+          "title": "Eazier",
+          "about": "All social media in one place\n\nwww.eazier.com",
+          "tags": [1],
+          "images": [
+            "build/img/user16/project19/project1.jpg"
+          ]
+        },
+        {
+          "_id": 20,
+          "title": "ShoBingg",
+          "about": "Mobile Application\n\nwww.shobingg.com",
+          "tags": [],
+          "images": [
+            "build/img/user16/project20/project1.jpg",
+            "build/img/user16/project20/project2.jpg"
+          ]
+        },
+        {
+          "_id": 21,
+          "title": "www.tourismebaiejames.com",
+          "about": "Developed a tourism website which is a non-profit establishment as the regional privileged partner in tourism.\n\nThe website was developed in Joomla.\n\nhttp://wwww.tourismebaiejames.com/",
+          "tags": [29, 2, 38],
+          "images": [
+            "build/img/user16/project21/project1.jpg"
+          ]
+        },
+        {
+          "_id": 22,
+          "title": "www.anecdote.nl",
+          "about": "Developed an online designer clothes website. Anecdote reinvents the classics and modernizes the basics. Essentials are combined with the styles that reflect the current fashion trends.\n\nhttp://www.anecdote.nl/\n\nResponsive Design -\nhttp://www.anecdote.nl/blog/",
+          "tags": [6, 60, 30],
+          "images": [
+            "build/img/user16/project22/project1.jpg"
+          ]
+        },
+        {
+          "_id": 23,
+          "title": "SLG Innovation",
+          "about": "Developed information technology's website for client. This website is developed in Drupal.",
+          "tags": [19, 6, 15, 13],
+          "images": [
+            "build/img/user16/project23/project1.jpg"
+          ]
+        }
+      ]
     }
   ],
   "reviews": [
@@ -1201,6 +1548,14 @@ var initialData = {
         {
           "user": 14,
           "amount": 8
+        },
+        {
+          "user": 15,
+          "amount": 8
+        },
+        {
+          "user": 16,
+          "amount": 11
         }
       ],
       "status": "completed",
@@ -1345,7 +1700,13 @@ var initialData = {
     {"_id": 51, "tag": "Bootstrap"},
     {"_id": 52, "tag": "Mobile Phone"},
     {"_id": 53, "tag": "SQLite"},
-    {"_id": 54, "tag": "Microsoft SQL Server"}
+    {"_id": 54, "tag": "Microsoft SQL Server"},
+    {"_id": 55, "tag": "Software Testing"},
+    {"_id": 56, "tag": "Ruby on Rails"},
+    {"_id": 57, "tag": "Swift"},
+    {"_id": 58, "tag": "JavaFX"},
+    {"_id": 59, "tag": "DotNetNuke"},
+    {"_id": 60, "tag": "Magento"}
   ]
 };
 
