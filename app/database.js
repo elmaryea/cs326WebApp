@@ -791,7 +791,7 @@ var initialData = {
         "phone": 1,
         "identity": 1,
         "profile": 1,
-        "deposity": 1
+        "deposit": 1
       },
       "skills": [1, 15, 9, 37, 19, 25, 13, 23, 26, 38],
       "portfolio": [
@@ -868,10 +868,143 @@ var initialData = {
           ]
         }
       ]
+    },
+    {
+      "_id": 11,
+      "img": "build/user11/profile.jpg",
+      "username": "gkalish",
+      "join_date": 1203692903,
+      "city": "Madurai",
+      "country": "India",
+      "recommendations": 0,
+      "title": "Busybee",
+      "headline": "web developer",
+      "statement": " * NET (VM & C#)\n* Classic ASP\n* PHP\n* LINQ\n* MVC\n* WEB API\n*\n* Web hosting\n* Windows Service\n* Rest Service\n* Entity Framework\n* SQL SERVER\n* MYSQL\n* Access Database",
+      "hourly_rate": 15,
+      "rating": 4.7,
+      "earnings": 6.6,
+      "stats": {
+        "completed": 79,
+        "on_budget": 100,
+        "on_time": 97,
+        "repeat_hire": 33
+      },
+      "verified": {
+        "facebook": 1,
+        "preferred": 0,
+        "payment": 0,
+        "phone": 1,
+        "identity": 1,
+        "email": 1,
+        "profile": 1,
+        "deposit": 1
+      },
+      "skills": [8, 2, 37, 40, 1, 41, 42, 15, 19, 13],
+      "portfolio": []
+    },
+    {
+      "_id": 12,
+      "img": "build/img/user12/profile.jpg",
+      "username": "sherifamgadnabih",
+      "join_date": 1358867303,
+      "city": "Cairo",
+      "country": "Egypt",
+      "recommendations": 12,
+      "title": "Armia Wassef Fayez",
+      "headline": "Be Professional",
+      "statement": "i am a lead software engineer and responsible for creating web and desktop applications using different languages and technologies if u r interested just send me a message thank you and good luck",
+      "hourly_rate": 25,
+      "rating": 4.8,
+      "earnings": 6.1,
+      "stats": {
+        "facebook": 91,
+        "on_budget": 98,
+        "on_time": 98,
+        "repeat_hire": 25
+      },
+      "verified": {
+        "facebook": 0,
+        "preferred": 1,
+        "payment": 1,
+        "phone": 1,
+        "email": 1,
+        "identiy": 1,
+        "profile": 1,
+        "deposit": 1
+      },
+      "skills": [15, 1, 25, 43, 37, 19, 44, 23, 26, 8],
+      "portfolio": [
+        {
+          "_id": 1,
+          "title": "Dubarter System",
+          "about": "Dubarter System is an asp.net 4 web application responsible for exchange items for sett or for buy within clients so money is not all things like the other websites i have used entity-framework as my orm technology. dubarter.com is free right now i think you have to use it",
+          "tags": [37, 19, 1, 44, 15],
+          "images": [
+            "build/img/user12/project1/project1.jpg",
+            "build/img/user12/project1/project2.jpg",
+            "build/img/user12/project1/project3.jpg",
+            "build/img/user12/project1/project4.jpg",
+            "build/img/user12/project1/project5.jpg",
+            "build/img/user12/project1/project6.jpg",
+            "build/img/user12/project1/project7.jpg",
+            "build/img/user12/project1/project8.jpg"
+          ]
+        },
+        {
+          "_id": 2,
+          "title": "Wedding Planner Web Site",
+          "about": "Wedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSite",
+          "tags": [1, 6, 13, 38],
+          "images": [
+            "build/img/user12/project2/project1.jpg",
+            "build/img/user12/project2/project2.jpg",
+            "build/img/user12/project2/project3.jpg",
+            "build/img/user12/project2/project4.jpg",
+            "build/img/user12/project2/project5.jpg"
+          ]
+        },
+        {
+          "_id": 3,
+          "title": "Online Banking System",
+          "about": "Manage your bank account online",
+          "tags": [1, 44, 6, 13, 38],
+          "images": [
+            "build/img/user12/project3/project1.jpg",
+            "build/img/user12/project3/project2.jpg"
+          ]
+        },
+        {
+          "_id": 4,
+          "title": "Converting Psd to Html",
+          "about": "Converting Psd to Html",
+          "tags": [19, 6, 13],
+          "images": [
+            "build/img/user12/project4/project1.jpg"
+          ]
+        },
+        {
+          "_id": 5,
+          "title": "Website CleanPro",
+          "about": "Website CleanPro",
+          "tags": [1, 26, 44, 38, 45],
+          "images": [
+            "build/img/user12/project5/project1.jpg"
+          ]
+        },
+        {
+          "_id": 6,
+          "title": "Restaurant Application",
+          "about": "this application responsible for manage ordering from a restaurant",
+          "tags": [1, 46, 44, 47],
+          "images": [
+            "build/img/user12/project6/project1.jpg"
+          ]
+        }
+      ]
     }
   ],
   "reviews": [
-
+    
   ],
   "projects": [
     {
@@ -1015,7 +1148,15 @@ var initialData = {
     {"_id": 36, "tag": "Script Install"},
     {"_id": 37, "tag": "ASP"},
     {"_id": 38, "tag": "jQuery / Prototype"},
-    {"_id": 39, "tag": "Web Security"}
+    {"_id": 39, "tag": "Web Security"},
+    {"_id": 40, "tag": "ASP"},
+    {"_id": 41, "tag": "Visual Basic"},
+    {"_id": 42, "tag": "Microsoft Access"},
+    {"_id": 43, "tag": "ASP.NET"},
+    {"_id": 44, "tag": "SQL"},
+    {"_id": 45, "tag": "MVC"},
+    {"_id": 46, "tag": "Windows Desktop"},
+    {"_id": 47, "tag": "WPF"}
   ]
 };
 
