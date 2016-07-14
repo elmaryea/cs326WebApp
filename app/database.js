@@ -291,6 +291,8 @@ var initialData = {
       "img": "",
       "username": "infosoftgoway",
       "join_date": 1448339843,
+      "city": "Indore",
+      "country": "India",
       "title": "infosoftgoway",
       "headline": "Software Development (Highest Standard Quality)",
       "statement": " Dear Customer : -\nWe are a team of 20+ Most Creative People and proud to be Preferred DEVELOPER & DESIGNER.\nWe offer wide range of web solutions and IT services that are bespoke in nature, can best fit our clients' business needs and provide them cost benefits. Our mission is to deliver solutions that satisfy our customers and help us create long lasting business relationships. Wordpress, Volusion, Bigcommerce, 3cart, iPhone, Android expert, wei have worked on 5000+ PHP, .Net, Volusion stores as well as Mobile Apps that includes but not limited to design, Integration, data entry, API, SQL Report and Custom programming.",
@@ -365,6 +367,8 @@ var initialData = {
       "img": "",
       "username": "mshane367",
       "join_date": 1466700394,
+      "city": "Indore",
+      "country": "India",
       "title": "mshane376",
       "stats": {
         "completed": "N/A",
@@ -391,6 +395,8 @@ var initialData = {
       "img": "",
       "username": "mkasperonlineno",
       "join_date": 1445618794,
+      "city": "Hvaler",
+      "Country": "Norway",
       "title": "mkasperonlineno",
       "stats": {
         "completed": "N/A",
@@ -417,6 +423,8 @@ var initialData = {
       "img": "",
       "username": "kjetilin",
       "join_date": 1461429994,
+      "city": "Råholt",
+      "country": "Norway",
       "title": "kjetilin",
       "stats": {
         "completed": "N/A",
@@ -443,6 +451,8 @@ var initialData = {
       "img": "",
       "username": "atermissolutions",
       "join_date": 1453567594,
+      "city": "London",
+      "country": "United Kingdom",
       "title": "atermissolutions",
       "stats": {
         "completed": "N/A",
@@ -468,8 +478,10 @@ var initialData = {
       "_id": 6,
       "img": "",
       "username": "soulstones",
+      "city": "Voluntown",
+      "country": "United States",
       "join_date": 1437669994,
-      "title": "soulstones",
+      "title": "SoulStones",
       "stats": {
         "completed": "N/A",
         "on_budget": "N/A",
@@ -493,9 +505,9 @@ var initialData = {
     {
       "_id": 7,
       "img": "",
-      "Username": "talkiemedia",
+      "Username": "Talkiemedia",
       "join_date": 1427129194,
-      "title": "talkiemedia",
+      "title": "AmigoMarketing",
       "stats": {
         "completed": "N/A",
         "on_budget": "N/A",
@@ -521,6 +533,8 @@ var initialData = {
       "img": "",
       "Username": "hotbeehoney",
       "join_date": 1269362794,
+      "city": "Ho Chi Minh City",
+      "country": "Vietnam",
       "title": "hotbeehoney",
       "stats": {
         "completed": "N/A",

@@ -42,7 +42,7 @@ export default class ProfileRow extends React.Component {
           </div>
           <div>
             <i className="flag-icon flag-icon-us"></i>
-            <a href="#">United States</a> 4:35 pm
+            <a href="#">{user.country}</a> 4:35 pm
           </div>
           <div>
             Member since {convertJoinDate(user.join_date)}
