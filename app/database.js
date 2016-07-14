@@ -602,7 +602,7 @@ var initialData = {
     {
       "_id": 7,
       "img": "",
-      "Username": "Talkiemedia",
+      "username": "Talkiemedia",
       "join_date": 1427129194,
       "title": "AmigoMarketing",
       "stats": {
@@ -628,7 +628,7 @@ var initialData = {
     {
       "_id": 8,
       "img": "build/img/user8/profile.jpg",
-      "Username": "hotbeehoney",
+      "username": "hotbeehoney",
       "join_date": 1269362794,
       "city": "Ho Chi Minh City",
       "country": "Vietnam",
@@ -652,6 +652,222 @@ var initialData = {
       "recommendations": 0,
       "projects": [],
       "reviews": []
+    },
+    {
+      "_id": 9,
+      "img": "build/img/user9/profile.jpg",
+      "username": "esolzsales",
+      "join_date": 1071312563,
+      "city": "Kolkata",
+      "country": "India",
+      "title": "ESolz Technologies",
+      "headline": "website - graphics - mobile applications",
+      "statement": " We are a website solutions and design media firm. We have been venturing into projects where we feel we can add innovations to. We are the top ranked provider on Freelancer.\n\nWe have developed projects for our clients where we have maintained high standards and that is the reason we do not take up jobs where we feel we have to compromise on the quality aspect.\n\nWe develop websites. We design logos. And then we breathe life into them. Keeping you safe from the radioactive jargon, we offer simple solutions to all your web needs.\n\nFull-stack Backbone/Angular/Node/Laravel/Cake PHP/Codignitor/ Parallax/jquery editors/WordPress Plugins\n\nIOS Apps/Andriod Apps/C++/Windows apps/Native Apps",
+      "hourly_rate": 15,
+      "rating": 4.7,
+      "earning": 9.2,
+      "stats": {
+        "completed": 84,
+        "on_budget": 100,
+        "on_time": 98,
+        "repeat_hire": 13
+      },
+      "verified": {
+        "facebook": 0,
+        "preferred": 1,
+        "payment": 1,
+        "phone": 1,
+        "identity": 1,
+        "email": 1,
+        "profile": 1,
+        "deposit": 1
+      },
+      "recommendations": 32,
+      "portfolio": [
+        {
+          "_id": 1,
+          "title": "ENF Solar Jobs",
+          "about": "URL:\n\nENF offers user interface in multiple languages to make the search more valuable for right quality candidates or the job openings which is relevant to specific industry experience.The site offers 2,47 jobs and is having 1,436 employers including ATS Automation Tooling Systems Inc,Solaria Corporation,Cool Earth Solar, Draker Laboratories etc.The jobs they offer are distinguished into 2 major parts : Technical( Production Engineer,Maintenance Engineer, Design Engineer,QC Engineer,Installation,R&D,Other Technical and Business( Sales, Marketing PR, Logistics, Purchasing and Other Business).\n\nWebsite is developed using PHP / MySQL with some best website designers we posses in our team",
+          "tags": [8, 25, 26, 2],
+          "images": [
+            "build/img/user9/project1/project1.jpg"
+          ]
+        },
+        {
+          "_id": 2,
+          "title": "Global Wills",
+          "about": "URL: http://global-wills.com/\n\nGlobal-Wills.com is an estate planning organization which plans for the management of your estates in anticipation of your incapability and disposition of your assets upon death.\n\nA good estate plan also contains details regarding funeral and burial arrangements,irrespective of person's age,size of their estates,a good estate plan can consummate each of these taks. The website is developed in custom PHP with MySQL Database",
+          "tags": [8, 25, 26, 2, 7],
+          "images": [
+            "build/img/user9/project2/project1.jpg"
+          ]
+        },
+        {
+          "_id": 3,
+          "title": "Organised Grime",
+          "about": "URL: http://www.organisedgrime.com/\n\nFounded by Jendon and N.E in 2007. It is mostly associated with the South London Grime circuit.\n\nThe members are all solo artists in their own right.They wanted to build a hype by their names and later they joined Boy Better Know on Rise FM.Organisedgrime featured on Logan Sama's Kiss 100 show and for their movement they got a feature on BBC Radio 1xtra with DJ Cameo.\n\nTechnology used : Joomla CMS , Virtuemart Category : Networking",
+          "tags": [8, 27, 28, 29, 2],
+          "images": [
+            "build/img/user9/project3/project1.jpg"
+          ]
+        },
+        {
+          "_id": 4,
+          "title": "Pet Relocation",
+          "about": "URL: http://www.petrelocation.com/\n\nPet Relocation is your one stop solution for any sort of pet relocation problems. This company specializes in transporting pets within countries. Are you a pet lover and recently need to relocate for professional purpose? You are in a fix about what to do with your pets. Don't worry just put your problems under this website. This company provides all the arrangements for your pet relocation step by step.\n\nTheir services start right from contacting a veterinary for an initial check up of your pet and get the approval for its travel by flight. There are pet's travel kit, comfortable kit for your pets to travel safely to the destination. The entire arrangements are made by the company. You simply need to fill up the form the rest of the work are done by this organisation.",
+          "tags": [8, 25, 26, 2],
+          "images": [
+            "build/img/user9/project4/project1.jpg"
+          ]
+        },
+        {
+          "_id": 5,
+          "title": "365hangers",
+          "about": "URL: http://www.365hangers.com/\n\nA Los Angeles based company,established in 2009.It provides discount sample sales on women's designer labels.Provide clothing from few brand names like DVF,MarcJacobs and French Connection etc. 365hangers.com always guarantees 70% off, ALWAYS on every designer label on the website. A proper guide is always given the customers on how the materials looks on them. Custom design and development using xCart as the backend for the website. Paypal and one page checkout were some of the key aspects",
+          "tags": [8, 25, 30, 31, 2],
+          "images": [
+            "build/img/user9/project5/project1.jpg"
+          ]
+        },
+        {
+          "_id": 6,
+          "title": "Corporate Identity Designs",
+          "about": "Corporate Identity Designs",
+          "tags": [32, 33],
+          "images": [
+            "build/img/user9/project6/project1.jpg"
+          ]
+        },
+        {
+          "_id": 7,
+          "title": "Corporate Identity Designs",
+          "about": "Corporate Identity Designs",
+          "tags": [32, 33],
+          "images": [
+            "build/img/user9/project7/project1.jpg"
+          ]
+        },
+        {
+          "_id": 8,
+          "title": "Brochure Design",
+          "about": "Brochure Designs",
+          "tags": [34],
+          "images": [
+            "build/img/user9/project8/project1.jpg",
+            "build/img/user9/project8/project2jpg",
+            "build/img/user9/project8/project3.jpg",
+            "build/img/user9/project8/project4.jpg",
+            "build/img/user9/project8/project5.jpg"
+          ]
+        }
+      ],
+      "reviews": [],
+      "skills": [8, 25, 23, 34, 21, 19, 36, 22, 29]
+    },
+    {
+      "_id": 10,
+      "img": "/build/img/user10/profile.jpg",
+      "username": "mehta2010",
+      "join_date": 1273747763,
+      "city": "Amritsar",
+      "country": "India",
+      "recommendations": 2,
+      "title": "Kshitij Mehta",
+      "headline": "Mcsft App developer(asp.net/c#/sql server expert)",
+      "statement": " I have been an employee for a CMMI level company (Polaris software lab ltd.) for 3.5 years. I have worked over several complex CRM(s) - HEAT (Help desk expert automation tool), SPAARC (service process aimed at customer retention) using c#, SQL server and HEAT APIs.\n\nI have 7+ years of experience of working in  sql server/c#/html5 (Bootstrap framework). I have been working as a freelancer for the past 4 years.\n\nMy key skills include:-\n\n1) ASP .NET\n2) C# (Winform and Webform)\n3) SQL SERVER/MYSQL/ORACLE\n4) HTML5,BOOTSTRAP FRAMEWORK\n5)JAVASCRIPT/CSS/JQUERY\n6) DEVEXPRESS\n7) TELERIK\n\n\nI have worked with individuals, as well as top IT companies to produce products which are running successfully till date. Please check my portfolio to get a glance of my most recent work (all in .net/c#/sql server).\n\nI am always available for my clients and all the products developed by me include a six month post production warranty which means bugs would be fixed without any extra charge.",
+      "hourly_rate": 10,
+      "rating": 4.9,
+      "earnings": 6.3,
+      "stats": {
+        "completed": 83,
+        "on_budget": 100,
+        "on_time": 86,
+        "repeat_hire": 16
+      },
+      "verified": {
+        "facebook": 1,
+        "preferred": 1,
+        "payment": 0,
+        "phone": 1,
+        "identity": 1,
+        "profile": 1,
+        "deposity": 1
+      },
+      "skills": [1, 15, 9, 37, 19, 25, 13, 23, 26, 38],
+      "portfolio": [
+        {
+          "_id": 1,
+          "title": "Auto submission app to a website",
+          "about": "Application to scrape appointments off a webpage i.e. https://ulta.mylocalsalon.com/onlinebooking/v7410/Steps/SelectServices.aspx?siteid=7acfc942-73f3-e111-ab1b-0050563fff01\n\nApplication iterate through each possible combination of a category, service and employee and save the results in a tabular format.\nImplemented using C# / .Net Winforms",
+          "tags": [1, 15],
+          "images": [
+            "build/img/user10/project1/project1.jpg"
+          ]
+        },
+        {
+          "_id": 2,
+          "title": "POS windows application",
+          "about": "A window based POS application.",
+          "tags": [1, 15],
+          "images": [
+            "build/img/user10/project2/project1.jpg"
+          ]
+        },
+        {
+          "_id": 3,
+          "title": "An outlook plugin",
+          "about": "An outlook plugin that integrates with a web based project management application.",
+          "tags": [1, 39, 15],
+          "images": [
+            "build/img/user10/project3/project1.jpgpro"
+          ]
+        },
+        {
+          "_id": 4,
+          "title": "Invoicing Application",
+          "about": "An application which is used to create invoices and send them periodically to clients (through emails), It also involves sending followups and reminders and management of resources and clients as well.",
+          "tags": [1, 15],
+          "images": [
+            "build/img/user10/project4/project1.jpg"
+          ]
+        },
+        {
+          "_id": 5,
+          "title": "Stock Control Application",
+          "about": "Stock control application that is used to save stock,suppliers,display reports and show notifications on low inventory level.",
+          "tags": [1, 15],
+          "images": [
+            "build/img/user10/project5/project1.jpg"
+          ]
+        },
+        {
+          "_id": 6,
+          "title": "A real estate website",
+          "about": "Real estate property listing/selling/renting/buying website with a backoffice and trulia feed integration",
+          "tags": [1, 25, 26, 15, 38],
+          "images": [
+            "build/img/user10/project6/project1.jpg"
+          ]
+        },
+        {
+          "_id": 7,
+          "title": "A project and task management web- app and outlook addin",
+          "about": "A web based and window based project/task management application with an outllok addin.",
+          "tags": [1, 25, 26, 15, 38],
+          "images": [
+            "build/img/user10/project7/project1.jpg"
+          ]
+        },
+        {
+          "_id": 8,
+          "title": "A fiverr like website",
+          "about": "A fiverr like website for one of our clients in china",
+          "tags": [19, 1, 25, 26, 15],
+          "images": [
+            "build/img/user10/project8/project1.jpg"
+          ]
+        }
+      ]
     }
   ],
   "reviews": [
@@ -663,7 +879,14 @@ var initialData = {
       "title": "Build a Website",
       "owner": 3,
       "bids": [
-
+        {
+          "user": 9,
+          "amount": 16
+        },
+        {
+          "user": 10,
+          "amount": 5
+        }
       ],
       "status": "completed",
       "description": "I want a 10 year experience .net developer. Because i have very Big project on .Net technology. More details for apply on this project.:- mshanebi",
@@ -778,7 +1001,21 @@ var initialData = {
     {"_id": 22, "tag": "Wordpress"},
     {"_id": 23, "tag": "Graphic Design"},
     {"_id": 24, "tag": "Codeignitor"},
-    {"_id": 25, "tag": "Website Design"}
+    {"_id": 25, "tag": "Website Design"},
+    {"_id": 26, "tag": "AJAX"},
+    {"_id": 27, "tag": "Joomla"},
+    {"_id": 28, "tag": "Social Networking"},
+    {"_id": 29, "tag": "CMS"},
+    {"_id": 30, "tag": "eCommerce"},
+    {"_id": 31, "tag": "PayPalAPI"},
+    {"_id": 32, "tag": "Corporate Identity"},
+    {"_id": 33, "tag": "Business Cards"},
+    {"_id": 34, "tag": "Logo Design"},
+    {"_id": 35, "tag": "Adobe Flash"},
+    {"_id": 36, "tag": "Script Install"},
+    {"_id": 37, "tag": "ASP"},
+    {"_id": 38, "tag": "jQuery / Prototype"},
+    {"_id": 39, "tag": "Web Security"}
   ]
 };
 
