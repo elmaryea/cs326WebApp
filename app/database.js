@@ -1622,6 +1622,37 @@ var initialData = {
           ]
         }
       ]
+    },
+    {
+      "_id": 17,
+      "img": "build/img/user17/profile",
+      "username": "murtaza1981",
+      "join_date": 1349954116,
+      "city": "new delhi",
+      "country": "India",
+      "recommendations": 7,
+      "title": "murtazanaqvi",
+      "headline": "Expertise in ASP.Net Software Development ,WebSite developemnt ,eCommerce &mobile application develo",
+      "statement": " \\\"CodeChefs\\\" is India based offshore development IT Services Company that provides strategic business solutions and customized software.\nWe are a team of dedicated and highly skilled software professionals focused on providing world class IT solutions. We offer a variety of services in the area of Software, Mobile and Web development/Designing.\n\nWe have expertise in the following technologies:-\n\n\n    1)Mobile Application Development\n\n    Ø  iPhone native application development\n\n    Ø  iPhone web application development\n\n    Ø  iPod native application    development\n\n    Ø  iPod web application development\n\n    Ø  Blackberry application development\n\n    Ø  Android application development\n\n    Ø  Windows mobile application development\n\n  2)  Web Site Design and Maintenance\n  3)  Web Application Development\n  4)Portal Development\n Software Development\n  6)e Commerce Solutions",
+      "hourly_rate": 15,
+      "rating": 5.0,
+      "earnings": 4.7,
+      "stats": {
+        "completed": 55,
+        "on_budget": 100,
+        "on_time": 100,
+        "repeat_hire": 7
+      },
+      "verified": {
+        "facebook": 0,
+        "preferred": 0,
+        "payment": 1,
+        "phone": 1,
+        "identity": 0,
+        "profile": 1,
+        "deposit": 1
+      },
+      "skills": [15, 37, 1, 41, 9, 8, 19, 44, 6, 20]
     }
   ],
   "reviews": [
@@ -1664,6 +1695,10 @@ var initialData = {
         {
           "user": 16,
           "amount": 11
+        },
+        {
+          "user": 17,
+          "amount": 15
         }
       ],
       "status": "completed",
