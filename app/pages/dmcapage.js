@@ -1,8 +1,7 @@
 import React from 'react';
 
-import AboutNavbar from '../../components/aboutnavbar';
-import DefaultFooter from '../../components/defaultfooter';
-import DefaultNavbar from '../../components/defaultnavbar';
+import DefaultFooter from '../components/defaultfooter';
+import DefaultNavbar from '../components/defaultnavbar';
 
 export default class DMCAPage extends React.Component {
   constructor(props) {
@@ -13,7 +12,6 @@ export default class DMCAPage extends React.Component {
     return (
       <div className="dmca">
         <DefaultNavbar />
-        <AboutNavbar />
         <div className="body">
           <h1>
             COPYRIGHT INFRINGEMENT POLICY

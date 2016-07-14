@@ -290,16 +290,17 @@ var initialData = {
       "_id": 1,
       "img": "",
       "username": "infosoftgoway",
-      "join_date": 1448297194,
+      "join_date": 1448339843,
+      "title": "infosoftgoway",
       "headline": "Software Development (Highest Standard Quality)",
-      "statement": " Dear Customer : - We are a team of 20+ Most Creative People and proud to be Preferred DEVELOPER & DESIGNER. We offer wide range of web solutions and IT services that are bespoke in nature, can best fit our clients' business needs and provide them cost benefits. Our mission is to deliver solutions that satisfy our customers and help us create long lasting business relationships. Wordpress, Volusion, Bigcommerce, 3cart, iPhone, Android expert, wei have worked on 5000+ PHP, .Net, Volusion stores as well as Mobile Apps that includes but not limited to design, Integration, data entry, API, SQL Report and Custom programming.",
+      "statement": " Dear Customer : -\nWe are a team of 20+ Most Creative People and proud to be Preferred DEVELOPER & DESIGNER.\nWe offer wide range of web solutions and IT services that are bespoke in nature, can best fit our clients' business needs and provide them cost benefits. Our mission is to deliver solutions that satisfy our customers and help us create long lasting business relationships. Wordpress, Volusion, Bigcommerce, 3cart, iPhone, Android expert, wei have worked on 5000+ PHP, .Net, Volusion stores as well as Mobile Apps that includes but not limited to design, Integration, data entry, API, SQL Report and Custom programming.",
       "hourly_rate": 7,
       "rating": 5.0,
       "earnings": 3.0,
       "stats": {
         "completed": 92,
         "on_budget": 98,
-        "on_time": 198,
+        "on_time": 98,
         "repeat_hire": 8
       },
       "verified": {
@@ -309,7 +310,8 @@ var initialData = {
         "phone": 1,
         "identity": 0,
         "email": 1,
-        "profile": 1
+        "profile": 1,
+        "deposit": 1
       },
       "recommendations": 0,
       "projects": [],
@@ -363,6 +365,7 @@ var initialData = {
       "img": "",
       "username": "mshane367",
       "join_date": 1466700394,
+      "title": "mshane376",
       "stats": {
         "completed": "N/A",
         "on_budget": "N/A",
@@ -376,7 +379,8 @@ var initialData = {
         "phone": 0,
         "identity": 0,
         "email": 1,
-        "profile": 0
+        "profile": 0,
+        "deposit": 1
       },
       "recommendations": 0,
       "projects": [],
@@ -387,6 +391,7 @@ var initialData = {
       "img": "",
       "username": "mkasperonlineno",
       "join_date": 1445618794,
+      "title": "mkasperonlineno",
       "stats": {
         "completed": "N/A",
         "on_budget": "N/A",
@@ -400,7 +405,8 @@ var initialData = {
         "phone": 1,
         "identity": 0,
         "email": 1,
-        "profile": 0
+        "profile": 0,
+        "deposit": 1
       },
       "recommendations": 0,
       "projects": [],
@@ -411,6 +417,7 @@ var initialData = {
       "img": "",
       "username": "kjetilin",
       "join_date": 1461429994,
+      "title": "kjetilin",
       "stats": {
         "completed": "N/A",
         "on_budget": "N/A",
@@ -424,7 +431,8 @@ var initialData = {
         "phone": 1,
         "identity": 0,
         "email": 1,
-        "profile": 0
+        "profile": 0,
+        "deposit": 1
       },
       "recommendations": 0,
       "projects": [],
@@ -435,6 +443,7 @@ var initialData = {
       "img": "",
       "username": "atermissolutions",
       "join_date": 1453567594,
+      "title": "atermissolutions",
       "stats": {
         "completed": "N/A",
         "on_budget": "N/A",
@@ -448,7 +457,8 @@ var initialData = {
         "phone": 1,
         "identity": 0,
         "email": 1,
-        "profile": 0
+        "profile": 0,
+        "deposit": 1
       },
       "recommendations": 0,
       "projects": [],
@@ -459,6 +469,7 @@ var initialData = {
       "img": "",
       "username": "soulstones",
       "join_date": 1437669994,
+      "title": "soulstones",
       "stats": {
         "completed": "N/A",
         "on_budget": "N/A",
@@ -472,7 +483,8 @@ var initialData = {
         "phone": 1,
         "identity": 0,
         "email": 1,
-        "profile": 1
+        "profile": 1,
+        "deposit": 1
       },
       "recommendations": 0,
       "projects": [],
@@ -483,6 +495,7 @@ var initialData = {
       "img": "",
       "Username": "talkiemedia",
       "join_date": 1427129194,
+      "title": "talkiemedia",
       "stats": {
         "completed": "N/A",
         "on_budget": "N/A",
@@ -496,7 +509,8 @@ var initialData = {
         "phone": 1,
         "identity": 0,
         "email": 1,
-        "profile": 0
+        "profile": 0,
+        "deposit": 1
       },
       "recommendations": 0,
       "projects": [],
@@ -507,6 +521,7 @@ var initialData = {
       "img": "",
       "Username": "hotbeehoney",
       "join_date": 1269362794,
+      "title": "hotbeehoney",
       "stats": {
         "completed": "N/A",
         "on_budget": "N/A",
@@ -520,7 +535,8 @@ var initialData = {
         "phone": 1,
         "identity": 1,
         "email": 1,
-        "profile": 1
+        "profile": 1,
+        "deposit": 1
       },
       "recommendations": 0,
       "projects": [],

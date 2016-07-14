@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {Router, Route, hashHistory, Link} from 'react-router';
+import {Link} from 'react-router';
 
 import AboutPage from '../pages/aboutpage';
-import DMCAPage from '../pages/about/dmcapage';
+import DMCAPage from '../pages/dmcapage';
 import ManagementPage from '../pages/about/managementpage';
 import PrivacyPage from '../pages/about/privacypage';
 import ProfilePage from '../pages/profilepage';

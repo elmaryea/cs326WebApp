@@ -14,3 +14,6 @@ ul {
   max-width: 1176px;
   min-width: 960px;
 }
+.fa-flip-horizontal {
+  margin-left: -1.5px;
+}

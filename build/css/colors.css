@@ -7,8 +7,14 @@ a:hover {
 .star-gray {
   color: rgb(222, 222, 222);
 }
+.star-half {
+  color: linear-gradient(90deg, rgb(247, 125, 14) 50%, rgb(222, 222, 222) 50%);
+}
 .star-orange {
   color: rgb(247, 125, 14);
+}
+.stat-warn {
+  color: red;
 }
 .unverified-gray {
   color: rgb(120,117,125);

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {IndexRoute, Router, Route, hashHistory} from 'react-router';
 
 import AboutPage from './pages/aboutpage';
-import DMCAPage from './pages/about/dmcapage';
+import DMCAPage from './pages/dmcapage';
 import ManagementPage from './pages/about/managementpage';
 import PrivacyPage from './pages/about/privacypage';
 import ProfilePage from './pages/profilepage';
