@@ -947,7 +947,8 @@ var initialData = {
             "build/img/user12/project1/project5.jpg",
             "build/img/user12/project1/project6.jpg",
             "build/img/user12/project1/project7.jpg",
-            "build/img/user12/project1/project8.jpg"
+            "build/img/user12/project1/project8.jpg",
+            "build/img/user12/project1/project9.jpg"
           ]
         },
         {
@@ -1106,7 +1107,7 @@ var initialData = {
     }
   ],
   "reviews": [
-    
+
   ],
   "projects": [
     {
