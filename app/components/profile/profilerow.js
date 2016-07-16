@@ -11,13 +11,18 @@ export default class ProfileRow extends React.Component {
 
   render() {
     if(!this.props.user) {
-      return <div></div>
+      return <div>User is undefined or null</div>
     }
     var user = this.props.user;
     return (
       <div className="row center-block profile-row">
         <div className="col-md-3 col-xs-3 text-center profile-summary">
-          <img className="center-block img-responsive img-thumbnail profile-pic" src="img/unknownProfile.png" />
+          {user.img === undefined ? (
+            <img className="center-block img-responsive img-thumbnail profile-pic" src="img/unknownProfile.png" />
+          ) : (
+            <img className="center-block img-responsive img-thumbnail profile-pic" src={user.img} />
+          )}
+
           <div className="profile-username">
             @{user.username}
           </div>

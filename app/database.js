@@ -287,7 +287,7 @@ var initialData = {
   "users": [
     {
       "_id": 1,
-      "img": "build/img/user1/profile.jpg",
+      "img": "img/user1/profile.jpg",
       "username": "infosoftgoway",
       "join_date": 1448339843,
       "city": "Indore",
@@ -382,9 +382,9 @@ var initialData = {
           "about": "BTC Markets is a Bitcoin exchange company based in Melbourne, Australia. We are excited about the potential of Bitcoin and it's future role in the financial industry At BTC Markets, we believe Bitcoin is a major innovation and paradigm shift in financial industry and we are excited to deliver innovative solutions and technologies that aim to meet the challenges of such a rapid transformation.",
           "tags": [8, 23, 22, 7],
           "images": [
-            "build/img/user1/portfolio/project1/project1.jpg",
-            "build/img/user1/portfolio/project1/project2.jpg",
-            "build/img/user1/portfolio/project1/project3.jpg"
+            "img/user1/portfolio/project1/project1.jpg",
+            "img/user1/portfolio/project1/project2.jpg",
+            "img/user1/portfolio/project1/project3.jpg"
           ]
         },
         {
@@ -393,9 +393,9 @@ var initialData = {
           "about": "Paymentron is a name we thought was cool enough to describe our boutique fintech and consultancy firm. Our aim is to offer not just technology but also practical advise to merchants, psp's, and banks that want to acquire a piece of the global e-commerce market. We have spent 10 years in the payments industry, and welcome a challenge. Talk to us today to see how we can help you with your payment processing needs.",
           "tags": [8, 23, 22, 6, 7],
           "images": [
-            "build/img/user1/portfolio/project2/project1.jpg",
-            "build/img/user1/portfolio/project2/project2.jpg",
-            "build/img/user1/portfolio/project2/project3.jpg"
+            "img/user1/portfolio/project2/project1.jpg",
+            "img/user1/portfolio/project2/project2.jpg",
+            "img/user1/portfolio/project2/project3.jpg"
           ]
         },
         {
@@ -404,9 +404,9 @@ var initialData = {
           "about": "Xwatches is online shopping website. there are only watches for purches online.",
           "tags": [8, 22, 6, 24, 7],
           "images": [
-            "build/img/user1/portfolio/project3/project1.jpg",
-            "build/img/user1/portfolio/project3/project2.jpg",
-            "build/img/user1/portfolio/project3/project3.jpg"
+            "img/user1/portfolio/project3/project1.jpg",
+            "img/user1/portfolio/project3/project2.jpg",
+            "img/user1/portfolio/project3/project3.jpg"
           ]
         },
         {
@@ -415,9 +415,9 @@ var initialData = {
           "about": "This website provide Free and Paid Video for Watch.",
           "tags": [8, 22, 6, 24, 7],
           "images": [
-            "build/img/user1/portfolio/project4/project1.jpg",
-            "build/img/user1/portfolio/project4/project2.jpg",
-            "build/img/user1/portfolio/project4/project3.jpg"
+            "img/user1/portfolio/project4/project1.jpg",
+            "img/user1/portfolio/project4/project2.jpg",
+            "img/user1/portfolio/project4/project3.jpg"
           ]
         },
         {
@@ -426,7 +426,7 @@ var initialData = {
           "about": "classified for website cars.",
           "tags": [8],
           "images": [
-            "build/img/user1/portfolio/project5/project1.jpg"
+            "img/user1/portfolio/project5/project1.jpg"
           ]
         },
         {
@@ -435,7 +435,7 @@ var initialData = {
           "about": "African pride fm is a radio website u an listen the music from here Africans Pride FM, �Your #1 Hit music station� is a Dublin based music station with a global reach. Our aim is to provide a special interest radio service which stimulates, informs and entertains listeners of African descents. Our strong blend of talk and music based programming reflects a broad base of African�s concerns, interests and opinions.",
           "tags": [8, 22, 6, 7],
           "images": [
-            "build/img/user1/portfolio/project6/project1.jpg"
+            "img/user1/portfolio/project6/project1.jpg"
           ]
         },
         {
@@ -444,7 +444,7 @@ var initialData = {
           "about": "GeoFeeling geolocates feelings of bloggers on the map, making use of Website: MChart's Maps and WeFeelFine which has been harvesting human emotions from a large number of weblogs: LiveJournal, MSN Spaces, MySpace, Blogger, Technorati, Feedster and Google.",
           "tags": [8, 22, 7],
           "images": [
-            "build/img/user1/portfolio/project7/project1.jpg"
+            "img/user1/portfolio/project7/project1.jpg"
           ]
         },
         {
@@ -453,7 +453,7 @@ var initialData = {
           "about": "safe shoppe is a online shopping website for toys Safe Shoppe prides itself on providing top quality remote control hobby toys. We have a fantastic selection of the latest remote drones, control cars, planes, helicopters, and more.",
           "tags": [8, 22, 7],
           "images": [
-            "build/img/user1/portfolio/project8/project1.jpg"
+            "img/user1/portfolio/project8/project1.jpg"
           ]
         }
       ]
@@ -488,7 +488,7 @@ var initialData = {
     },
     {
       "_id": 3,
-      "img": "build/img/user3/profile.jpg",
+      "img": "img/user3/profile.jpg",
       "username": "mkasperonlineno",
       "join_date": 1445618794,
       "city": "Hvaler",
@@ -572,7 +572,7 @@ var initialData = {
     },
     {
       "_id": 6,
-      "img": "build/img/user6/profile.jpg",
+      "img": "img/user6/profile.jpg",
       "username": "soulstones",
       "city": "Voluntown",
       "country": "United States",
@@ -626,7 +626,7 @@ var initialData = {
     },
     {
       "_id": 8,
-      "img": "build/img/user8/profile.jpg",
+      "img": "img/user8/profile.jpg",
       "username": "hotbeehoney",
       "join_date": 1269362794,
       "city": "Ho Chi Minh City",
@@ -654,7 +654,7 @@ var initialData = {
     },
     {
       "_id": 9,
-      "img": "build/img/user9/profile.jpg",
+      "img": "img/user9/profile.jpg",
       "username": "esolzsales",
       "join_date": 1071312563,
       "city": "Kolkata",
@@ -689,7 +689,7 @@ var initialData = {
           "about": "URL:\n\nENF offers user interface in multiple languages to make the search more valuable for right quality candidates or the job openings which is relevant to specific industry experience.The site offers 2,47 jobs and is having 1,436 employers including ATS Automation Tooling Systems Inc,Solaria Corporation,Cool Earth Solar, Draker Laboratories etc.The jobs they offer are distinguished into 2 major parts : Technical( Production Engineer,Maintenance Engineer, Design Engineer,QC Engineer,Installation,R&D,Other Technical and Business( Sales, Marketing PR, Logistics, Purchasing and Other Business).\n\nWebsite is developed using PHP / MySQL with some best website designers we posses in our team",
           "tags": [8, 25, 26, 2],
           "images": [
-            "build/img/user9/project1/project1.jpg"
+            "img/user9/project1/project1.jpg"
           ]
         },
         {
@@ -698,7 +698,7 @@ var initialData = {
           "about": "URL: http://global-wills.com/\n\nGlobal-Wills.com is an estate planning organization which plans for the management of your estates in anticipation of your incapability and disposition of your assets upon death.\n\nA good estate plan also contains details regarding funeral and burial arrangements,irrespective of person's age,size of their estates,a good estate plan can consummate each of these taks. The website is developed in custom PHP with MySQL Database",
           "tags": [8, 25, 26, 2, 7],
           "images": [
-            "build/img/user9/project2/project1.jpg"
+            "img/user9/project2/project1.jpg"
           ]
         },
         {
@@ -707,7 +707,7 @@ var initialData = {
           "about": "URL: http://www.organisedgrime.com/\n\nFounded by Jendon and N.E in 2007. It is mostly associated with the South London Grime circuit.\n\nThe members are all solo artists in their own right.They wanted to build a hype by their names and later they joined Boy Better Know on Rise FM.Organisedgrime featured on Logan Sama's Kiss 100 show and for their movement they got a feature on BBC Radio 1xtra with DJ Cameo.\n\nTechnology used : Joomla CMS , Virtuemart Category : Networking",
           "tags": [8, 27, 28, 29, 2],
           "images": [
-            "build/img/user9/project3/project1.jpg"
+            "img/user9/project3/project1.jpg"
           ]
         },
         {
@@ -716,7 +716,7 @@ var initialData = {
           "about": "URL: http://www.petrelocation.com/\n\nPet Relocation is your one stop solution for any sort of pet relocation problems. This company specializes in transporting pets within countries. Are you a pet lover and recently need to relocate for professional purpose? You are in a fix about what to do with your pets. Don't worry just put your problems under this website. This company provides all the arrangements for your pet relocation step by step.\n\nTheir services start right from contacting a veterinary for an initial check up of your pet and get the approval for its travel by flight. There are pet's travel kit, comfortable kit for your pets to travel safely to the destination. The entire arrangements are made by the company. You simply need to fill up the form the rest of the work are done by this organisation.",
           "tags": [8, 25, 26, 2],
           "images": [
-            "build/img/user9/project4/project1.jpg"
+            "img/user9/project4/project1.jpg"
           ]
         },
         {
@@ -725,7 +725,7 @@ var initialData = {
           "about": "URL: http://www.365hangers.com/\n\nA Los Angeles based company,established in 2009.It provides discount sample sales on women's designer labels.Provide clothing from few brand names like DVF,MarcJacobs and French Connection etc. 365hangers.com always guarantees 70% off, ALWAYS on every designer label on the website. A proper guide is always given the customers on how the materials looks on them. Custom design and development using xCart as the backend for the website. Paypal and one page checkout were some of the key aspects",
           "tags": [8, 25, 30, 31, 2],
           "images": [
-            "build/img/user9/project5/project1.jpg"
+            "img/user9/project5/project1.jpg"
           ]
         },
         {
@@ -734,7 +734,7 @@ var initialData = {
           "about": "Corporate Identity Designs",
           "tags": [32, 33],
           "images": [
-            "build/img/user9/project6/project1.jpg"
+            "img/user9/project6/project1.jpg"
           ]
         },
         {
@@ -743,7 +743,7 @@ var initialData = {
           "about": "Corporate Identity Designs",
           "tags": [32, 33],
           "images": [
-            "build/img/user9/project7/project1.jpg"
+            "img/user9/project7/project1.jpg"
           ]
         },
         {
@@ -752,11 +752,11 @@ var initialData = {
           "about": "Brochure Designs",
           "tags": [34],
           "images": [
-            "build/img/user9/project8/project1.jpg",
-            "build/img/user9/project8/project2jpg",
-            "build/img/user9/project8/project3.jpg",
-            "build/img/user9/project8/project4.jpg",
-            "build/img/user9/project8/project5.jpg"
+            "img/user9/project8/project1.jpg",
+            "img/user9/project8/project2jpg",
+            "img/user9/project8/project3.jpg",
+            "img/user9/project8/project4.jpg",
+            "img/user9/project8/project5.jpg"
           ]
         }
       ],
@@ -765,7 +765,7 @@ var initialData = {
     },
     {
       "_id": 10,
-      "img": "/build/img/user10/profile.jpg",
+      "img": "/img/user10/profile.jpg",
       "username": "mehta2010",
       "join_date": 1273747763,
       "city": "Amritsar",
@@ -800,7 +800,7 @@ var initialData = {
           "about": "Application to scrape appointments off a webpage i.e. https://ulta.mylocalsalon.com/onlinebooking/v7410/Steps/SelectServices.aspx?siteid=7acfc942-73f3-e111-ab1b-0050563fff01\n\nApplication iterate through each possible combination of a category, service and employee and save the results in a tabular format.\nImplemented using C# / .Net Winforms",
           "tags": [1, 15],
           "images": [
-            "build/img/user10/project1/project1.jpg"
+            "img/user10/project1/project1.jpg"
           ]
         },
         {
@@ -809,7 +809,7 @@ var initialData = {
           "about": "A window based POS application.",
           "tags": [1, 15],
           "images": [
-            "build/img/user10/project2/project1.jpg"
+            "img/user10/project2/project1.jpg"
           ]
         },
         {
@@ -818,7 +818,7 @@ var initialData = {
           "about": "An outlook plugin that integrates with a web based project management application.",
           "tags": [1, 39, 15],
           "images": [
-            "build/img/user10/project3/project1.jpgpro"
+            "img/user10/project3/project1.jpgpro"
           ]
         },
         {
@@ -827,7 +827,7 @@ var initialData = {
           "about": "An application which is used to create invoices and send them periodically to clients (through emails), It also involves sending followups and reminders and management of resources and clients as well.",
           "tags": [1, 15],
           "images": [
-            "build/img/user10/project4/project1.jpg"
+            "img/user10/project4/project1.jpg"
           ]
         },
         {
@@ -836,7 +836,7 @@ var initialData = {
           "about": "Stock control application that is used to save stock,suppliers,display reports and show notifications on low inventory level.",
           "tags": [1, 15],
           "images": [
-            "build/img/user10/project5/project1.jpg"
+            "img/user10/project5/project1.jpg"
           ]
         },
         {
@@ -845,7 +845,7 @@ var initialData = {
           "about": "Real estate property listing/selling/renting/buying website with a backoffice and trulia feed integration",
           "tags": [1, 25, 26, 15, 38],
           "images": [
-            "build/img/user10/project6/project1.jpg"
+            "img/user10/project6/project1.jpg"
           ]
         },
         {
@@ -854,7 +854,7 @@ var initialData = {
           "about": "A web based and window based project/task management application with an outllok addin.",
           "tags": [1, 25, 26, 15, 38],
           "images": [
-            "build/img/user10/project7/project1.jpg"
+            "img/user10/project7/project1.jpg"
           ]
         },
         {
@@ -863,7 +863,7 @@ var initialData = {
           "about": "A fiverr like website for one of our clients in china",
           "tags": [19, 1, 25, 26, 15],
           "images": [
-            "build/img/user10/project8/project1.jpg"
+            "img/user10/project8/project1.jpg"
           ]
         },
         {
@@ -872,7 +872,7 @@ var initialData = {
           "about": "Biohazard services for JCS copr (USA).",
           "tags": [1, 25, 26, 15, 38],
           "images": [
-            "build/img/user10/project9/project1.jpg"
+            "img/user10/project9/project1.jpg"
           ]
         },
         {
@@ -881,7 +881,7 @@ var initialData = {
           "about": "Sports insurance (With automatic pdf quote generation and a CMS) website for a client in australia",
           "tags": [19, 1, 25, 26, 15],
           "images": [
-            "build/img/user10/project10/project1.jpg"
+            "img/user10/project10/project1.jpg"
           ]
         },
         {
@@ -890,7 +890,7 @@ var initialData = {
           "about": "A lost and found marketplace fr items lost on apirports. Built for a client in India",
           "tags": [19, 1, 25, 26, 15],
           "images": [
-            "build/img/user10/project11/project1.jpg"
+            "img/user10/project11/project1.jpg"
           ]
         },
         {
@@ -899,7 +899,7 @@ var initialData = {
           "about": "A commission based MLM & online shopping website designed for one of our clients mased in India.",
           "tags": [40, 1, 25, 15, 13],
           "images": [
-            "build/img/user10/project12/project1.jpg"
+            "img/user10/project12/project1.jpg"
           ]
         },
         {
@@ -908,7 +908,7 @@ var initialData = {
           "about": "A body building website for one of our clients based in India",
           "tags": [1, 25, 26, 15, 13],
           "images": [
-            "build/img/user10/project13/project1.jpg"
+            "img/user10/project13/project1.jpg"
           ]
         },
         {
@@ -917,7 +917,7 @@ var initialData = {
           "about": "A web based very simple yet powerful ledger application to handle your clients and expenses and profits",
           "tags": [26, 1, 25, 15, 13],
           "images": [
-            "build/img/user10/project14/project1.jpg"
+            "img/user10/project14/project1.jpg"
           ]
         },
         {
@@ -926,7 +926,7 @@ var initialData = {
           "about": "A penny auction website being designed for one of our clients (Mrs Pranav) based in India",
           "tags": [1, 25, 26, 15, 13],
           "images": [
-            "build/img/user10/project15/project1.jpg"
+            "img/user10/project15/project1.jpg"
           ]
         },
         {
@@ -935,7 +935,7 @@ var initialData = {
           "about": "A Jewellery website for one of our clients in UK (Blue peacock diamonds)",
           "tags": [1, 25, 44, 15, 13],
           "images": [
-            "build/img/user10/project16/project1.jpg"
+            "img/user10/project16/project1.jpg"
           ]
         },
         {
@@ -944,7 +944,7 @@ var initialData = {
           "about": "A dating website designed for one of our clients (Mrs Kristine) based in UK",
           "tags": [1, 25, 26, 15, 13],
           "images": [
-            "build/img/user10/project17/project1.jpg"
+            "img/user10/project17/project1.jpg"
           ]
         },
         {
@@ -953,7 +953,7 @@ var initialData = {
           "about": "Mac Millers Music download website for one of our clients in USA - Rockstar Enterprises",
           "tags": [40, 1, 23, 15, 13],
           "images": [
-            "build/img/user10/project18/project1.jpg"
+            "img/user10/project18/project1.jpg"
           ]
         },
         {
@@ -962,7 +962,7 @@ var initialData = {
           "about": "Posterlabs Media Pvt. Ltd. has come up with a solution to organize advertisement by providing a single online platform i.e. www.posterlabs.com which enables you to view all information and book/bid OOH Media, Print media and local cable TV ad spot",
           "tags": [1, 23, 40, 15, 13],
           "images": [
-            "build/img/user10/project19/project1.jpg"
+            "img/user10/project19/project1.jpg"
           ]
         },
         {
@@ -971,7 +971,7 @@ var initialData = {
           "about": "A web based e-leave managment system which also integrates with an existing application named UBS from sage software corp. designed for one of our clients (Mrs Goh) based in Singapore",
           "tags": [40, 1, 26, 15, 13],
           "images": [
-            "build/img/user10/project20/project1.jpg"
+            "img/user10/project20/project1.jpg"
           ]
         }
       ]
@@ -1011,7 +1011,7 @@ var initialData = {
     },
     {
       "_id": 12,
-      "img": "build/img/user12/profile.jpg",
+      "img": "img/user12/profile.jpg",
       "username": "sherifamgadnabih",
       "join_date": 1358867303,
       "city": "Cairo",
@@ -1047,15 +1047,15 @@ var initialData = {
           "about": "Dubarter System is an asp.net 4 web application responsible for exchange items for sett or for buy within clients so money is not all things like the other websites i have used entity-framework as my orm technology. dubarter.com is free right now i think you have to use it",
           "tags": [37, 19, 1, 44, 15],
           "images": [
-            "build/img/user12/project1/project1.jpg",
-            "build/img/user12/project1/project2.jpg",
-            "build/img/user12/project1/project3.jpg",
-            "build/img/user12/project1/project4.jpg",
-            "build/img/user12/project1/project5.jpg",
-            "build/img/user12/project1/project6.jpg",
-            "build/img/user12/project1/project7.jpg",
-            "build/img/user12/project1/project8.jpg",
-            "build/img/user12/project1/project9.jpg"
+            "img/user12/project1/project1.jpg",
+            "img/user12/project1/project2.jpg",
+            "img/user12/project1/project3.jpg",
+            "img/user12/project1/project4.jpg",
+            "img/user12/project1/project5.jpg",
+            "img/user12/project1/project6.jpg",
+            "img/user12/project1/project7.jpg",
+            "img/user12/project1/project8.jpg",
+            "img/user12/project1/project9.jpg"
           ]
         },
         {
@@ -1064,11 +1064,11 @@ var initialData = {
           "about": "Wedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSiteWedding Planner WebSite",
           "tags": [1, 6, 13, 38],
           "images": [
-            "build/img/user12/project2/project1.jpg",
-            "build/img/user12/project2/project2.jpg",
-            "build/img/user12/project2/project3.jpg",
-            "build/img/user12/project2/project4.jpg",
-            "build/img/user12/project2/project5.jpg"
+            "img/user12/project2/project1.jpg",
+            "img/user12/project2/project2.jpg",
+            "img/user12/project2/project3.jpg",
+            "img/user12/project2/project4.jpg",
+            "img/user12/project2/project5.jpg"
           ]
         },
         {
@@ -1077,8 +1077,8 @@ var initialData = {
           "about": "Manage your bank account online",
           "tags": [1, 44, 6, 13, 38],
           "images": [
-            "build/img/user12/project3/project1.jpg",
-            "build/img/user12/project3/project2.jpg"
+            "img/user12/project3/project1.jpg",
+            "img/user12/project3/project2.jpg"
           ]
         },
         {
@@ -1087,7 +1087,7 @@ var initialData = {
           "about": "Converting Psd to Html",
           "tags": [19, 6, 13],
           "images": [
-            "build/img/user12/project4/project1.jpg"
+            "img/user12/project4/project1.jpg"
           ]
         },
         {
@@ -1096,7 +1096,7 @@ var initialData = {
           "about": "Website CleanPro",
           "tags": [1, 26, 44, 38, 45],
           "images": [
-            "build/img/user12/project5/project1.jpg"
+            "img/user12/project5/project1.jpg"
           ]
         },
         {
@@ -1105,14 +1105,14 @@ var initialData = {
           "about": "this application responsible for manage ordering from a restaurant",
           "tags": [1, 46, 44, 47],
           "images": [
-            "build/img/user12/project6/project1.jpg"
+            "img/user12/project6/project1.jpg"
           ]
         }
       ]
     },
     {
       "_id": 13,
-      "img": "build/img/user13/profile.jpg",
+      "img": "img/user13/profile.jpg",
       "username": "mrkrunaldoshi",
       "join_date": 1240412903,
       "city": "Ahmedabad",
@@ -1147,14 +1147,14 @@ var initialData = {
           "about": "www.indianscriptures.com is a unique portal, launched for the first time in the history of internet, having all the scriptures under one umbrella. The site is developed and maintained by Novel iSolutions along with CMS (Content Management System).\n\nWebsite includes following features:\nPeople can view, print, export content from different Indian scriptures, epics and books like Bhagwad Geeta, Vedas, Upanishad etc... Nearly 18000+ page content are available currently and more are being added to it continously.\nPeople can get detailed information with photos for different GODs, Festivals, Rituals, Sacred Places, Religious Gurus and many other topics.\nAlso people can gain knowledge on History, Astrology, Vedic Knowledge, Indian Traditions etc..\nDiscussion Forums, Search, Multimedia Gallery, Daily Good Thoughts, Research Papers on Indian Scriptured are also available on the site.\n\nCMS includes all the features enabling admin team to upload data and manage full website from here.",
           "tags": [26, 44, 15, 38, 45],
           "images": [
-            "build/img/user13/project1/project1.jpg"
+            "img/user13/project1/project1.jpg"
           ]
         }
       ]
     },
     {
       "_id": 14,
-      "img": "build/img/user14/profile.jpg",
+      "img": "img/user14/profile.jpg",
       "username": "designysoft",
       "join_date": 1398179303,
       "country": "India",
@@ -1189,12 +1189,12 @@ var initialData = {
           "about": "Re Design of admin panel and add more future and implement location of plumber and scheduled for assign task.  The Master Plumbers Association of South Australia Inc will promote and develop the on-going protection of community health and safety through the provision of quality plumbing services both state and federal, and representation throughout South Australia. There are basically two modules. One is client module and second one is admin module. Admin is responsible to create company and manage them. In company module user is created according to his/her level. Companies manage its various types of its policy, inventory, plant equipment, invoice, time sheet, job card and HR module.",
           "tags": [26, 44, 38, 43, 50],
           "images": [
-            "build/img/user14/project1/project1.jpg",
-            "build/img/user14/project1/project2.jpg",
-            "build/img/user14/project1/project3.jpg",
-            "build/img/user14/project1/project4.jpg",
-            "build/img/user14/project1/project5.jpg",
-            "build/img/user14/project1/project6.jpg"
+            "img/user14/project1/project1.jpg",
+            "img/user14/project1/project2.jpg",
+            "img/user14/project1/project3.jpg",
+            "img/user14/project1/project4.jpg",
+            "img/user14/project1/project5.jpg",
+            "img/user14/project1/project6.jpg"
           ]
         },
         {
@@ -1203,11 +1203,11 @@ var initialData = {
           "about": "Site Admin:-\n\nManage Salon:- By using this module Admin manage salon. Admin can insert, update and delete salon.\n\nSetting:- Various types of setting is given to manage website. This setting is available to all salon and if salon want then they can modify the setting as per their requirement.\n\nLogin Log, Error Log:- It will store error generated by system to help us improve.\n\nHelp desk:- Manage queries from salon.\n\nNews:- Using this module admin manage news for salon.\n\nSalon Admin.\nManage Salon:- Customer Record, Question Note, Services,  Job Title.\n\nScheduler:- It will store and display appointment request by customer with customer name and service. (We will use Google calendar as scheduler)\n\nHelp desk:- Manage queries from customer.",
           "tags": [19, 41, 44, 6, 51],
           "images": [
-            "build/img/user14/project2/project1.jpg",
-            "build/img/user14/project2/project2.jpg",
-            "build/img/user14/project2/project3.jpg",
-            "build/img/user14/project2/project4.jpg",
-            "build/img/user14/project2/project5.jpg"
+            "img/user14/project2/project1.jpg",
+            "img/user14/project2/project2.jpg",
+            "img/user14/project2/project3.jpg",
+            "img/user14/project2/project4.jpg",
+            "img/user14/project2/project5.jpg"
           ]
         },
         {
@@ -1216,10 +1216,10 @@ var initialData = {
           "about": "Risdon pharmacy is community pharmacy based in Risdon on Balmoral Road in Port Pirie, providing pharmacy services to communities livingin Port Pirie, Napperby, Nelshaby, Port Germein, Weeroona Island, Warnertown and Coonamia.\n\nOur pharmacy strives to provide premium service to ensure that our customers are in better health and happier from dealing with us. We offer friendly professional service, your privacy and confidentiality kept at all times.\n\nWe support the professional pharmacy services advocated by both the Pharmacy Guild of Australia and the Pharmaceutical Society of Australia.",
           "tags": [25, 52, 7, 43],
           "images": [
-            "build/img/user14/project3/project1.jpg",
-            "build/img/user14/project3/project2.jpg",
-            "build/img/user14/project3/project3.jpg",
-            "build/img/user14/project3/project4.jpg"
+            "img/user14/project3/project1.jpg",
+            "img/user14/project3/project2.jpg",
+            "img/user14/project3/project3.jpg",
+            "img/user14/project3/project4.jpg"
           ]
         },
         {
@@ -1228,9 +1228,9 @@ var initialData = {
           "about": "Navigates users through the City of Nassau, Bahamas. Provides all information needed while in the City of Nassau from location of stores, event and activities.\\n",
           "tags": [8, 52, 49, 48, 53],
           "images": [
-            "build/img/user14/project4/project1.jpg",
-            "build/img/user14/project4/project2.jpg",
-            "build/img/user14/project4/project3.jpg"
+            "img/user14/project4/project1.jpg",
+            "img/user14/project4/project2.jpg",
+            "img/user14/project4/project3.jpg"
           ]
         },
         {
@@ -1239,13 +1239,13 @@ var initialData = {
           "about": "We have expertise in Online Shopping Cart. We have developed web application for online selling lighting products. User can choose their items and purchase it. Important of this eCommerce web portal compare to others are its features. Using our web portal company employee can create Quotation for various users on phone and can send quote in email. Also this portal contains online payment using various payment gateways. \\\\n\\\\nAlso the look and feel of this website is very nice. User can easily move from one product to another very easily. We are also providing admin panel through which user can easily understand the profit of particual quotation.\\\\n\\\\nThis is a very good eCommerce application we have developed. \\\\n\\\\nThanks for reviewing our portfolio.",
           "tags": [25, 15, 9, 43, 54],
           "images": [
-            "build/img/user14/project5/project1.jpg",
-            "build/img/user14/project5/project2.jpg",
-            "build/img/user14/project5/project3.jpg",
-            "build/img/user14/project5/project4.jpg",
-            "build/img/user14/project5/project5.jpg",
-            "build/img/user14/project5/project6.jpg",
-            "build/img/user14/project5/project7.jpg"
+            "img/user14/project5/project1.jpg",
+            "img/user14/project5/project2.jpg",
+            "img/user14/project5/project3.jpg",
+            "img/user14/project5/project4.jpg",
+            "img/user14/project5/project5.jpg",
+            "img/user14/project5/project6.jpg",
+            "img/user14/project5/project7.jpg"
           ]
         },
         {
@@ -1254,12 +1254,12 @@ var initialData = {
           "about": "Training management software we are looking for an enterprise Training automation. \\nThis training management is to ensure that the employee should adhere to organization and job specific Training Needs.\nWhenever an employee joins in an organization he should undergone thru Induction, Organization specific and job specific Trainings.  Induction and Organization specific training one time in the employee tenure. Job specific Trainings will be periodic in nature.\\nAn employee may undergo Refresher training Once/twice in a year depending on the Role.\\n",
           "tags": [19, 1, 43, 54, 50],
           "images": [
-            "build/img/user14/project6/project1.jpg",
-            "build/img/user14/project6/project2.jpg",
-            "build/img/user14/project6/project3.jpg",
-            "build/img/user14/project6/project4.jpg",
-            "build/img/user14/project6/project5.jpg",
-            "build/img/user14/project6/project6.jpg"
+            "img/user14/project6/project1.jpg",
+            "img/user14/project6/project2.jpg",
+            "img/user14/project6/project3.jpg",
+            "img/user14/project6/project4.jpg",
+            "img/user14/project6/project5.jpg",
+            "img/user14/project6/project6.jpg"
           ]
         },
         {
@@ -1268,16 +1268,16 @@ var initialData = {
           "about": "Outly the App is your guide app to the party life throughout the night. Discover what is happening around you and where to go in real time, so you don\\\\\\\'t miss out a lot.\\\\nFeatures:\\\\n- A minute-by-minute update on parties within your area\\\\n- Find parties around you and every city you go to\\\\n- Cut though all the info to the stuff you need to know\\\\n- Know more about artist so you don\\\\\\\'t end up in a party you don\\\\\\\'t like\\\\n- Redeem freebies and offers almost at every venue\\\\n- No drinking and driving, Call Uber",
           "tags": [8, 52, 49, 48, 2],
           "images": [
-            "build/img/user14/project6/project1.jpg",
-            "build/img/user14/project6/project2.jpg",
-            "build/img/user14/project6/project3.jpg"
+            "img/user14/project6/project1.jpg",
+            "img/user14/project6/project2.jpg",
+            "img/user14/project6/project3.jpg"
           ]
         }
       ]
     },
     {
       "_id": 15,
-      "img": "build/img/user15/profile.jpg",
+      "img": "img/user15/profile.jpg",
       "username": "softhunters",
       "join_date": 1307790916,
       "city": "jaipur",
@@ -1313,7 +1313,7 @@ var initialData = {
           "about": "Its a job portal with social network and with so many other unique features. Its developed in ASP.NET with MVC4 and C# and Front end with Bootstrap.",
           "tags": [1, 23, 15, 43, 54],
           "images": [
-            "build/img/user15/project1/project1.jpg"
+            "img/user15/project1/project1.jpg"
           ]
         },
         {
@@ -1322,7 +1322,7 @@ var initialData = {
           "about": "A Portfolio website where and artist can create his portfolio and show his paintings, photographs, sculptures etc. Its developed in ASP.NET with C#.",
           "tags": [23, 43],
           "images": [
-            "build/img/user15/project2/project1.jpg"
+            "img/user15/project2/project1.jpg"
           ]
         },
         {
@@ -1331,7 +1331,7 @@ var initialData = {
           "about": "Its a travel website developed and designed in HTML. the URL of the website is :-\nhttp://cocoonholidayspl.com",
           "tags": [6],
           "images": [
-            "build/img/user15/project3/project1.jpg"
+            "img/user15/project3/project1.jpg"
           ]
         },
         {
@@ -1340,7 +1340,7 @@ var initialData = {
           "about": "Its a chocolate cafe website with parallax theme. \\n\\nIt is based on Wordpress.\\n\\nThe URL of website is :-www.nibscafe.com",
           "tags": [22],
           "images": [
-            "build/img/user15/project4/project1.jpg"
+            "img/user15/project4/project1.jpg"
           ]
         },
         {
@@ -1349,7 +1349,7 @@ var initialData = {
           "about": "Its a Parallax theme with HTML5. \\n\\n",
           "tags": [22],
           "images": [
-            "build/img/user15/project5/project1.jpg"
+            "img/user15/project5/project1.jpg"
           ]
         },
         {
@@ -1358,7 +1358,7 @@ var initialData = {
           "about": "A Travel Webste based on Wordpress The URL is :- www.hmoaindia.com",
           "tags": [22],
           "images": [
-            "build/img/user15/project6/project1.jpg"
+            "img/user15/project6/project1.jpg"
           ]
         },
         {
@@ -1367,7 +1367,7 @@ var initialData = {
           "about": "Its a Travel Website developed in Wordpress.\nThe URL :- http://weekendtrips.com.in/\\n\\n",
           "tags": [22],
           "images": [
-            "build/img/user15/project7/project1.jpg"
+            "img/user15/project7/project1.jpg"
           ]
         },
         {
@@ -1376,14 +1376,14 @@ var initialData = {
           "about": "\\nIts a custom requirement for wordpress website .\\n\\n",
           "tags": [22],
           "images": [
-            "build/img/user15/project8/project1.jpg"
+            "img/user15/project8/project1.jpg"
           ]
         }
       ]
     },
     {
       "_id": 16,
-      "img": "build/img/user16/profile.jpg",
+      "img": "img/user16/profile.jpg",
       "username": "tudiptechnology",
       "join_date": 1294744516,
       "city": "Campbell",
@@ -1418,7 +1418,7 @@ var initialData = {
           "about": "www.haciendabnb.com\n\nHacienda del Mar offers a quiet and private respite with easy access to the pristine beaches of the mainland side of the Sea of Cortez, only minutes away from the restaurants, shopping and nightlife of Puerto Peñasco, Mexico's newest emerging vacation destination. From the many porches are magnificent panoramic views of both the northern Sonoran desert and the sea.",
           "tags": [19, 56, 6],
           "images": [
-            "build/img/user16/project1/project1.jpg"
+            "img/user16/project1/project1.jpg"
           ]
         },
         {
@@ -1427,7 +1427,7 @@ var initialData = {
           "about": "https//itunes.apple.com/us/app/inmotion-mobile/id871074135?ls=1&mt=8\n\nMobileTec International, Inc. is a proven leader in providing Public Safety Solutions for police departments, sheriff’s offices, communications centers, fire departments, and correctional facilities across the U.S. and in Latin America.  MobileTec offers Information Management Systems (Computer Aided Dispatch, GEO, Records Management System and Jail Management System), Data Routing (Switch) and In Field Systems (MOBILE, ReportWriter, and GEO). This completely customizable and dynamic software solution was designed to meet the different customer needs of any size law enforcement, EMS, fire, or corrections agency.",
           "tags": [49],
           "images": [
-            "build/img/user16/project2/project1.jpg"
+            "img/user16/project2/project1.jpg"
           ]
         },
         {
@@ -1436,7 +1436,7 @@ var initialData = {
           "about": "www.covacsis.com\nReal Time Plant Analytics Framework\n\nThe Intelligent Plant Framework™ from Covacsis Technologies is a state-of-the-art platform that provides a \n360° visibility of the manufacturing floor in real time.",
           "tags": [57],
           "images": [
-            "build/img/user16/project3/project1.jpg"
+            "img/user16/project3/project1.jpg"
           ]
         },
         {
@@ -1445,7 +1445,7 @@ var initialData = {
           "about": "http://www.jighi.com/\n\nJIGHI provides expertise at the intersection of business and technology. It supports​ customers to improve competitiveness and create new sources of economic value.",
           "tags": [17, 19, 58],
           "images": [
-            "build/img/user16/project4/project1.jpg"
+            "img/user16/project4/project1.jpg"
           ]
         },
         {
@@ -1454,7 +1454,7 @@ var initialData = {
           "about": "http://mycrm.rmlglobal.com/rmlcrm/view/crm/login.jsp\n\nmyCrm is a customer relationship management web app which is basically used to resolved all the customer queries of myRML android application and as well as it is used to generate all kind of analytics reports for user statistics and their acquisition.",
           "tags": [17, 19, 58],
           "images": [
-            "build/img/user16/project5/project1.jpg"
+            "img/user16/project5/project1.jpg"
           ]
         },
         {
@@ -1463,7 +1463,7 @@ var initialData = {
           "about": "http://www.livebytransit.com/\n\nLiveByTransit allows you to search for properties (both for-sale and for-rent) throughout Chicagoland within your defined radius of train stations, including both CTA and Metra Trains. We also allow you to search in specific neighborhoods, and within the attendance boundaries of specific CPS neighborhood schools.",
           "tags": [56],
           "images": [
-            "build/img/user16/project6/project1.jpg"
+            "img/user16/project6/project1.jpg"
           ]
         },
         {
@@ -1472,7 +1472,7 @@ var initialData = {
           "about": "https://itunes.apple.com/us/app/postmeistr/id1027921149?ls=1&mt-8\n\nPostMeistr is a social media productivity app for the iPhone. Through its intuitive set of features, it allows you to stay focused on your meetup or life event AND share what you will with your friends and followers quickly. It takes care of the reach for you, so you can focus on the content.",
           "tags": [49],
           "images": [
-            "build/img/user16/project7/project1.jpg"
+            "img/user16/project7/project1.jpg"
           ]
         },
         {
@@ -1481,7 +1481,7 @@ var initialData = {
           "about": "https://schoolsparrow.com/\n\nChicago School + Home Search.\nSee the entire landscape of performing CPS K-8 school's that have homes for-sale (or rent) right now within your budget. This integrated data includes school performance, school boundaries and current real estate information...all together in one place for the first time.",
           "tags": [56],
           "images": [
-            "build/img/user16/project8/project1.jpg"
+            "img/user16/project8/project1.jpg"
           ]
         },
         {
@@ -1490,7 +1490,7 @@ var initialData = {
           "about": "https://www.qwiklabs.com/\n\nReal training, real-time, real environments. Get hands-on practice working with cloud technologies and software. Train on-demand and learn at your own pace.",
           "tags": [56],
           "images": [
-            "build/img/user16/project9/project1.jpg"
+            "img/user16/project9/project1.jpg"
           ]
         },
         {
@@ -1499,7 +1499,7 @@ var initialData = {
           "about": "http://www.nortal.com/\n\nThe Regional Transit Authority gets people moving around New Orleans. Our transit services bring hard-working commuters to their jobs, students to their schools, and fun-seekers to entertainment, shopping areas, and restaurants. We provide mobility to residents of the city as well as to large numbers of tourists, taking them to and from their hotels to historical neighborhoods and countless attractions. In fact, many visitors (and locals) ride the RTA’s iconic streetcars simply for the fun of it. In this way, the RTA is a destination in itself. Our streetcars and buses are both a symbol of the city and an essential part of it.",
           "tags": [1, 59, 50],
           "images": [
-            "build/img/user16/project10/project1.jpg"
+            "img/user16/project10/project1.jpg"
           ]
         },
         {
@@ -1508,7 +1508,7 @@ var initialData = {
           "about": "https://play.google.com/store/apps/details?id=com.onegreediary.ogd\nOneGreenDiary is a simple and intuitive Point of Sale or you may call it a Billing system that seamlessly takes business to consumer's smartphone. OneGreenDiary creates a mobile marketplace for you to promote your business, run offers and loyalty programs.   Merchants can now identify their loyal customers, understand their buying, spending patterns and offer them attractive incentives so they keep coming back!",
           "tags": [52, 48],
           "images": [
-            "build/img/user16/project11/project1.jpg"
+            "img/user16/project11/project1.jpg"
           ]
         },
         {
@@ -1517,7 +1517,7 @@ var initialData = {
           "about": "www.roomassistant.com\nRoomAssistant is an app that will help you enjoy your stay. After downloading it, you'll have access to all your hotel's products and services, straight from your mobile. Anywhere, anytime. No more calls or queues at the front desk.",
           "tags": [8],
           "images": [
-            "build/img/user16/project12/project1.jpg"
+            "img/user16/project12/project1.jpg"
           ]
         },
         {
@@ -1526,7 +1526,7 @@ var initialData = {
           "about": "www.vollymetrics.com\nSmarter Data for Volleyball",
           "tags": [17],
           "images": [
-            "build/img/user16/project13/project1.jpg"
+            "img/user16/project13/project1.jpg"
           ]
         },
         {
@@ -1535,7 +1535,7 @@ var initialData = {
           "about": "www.app.fluidrobotics.com",
           "tags": [56],
           "images": [
-            "build/img/user16/project14/project1.jpg"
+            "img/user16/project14/project1.jpg"
           ]
         },
         {
@@ -1544,7 +1544,7 @@ var initialData = {
           "about": "www.sheqtrack.com\nA young and fast growing provider of safety solutions for the petrochemical industry. It is our mission to increase safety awareness at our customers facilities.\n\nBy constant research, development and integration of technological innovations we are able to continue to increase safety for our customers and their workforce.",
           "tags": [1],
           "images": [
-            "build/img/user16/project15/project1.jpg"
+            "img/user16/project15/project1.jpg"
           ]
         },
         {
@@ -1553,7 +1553,7 @@ var initialData = {
           "about": "Fashionable Renewed classics for Home.\n\nwww.darliving.com",
           "tags": [29],
           "images": [
-            "build/img/user16/project16/project1.jpg"
+            "img/user16/project16/project1.jpg"
           ]
         },
         {
@@ -1562,7 +1562,7 @@ var initialData = {
           "about": "Zenefic is one stop solution for your business to schedule appointments for your clients, send Phone Call or Text (SMS) reminders to them and receive their confirmations.\n\nwww.zenefic.com",
           "tags": [8],
           "images": [
-            "build/img/user16/project17/project1.jpg"
+            "img/user16/project17/project1.jpg"
           ]
         },
         {
@@ -1571,7 +1571,7 @@ var initialData = {
           "about": "AdviseStream delivers a consistent advising solution for Academics, Pre-Health, Fellowhips, Careers.\nwww.advisestream.com",
           "tags": [8],
           "images": [
-            "build/img/user16/project18/project1.jpg"
+            "img/user16/project18/project1.jpg"
           ]
         },
         {
@@ -1580,7 +1580,7 @@ var initialData = {
           "about": "All social media in one place\n\nwww.eazier.com",
           "tags": [1],
           "images": [
-            "build/img/user16/project19/project1.jpg"
+            "img/user16/project19/project1.jpg"
           ]
         },
         {
@@ -1589,8 +1589,8 @@ var initialData = {
           "about": "Mobile Application\n\nwww.shobingg.com",
           "tags": [],
           "images": [
-            "build/img/user16/project20/project1.jpg",
-            "build/img/user16/project20/project2.jpg"
+            "img/user16/project20/project1.jpg",
+            "img/user16/project20/project2.jpg"
           ]
         },
         {
@@ -1599,7 +1599,7 @@ var initialData = {
           "about": "Developed a tourism website which is a non-profit establishment as the regional privileged partner in tourism.\n\nThe website was developed in Joomla.\n\nhttp://wwww.tourismebaiejames.com/",
           "tags": [29, 2, 38],
           "images": [
-            "build/img/user16/project21/project1.jpg"
+            "img/user16/project21/project1.jpg"
           ]
         },
         {
@@ -1608,7 +1608,7 @@ var initialData = {
           "about": "Developed an online designer clothes website. Anecdote reinvents the classics and modernizes the basics. Essentials are combined with the styles that reflect the current fashion trends.\n\nhttp://www.anecdote.nl/\n\nResponsive Design -\nhttp://www.anecdote.nl/blog/",
           "tags": [6, 60, 30],
           "images": [
-            "build/img/user16/project22/project1.jpg"
+            "img/user16/project22/project1.jpg"
           ]
         },
         {
@@ -1617,14 +1617,14 @@ var initialData = {
           "about": "Developed information technology's website for client. This website is developed in Drupal.",
           "tags": [19, 6, 15, 13],
           "images": [
-            "build/img/user16/project23/project1.jpg"
+            "img/user16/project23/project1.jpg"
           ]
         }
       ]
     },
     {
       "_id": 17,
-      "img": "build/img/user17/profile",
+      "img": "img/user17/profile",
       "username": "murtaza1981",
       "join_date": 1349954116,
       "city": "new delhi",

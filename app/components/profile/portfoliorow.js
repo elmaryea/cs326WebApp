@@ -7,9 +7,17 @@ export default class PortfolioRow extends React.Component {
   }
 
   render() {
+    if(!this.props.user) {
+      return <div>User is undefined or null</div>
+    }
+    var user = this.props.user;
     return (
       <div className="row center-block portfolio-row">
         <ul>
+
+
+
+
           <li>
             <div>
               <img className="img-responsive" src="https://cdn3.f-cdn.com//files/download/24990046/d34df0.jpg" />
@@ -51,9 +59,11 @@ export default class PortfolioRow extends React.Component {
             </div>
           </li>
         </ul>
-        <div className="btn btn-default center-block">
-          <strong>+ show more</strong>
-        </div>
+        {user.portfolio.length > 8 ? (
+          <div className="btn btn-default center-block">
+            <strong>+ show more</strong>
+          </div>
+        ) : <div></div>}
       </div>
     );
   }
