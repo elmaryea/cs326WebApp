@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ResetDatabase from '../database';
+
 export default class DefaultNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -103,6 +105,7 @@ export default class DefaultNavbar extends React.Component {
                   </form>
                 </li>
               </ul>
+              <ResetDatabase />
               <ul className="nav navbar-nav navbar-right">
                 <li className="dropdown">
                   <a href="#" className="dropdown-toggle right-dropdown" data-toggle="dropdown">USD $0 <sup>00</sup> <span className="caret"></span></a>

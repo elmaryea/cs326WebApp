@@ -19,7 +19,7 @@ export default class ProfilePage extends React.Component {
   }
 
   refresh() {
-    getUser(1 - 1, results => {
+    getUser(1, results => {
       this.setState({
         user: results
       });

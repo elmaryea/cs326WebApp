@@ -1,5 +1,4 @@
-/*import React from 'react';
-import ReactDOM from 'react-dom';*/
+import React from 'react';
 
 var startupName = "Bytewave";
 var initialData = {
@@ -1894,4 +1893,19 @@ export function addDocument(collectionName, newDocument) {
 export function resetDatabase() {
   localStorage.setItem(startupName, JSON.stringify(initialData));
   data = JSON.clone(initialData);
+}
+export default class ResetDatabase extends React.Component {
+  render() {
+    return (
+      <a onClick={() => {
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', '/resetdb');
+        xhr.addEventListener('load', function() {
+          window.alert("Database reset! Refreshing the page now...");
+          document.location.reload(false);
+        });
+        xhr.send();
+      }}>Reset Mock DB</a>
+    );
+  }
 }
