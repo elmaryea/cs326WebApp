@@ -1892,7 +1892,7 @@ export function addDocument(collectionName, newDocument) {
 
 export function resetDatabase() {
   localStorage.setItem(startupName, JSON.stringify(initialData));
-  data = JSON.clone(initialData);
+  data = JSONClone(initialData);
 }
 export default class ResetDatabase extends React.Component {
   render() {
@@ -1901,6 +1901,7 @@ export default class ResetDatabase extends React.Component {
         var xhr = new XMLHttpRequest();
         xhr.open('POST', '/resetdb');
         xhr.addEventListener('load', function() {
+          resetDatabase();
           window.alert("Database reset! Refreshing the page now...");
           document.location.reload(false);
         });
