@@ -103,9 +103,7 @@ export default class ProfileRow extends React.Component {
             <i className="fa fa-usd verified-green"></i>
             /*ratings bars*/
           </div>
-          <ul>
-            {userStats(user.stats)}
-          </ul>
+          {userStats(user.stats)}
         </div>
       </div>
     );

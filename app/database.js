@@ -322,56 +322,72 @@ var initialData = {
           "reviewer": 2,
           "project": 1,
           "description": "I've worked with him on my .Net project. They are professional, responsive, flexible and reasonable, and my preferred suppliers at the rate/quality. great experienced developers. The quality of work far supassed my expectations. I would recommend to anyone, and you are free to contact me for a recommendation. I love your work !!!!! \"Excellence Developer\" [30 June, 2016] Thanks for your HELP",
-          "rating": 5.0
+          "rating": 5.0,
+          "timestamp": 1,
+          "skills": [1, 2, 3, 4, 5]
         },
         {
           "_id": 2,
           "reviewer": 3,
           "project": 2,
           "description": "Finsihed as expected [24 June, 2016] Done - but some sourcecode remaining",
-          "rating": 5.0
+          "rating": 5.0,
+          "timestamp": 1,
+          "skills": [1, 6, 7, 3]
         },
         {
           "_id": 3,
           "reviewer": 3,
           "project": 3,
           "description": "He had good experience in html but not som much in asp.net seem to be",
-          "rating": 5.0
+          "rating": 5.0,
+          "timestamp": 1,
+          "skills": []
         },
         {
           "_id": 4,
           "reviewer": 4,
           "project": 4,
           "description": "Do not pick these guys for your project. their're either frauds or redicolously unprofessional.",
-          "rating": 1.0
+          "rating": 1.0,
+          "timestamp": 1,
+          "skills": [8, 9, 10, 11, 12]
         },
         {
           "_id": 5,
           "reviewer": 5,
           "project": 5,
           "description": "Thanks for your time",
-          "rating": 3.0
+          "rating": 3.0,
+          "timestamp": 1,
+          "skills": [9, 22, 6, 13]
         },
         {
           "_id": 6,
           "reviewer": 6,
           "project": 6,
           "description": "good. good. ",
-          "rating": 5.0
+          "rating": 5.0,
+          "timestamp": 1,
+          "skills": [14]
         },
         {
           "_id": 7,
           "reviewer": 7,
           "project": 7,
           "description": "Great Freelancer !! I highly recommend their service.",
-          "rating": 5
+          "rating": 5,
+          "timestamp": 1,
+          "skills": [8, 25, 23, 22, 13]
         },
         {
           "_id": 8,
           "reviewer": 8,
           "project": 8,
           "description": "1 week has passed but I have not seen any work that was done on schedule. Freelancer daily report promised but not implemented",
-          "rating": 0.0
+          "rating": 0.0,
+          "timestamp": 1,
+          "skills": [9, 13, 9]
         }
       ],
       "skills": [3, 7, 13, 8, 2, 22, 14, 15, 16, 17, 18, 19, 20, 21],
