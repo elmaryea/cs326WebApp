@@ -19,7 +19,7 @@ export default class ProfilePage extends React.Component {
   }
 
   refresh() {
-    getUser(1 - 1, results => {
+    getUser(0, results => {
       this.setState({
         user: results
       });
@@ -32,7 +32,7 @@ export default class ProfilePage extends React.Component {
         <DefaultNavbar />
         <div className="body">
           <ProfileRow user={this.state.user}/>
-          <PortfolioRow />
+          <PortfolioRow user={this.state.user}/>
           <ComponentRow />
         </div>
         <DefaultFooter />

@@ -375,7 +375,7 @@ var initialData = {
         }
       ],
       "skills": [3, 7, 13, 8, 2, 22, 14, 15, 16, 17, 18, 19, 20, 21],
-      "porfolio": [
+      "portfolio": [
         {
           "_id": 1,
           "title": "BTC Markets",

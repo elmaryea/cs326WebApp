@@ -10,10 +10,10 @@ export default class ProfileRow extends React.Component {
   }
 
   render() {
-    if(!this.props.user) {
+    var user = this.props.user;
+    if(!user) {
       return <div>User is undefined or null</div>
     }
-    var user = this.props.user;
     return (
       <div className="row center-block profile-row">
         <div className="col-md-3 col-xs-3 text-center profile-summary">
@@ -64,9 +64,9 @@ export default class ProfileRow extends React.Component {
             {user.headline}
           </div>
           <div className="profile-statement">
-            {user.statement.split("\n").map(block => {
+            {user.statement.split("\n").map((block, index) => {
               return (
-                <div key={block.id}>
+                <div key={index}>
                   {block}<br />
                 </div>
               );
