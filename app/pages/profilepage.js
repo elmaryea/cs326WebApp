@@ -33,7 +33,7 @@ export default class ProfilePage extends React.Component {
         <div className="body">
           <ProfileRow user={this.state.user}/>
           <PortfolioRow user={this.state.user}/>
-          <ComponentRow />
+          <ComponentRow user={this.state.user}/>
         </div>
         <DefaultFooter />
       </div>
